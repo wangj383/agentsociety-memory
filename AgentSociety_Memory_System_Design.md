@@ -1553,8 +1553,7 @@ class AdvancedStreamMemory(StreamMemory):
 
 ---
 
-
-## 10. 案例研究（Case Studies）
+## 10. 案例研究
 
 ### 案例1：飓风影响模拟（Hurricane Impact Simulation）
 
