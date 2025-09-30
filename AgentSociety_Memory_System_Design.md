@@ -5,78 +5,188 @@
 2. [架构设计](#架构设计)
 3. [核心组件](#核心组件)
 4. [数据流设计](#数据流设计)
-5. [API 接口](#api-接口)
-6. [使用示例](#使用示例)
-7. [性能优化](#性能优化)
-8. [扩展性设计](#扩展性设计)
+5. [记忆系统工作流程详解](#记忆系统工作流程详解)
+6. [API 接口](#api-接口)
+7. [使用示例](#使用示例)
+8. [性能优化](#性能优化)
+9. [扩展性设计](#扩展性设计)
 
 ---
 
 ## 系统概述
 
-AgentSociety Memory 系统是一个为多智能体社会模拟设计的记忆管理系统。该系统采用分层架构设计，支持智能体的状态记忆、事件记忆和认知记忆，并提供语义搜索、时间过滤等高级功能。
+### 什么是AgentSociety Memory系统？
 
-### 核心特性
-- **分层架构**：存储层、配置层、应用层分离
-- **类型安全**：基于 Pydantic 的类型验证
-- **向量化支持**：语义搜索和相似性匹配
-- **并发安全**：异步编程和锁机制
-- **可扩展性**：支持自定义记忆属性和行为块
+AgentSociety Memory 系统是一个**为多智能体社会模拟设计的智能记忆管理系统**（Multi-Agent Social Simulation Memory Management System）。简单来说，它让AI智能体能够像人类一样拥有记忆，从而做出更智能、更人性化的决策。
+
+### 为什么需要记忆系统？
+
+在复杂的社会模拟中，智能体需要：
+- **记住**（Remember）过去发生的事情（如"昨天我去了商店"）
+- **学习**（Learn）从经历中（如"那家商店的服务很好"）
+- **决策**（Decide）基于记忆（如"我要再去那家商店"）
+- **成长**（Grow）形成个性（如"我比较喜欢安静的地方"）
+
+### 记忆系统的核心能力
+
+#### 🧠 两种记忆存储类型（Two Memory Storage Types）
+1. **状态记忆**（KVMemory）：智能体的当前状态（情绪、需求、关系强度等）
+2. **流记忆**（StreamMemory）：时间序列的经历（活动、对话、互动等）
+   - 包括：活动记录、对话内容、**认知反思**、社交互动等
+
+#### 🔍 智能搜索能力（Intelligent Search Capabilities）
+- **相似性搜索**（Similarity Search）：基于向量相似度找到相关内容
+- **语义搜索**（Semantic Search）：理解记忆的含义，找到相关内容
+- **时间过滤**（Temporal Filtering）：按时间范围搜索记忆
+- **主题分类**（Topic Classification）：按记忆类型（活动、社交、工作等）搜索
+
+#### ⚡ 高性能特性（High-Performance Features）
+- **分层架构**（Layered Architecture）：存储层、配置层、应用层清晰分离
+- **类型安全**（Type Safety）：基于 Pydantic 确保数据正确性
+- **并发安全**（Concurrency Safety）：支持多个智能体同时操作
+- **可扩展性**（Scalability）：轻松添加新的记忆类型和智能体
 
 ---
 
 ## 架构设计
 
-### 三层架构
+### 整体架构：三层分离设计
+
+记忆系统采用**三层分离**的架构设计，每一层都有明确的职责：
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │                    AgentSociety Memory 架构                     │
 ├─────────────────────────────────────────────────────────────────┤
-│  🏙️  cityagent/ (应用层 - 城市智能体实现)                      │
+│  🏙️  cityagent/ (应用层 - 具体智能体实现)                      │
 │  ├── societyagent.py ──────┐                                   │
-│  ├── firmagent.py ─────────┼─── 具体智能体实现                  │
-│  ├── bankagent.py ────────┤                                   │
+│  ├── firmagent.py ─────────┼─── 不同类型的智能体                │
+│  ├── bankagent.py ────────┤   (市民、企业、银行、政府等)        │
 │  ├── governmentagent.py ───┤                                   │
 │  ├── nbsagent.py ──────────┘                                   │
-│  ├── memory_config.py ──────── 记忆配置定义                   │
-│  └── blocks/ ──────────────── 行为块实现                      │
+│  ├── memory_config.py ──────── 定义每种智能体的记忆属性        │
+│  └── blocks/ ──────────────── 智能体的行为模块                 │
 ├─────────────────────────────────────────────────────────────────┤
-│  🤖 agent/ (框架层 - 智能体核心框架)                          │
-│  ├── agent_base.py ──────── Agent 基类定义                     │
-│  ├── agent.py ───────────── 智能体基类实现                     │
-│  ├── memory_config_generator.py ── 记忆配置生成器              │
-│  ├── toolbox.py ─────────── 智能体工具箱                       │
-│  ├── block.py ───────────── 行为块基类                        │
-│  ├── context.py ─────────── 上下文管理                        │
-│  └── dispatcher.py ──────── 行为分发器                        │
+│  🤖 agent/ (框架层 - 智能体通用框架)                          │
+│  ├── agent_base.py ──────── 智能体基础类                      │
+│  ├── agent.py ───────────── 智能体核心实现                     │
+│  ├── memory_config_generator.py ── 记忆配置生成工具            │
+│  ├── toolbox.py ─────────── 智能体工具集                       │
+│  ├── block.py ───────────── 行为模块基类                      │
+│  ├── context.py ─────────── 上下文管理器                       │
+│  └── dispatcher.py ──────── 行为调度器                        │
 ├─────────────────────────────────────────────────────────────────┤
-│  🧠 memory/ (存储层 - 记忆系统实现)                           │
-│  ├── memory.py ──────────── 记忆系统核心                       │
-│  ├── KVMemory ──────────── 键值对记忆                         │
-│  └── StreamMemory ──────── 流式记忆                           │
+│  🧠 memory/ (存储层 - 记忆系统核心)                           │
+│  ├── memory.py ──────────── 记忆系统主控制器                   │
+│  ├── KVMemory ──────────── 状态记忆存储                       │
+│  └── StreamMemory ──────── 事件记忆存储                       │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-### 依赖关系
+### 各层职责说明
+
+#### 🏙️ 应用层 (cityagent/)
+**作用**：实现具体的智能体类型
+- **societyagent.py**：社会智能体（市民）
+- **firmagent.py**：企业智能体
+- **bankagent.py**：银行智能体
+- **governmentagent.py**：政府智能体
+- **memory_config.py**：定义每种智能体需要记住什么
+
+#### 🤖 框架层 (agent/)
+**作用**：提供智能体的通用功能
+- **agent_base.py**：智能体的基础定义
+- **agent.py**：智能体的核心实现
+- **memory_config_generator.py**：帮助生成记忆配置
+- **block.py**：行为模块的基础类
+
+#### 🧠 存储层 (memory/)
+**作用**：管理智能体的记忆
+- **memory.py**：记忆系统的主控制器
+- **KVMemory**：存储智能体的状态（如情绪、需求）
+- **StreamMemory**：存储智能体的经历（如活动、对话）
+
+### 数据流向
 
 ```
-cityagent/ ──继承──→ agent/ ──使用──→ memory/
-     │                    │              │
-     │                    │              │
-     └──配置──→ memory_config.py ──使用──→ MemoryConfig
+智能体行为 → 记忆系统 → 存储层 → 决策影响
+     ↑           ↓         ↓
+   应用层 ←── 框架层 ←── 存储层
 ```
+
+**简单理解**：
+1. 智能体做了一件事（如去商店购物）
+2. 这件事被记录到记忆系统中
+3. 记忆系统存储到相应的记忆类型中
+4. 下次做决策时，智能体会参考这些记忆
 
 ---
 
 ## 核心组件
 
-### 1. Memory 存储层 (memory/)
+### 1. Memory 存储层 (memory/) 
 
-#### KVMemory - 键值对记忆
+记忆系统由**一个主控制器**和**两个存储组件**组成：
+
+```
+Memory (主控制器)
+├── KVMemory (状态记忆) - 存储所有状态信息
+│   ├── social_satisfaction (社交满足度)
+│   ├── hunger_satisfaction (饥饿满足度)
+│   ├── energy_satisfaction (能量满足度)
+│   ├── safety_satisfaction (安全满足度)
+│   ├── emotion (情绪状态)
+│   ├── attitude (态度观点)
+│   └── personal_info (个人信息)
+└── StreamMemory (流记忆) - 存储所有事件，按topic分类
+    ├── topic="social" (社交事件)
+    ├── topic="mobility" (移动事件)
+    ├── topic="economy" (经济事件)
+    ├── topic="activity" (活动事件)
+    └── topic="cognition" (认知事件)
+```
+
+#### 🔄 记忆互通与语义整合机制
+
+**不同Action Space的记忆是互通的**，通过以下机制实现语义整合：
+
+```
+记忆存储与检索机制
+├── 统一存储 (Unified Storage)
+│   └── 所有topic的记忆存储在同一个StreamMemory中
+├── 标签分类 (Topic Classification)
+│   ├── topic="social" → 社交行为记忆
+│   ├── topic="mobility" → 移动行为记忆
+│   ├── topic="economy" → 经济行为记忆
+│   └── topic="cognition" → 认知处理记忆
+├── 语义检索 (Semantic Retrieval)
+│   ├── 跨topic搜索：基于内容语义而非标签
+│   ├── 向量相似性：所有记忆映射到统一向量空间
+│   └── 关联整合：认知记忆可关联多个topic的记忆
+└── 智能整合 (Intelligent Integration)
+    ├── 跨行为类型决策：基于所有类型经验做决策
+    ├── 记忆关联：不同行为类型的记忆相互关联
+    └── 语义理解：理解记忆内容含义而非仅依赖标签
+```
+
+#### 🗂️ KVMemory - 状态记忆存储（Status Memory Storage）
+**作用**：存储智能体的当前状态，就像人类的"当前状态"（Current State）
+
+**存储内容**（Stored Content）：
+- 情绪状态（Emotional State）：`{"joy": 8, "sadness": 2, "anger": 1}`
+- 需求满足度（Need Satisfaction）：`{"hunger_satisfaction": 0.7, "social_satisfaction": 0.9}`
+- 个人信息（Personal Information）：`{"name": "Alice", "age": 25, "occupation": "工程师"}`
+- 关系强度（Relationship Strength）：`{"friends": ["Bob", "Charlie"], "relationships": {"Bob": 0.8}}`
+
+**特点**（Features）：
+- 键值对存储（Key-Value Storage），快速访问
+- 支持相似性搜索（Similarity Search）（如搜索"快乐时刻"）
+- 支持嵌入生成（Embedding Generation）和向量化存储
+- 支持更新和合并操作（Update & Merge Operations）
+
 ```python
 class KVMemory:
-    """键值对记忆存储，用于存储智能体状态属性"""
+    """状态记忆存储 - 存储智能体的当前状态和属性"""
     
     def __init__(self, memory_config: MemoryConfig, embedding: SparseTextEmbedding):
         self._memory_config = memory_config  # 记忆配置
@@ -86,19 +196,126 @@ class KVMemory:
         self._lock = asyncio.Lock()          # 并发锁
     
     async def get(self, key: Any, default_value: Optional[Any] = None) -> Any:
-        """获取记忆值"""
+        """
+        获取记忆值
+        
+        Args:
+            key: 要检索的键名
+            default_value: 如果键不存在时返回的默认值
+            
+        Returns:
+            检索到的值，如果键不存在且未提供默认值则抛出KeyError
+            
+        Raises:
+            KeyError: 当键不存在且未提供默认值时
+        """
+        if key in self._data:
+            return deepcopy(self._data[key])
+        else:
+            if default_value is None:
+                raise KeyError(f"No attribute `{key}` in memories!")
+            else:
+                return default_value
         
     async def update(self, key: Any, value: Any, mode: str = "replace") -> None:
-        """更新记忆值，支持 replace 和 merge 模式"""
+        """
+        更新记忆值，支持 replace 和 merge 模式
+        
+        Args:
+            key: 要更新的键名
+            value: 新的值
+            mode: 更新模式，"replace"为替换，"merge"为合并
+            
+        Raises:
+            ValueError: 当提供无效的更新模式时
+            KeyError: 当键不存在时（仅在merge模式下）
+        """
+        # 如果键不存在，直接添加
+        if key not in self._data:
+            self._data[key] = value
+            # 检查是否需要嵌入
+            if self.should_embed(key):
+                semantic_text = self._generate_semantic_text(key, value)
+                doc_ids = await self._vectorstore.add_documents(
+                    documents=[semantic_text],
+                    extra_tags={"key": key}
+                )
+                self._key_to_doc_id[key] = doc_ids[0]
+            return
+        
+        # 更新现有键
+        if mode == "replace":
+            self._data[key] = value
+            # 更新嵌入
+            if self.should_embed(key):
+                await self._update_embeddings(key, value)
+        elif mode == "merge":
+            # 根据类型进行合并
+            original_value = self._data[key]
+            if isinstance(original_value, set):
+                original_value.update(set(value))
+            elif isinstance(original_value, dict):
+                original_value.update(dict(value))
+            elif isinstance(original_value, list):
+                original_value.extend(list(value))
+            # 更新嵌入
+            if self.should_embed(key):
+                await self._update_embeddings(key, self._data[key])
+        else:
+            raise ValueError(f"Invalid update mode `{mode}`!")
         
     async def search(self, query: str, top_k: int = 3, filter: Optional[dict] = None) -> str:
-        """语义搜索记忆"""
+        """
+        语义搜索记忆
+        
+        Args:
+            query: 搜索查询文本
+            top_k: 返回最相关结果的数量
+            filter: 额外的过滤条件
+            
+        Returns:
+            格式化的搜索结果字符串，如果没有结果返回"Nothing"
+        """
+        filter_dict = {}
+        if filter is not None:
+            filter_dict.update(filter)
+        
+        # 执行向量相似性搜索
+        top_results: list[tuple[str, float, dict]] = (
+            await self._vectorstore.similarity_search(
+                query=query,
+                k=top_k,
+                filter=filter_dict,
+            )
+        )
+        
+        # 格式化结果
+        formatted_results = []
+        for content, score, metadata in top_results:
+            formatted_results.append(f"- {content}")
+        
+        return "Nothing" if len(formatted_results) == 0 else "\n".join(formatted_results)
 ```
 
-#### StreamMemory - 流式记忆
+#### 📅 StreamMemory - 流记忆存储（Stream Memory Storage）
+**作用**：存储智能体的经历和事件，就像人类的"回忆"（Memories）
+
+**存储内容**（Stored Content）：
+- 活动记录（Activity Records）：`"我去商店购物了"`
+- 对话内容（Conversation Content）：`"和Bob讨论了工作问题"`
+- 认知反思（Cognitive Reflection）：`"我觉得今天过得很充实"`
+- 社交互动（Social Interaction）：`"在聚会上认识了新朋友"`
+
+**特点**（Features）：
+- 按时间顺序存储（Time-Ordered Storage）
+- 支持主题分类（Topic Classification）（活动、社交、工作等）
+- 支持相似性搜索（Similarity Search）和时间范围过滤
+- 自动限制存储数量（Auto-Limit Storage）（默认1000条）
+- 支持认知关联（Cognitive Association）
+
 ```python
 class StreamMemory:
-    """流式记忆存储，用于存储时间序列事件"""
+    """事件记忆存储 - 存储智能体的经历和事件"""
     
     def __init__(self, environment, status_memory, embedding, max_len=1000):
         self._memories: deque = deque(maxlen=max_len)  # 时间序列记忆
@@ -107,14 +324,140 @@ class StreamMemory:
         self._vectorstore = VectorStore(embedding)    # 向量存储
     
     async def add(self, topic: str, description: str) -> int:
-        """添加记忆节点"""
+        """
+        添加记忆节点到流式记忆
+        
+        Args:
+            topic: 记忆主题（如"activity", "cognition", "social"等）
+            description: 记忆描述文本
+            
+        Returns:
+            新创建的记忆节点ID
+            
+        Raises:
+            ValueError: 当环境未初始化时
+        """
+        if self._environment is None:
+            raise ValueError("Environment is not initialized")
+        
+        # 获取时间和位置信息
+        day, t = self._environment.get_datetime()
+        position = await self._status_memory.get("position")
+        if "aoi_position" in position:
+            location = position["aoi_position"]["aoi_id"]
+        elif "lane_position" in position:
+            location = position["lane_position"]["lane_id"]
+        else:
+            location = "unknown"
+        
+        # 创建记忆节点
+        current_id = self._memory_id_counter
+        self._memory_id_counter += 1
+        memory_node = MemoryNode(
+            topic=topic,
+            day=day,
+            t=t,
+            location=location,
+            description=description,
+            id=current_id,
+        )
+        self._memories.append(memory_node)
+        
+        # 创建向量嵌入
+        await self._vectorstore.add_documents(
+            documents=[description],
+            extra_tags={
+                "topic": topic,
+                "day": day,
+                "time": t,
+            },
+        )
+        
+        return current_id
         
     async def search(self, query: str, topic: Optional[str] = None, 
                     top_k: int = 3, day_range: Optional[tuple] = None) -> str:
-        """搜索流式记忆"""
+        """
+        搜索流式记忆
+        
+        Args:
+            query: 搜索查询文本
+            topic: 可选的记忆主题过滤
+            top_k: 返回最相关结果的数量
+            day_range: 可选的时间范围过滤 (start_day, end_day)
+            
+        Returns:
+            格式化的搜索结果字符串，按时间倒序排列
+        """
+        filter_dict: dict[str, Any] = {"type": "stream"}
+        
+        if topic:
+            filter_dict["topic"] = topic
+        
+        # 添加时间范围过滤
+        if day_range:
+            start_day, end_day = day_range
+            filter_dict["day"] = {"gte": start_day, "lte": end_day}
+        
+        # 执行向量搜索
+        top_results = await self._vectorstore.similarity_search(
+            query=query,
+            k=top_k,
+            filter=filter_dict,
+        )
+        
+        # 按时间排序结果
+        sorted_results = sorted(
+            top_results,
+            key=lambda x: (x[2].get("day", 0), x[2].get("time", 0)),
+            reverse=True,
+        )
+        
+        # 格式化结果
+        formatted_results = []
+        for content, score, metadata in sorted_results:
+            memory_topic = metadata.get("topic", "unknown")
+            memory_day = metadata.get("day", "unknown")
+            memory_time_seconds = metadata.get("time", "unknown")
+            
+            # 格式化时间
+            if memory_time_seconds != "unknown":
+                hours = memory_time_seconds // 3600
+                minutes = (memory_time_seconds % 3600) // 60
+                seconds = memory_time_seconds % 60
+                memory_time = f"{hours:02d}:{minutes:02d}:{seconds:02d}"
+            else:
+                memory_time = "unknown"
+            
+            memory_location = metadata.get("location", "unknown")
+            
+            formatted_results.append(
+                f"- [{memory_topic}]: {content} [day: {memory_day}, time: {memory_time}, "
+                f"location: {memory_location}]"
+            )
+        
+        return "Nothing" if len(formatted_results) == 0 else "\n".join(formatted_results)
         
     async def add_cognition_to_memory(self, memory_ids: list[int], cognition: str) -> None:
-        """为记忆添加认知关联"""
+        """
+        为记忆添加认知关联
+        
+        Args:
+            memory_ids: 要关联的记忆ID列表
+            cognition: 认知描述文本
+        """
+        # 查找对应的记忆
+        target_memories = []
+        for memory in self._memories:
+            if memory.id in memory_ids:
+                target_memories.append(memory)
+        
+        # 添加认知记忆
+        cognition_id = await self.add(topic="cognition", description=cognition)
+        
+        # 更新原始记忆的认知ID
+        for target_memory in target_memories:
+            target_memory.cognition_id = cognition_id
 ```
 
 #### Memory - 统一记忆管理器
@@ -243,6 +586,618 @@ cityagent/ → memory/ → agent/ → cityagent/
 | **认知记忆** | StreamMemory | 思考、反思、学习 | 认知更新 |
 | **社交记忆** | StreamMemory | 对话历史、互动记录 | 关系维护 |
 
+#### 🗂️ 完整存储架构映射
+
+```
+Storage Layer (存储层)
+├── DatabaseWriter (数据库写入器)
+│   ├── agent_profile (智能体档案)
+│   ├── agent_status (智能体状态)
+│   ├── agent_dialog (智能体对话)
+│   └── agent_survey (智能体调查)
+└── Memory System (记忆系统)
+    ├── KVMemory (状态记忆)
+    │   ├── 情绪状态 (emotion)
+    │   ├── 需求满足度 (satisfaction)
+    │   ├── 个人属性 (personal_info)
+    │   └── 关系网络 (social_network)
+    └── StreamMemory (流记忆)
+        ├── topic="social" (社交行为记忆)
+        ├── topic="mobility" (移动行为记忆)
+        ├── topic="economy" (经济行为记忆)
+        ├── topic="activity" (活动行为记忆)
+        └── topic="cognition" (认知处理记忆)
+```
+
+#### 🔄 记忆互通机制详解
+
+**不同Action Space的记忆通过以下方式实现互通**：
+
+```
+记忆互通机制
+├── 统一向量空间 (Unified Vector Space)
+│   ├── 所有topic的记忆映射到同一向量空间
+│   ├── 基于内容语义进行相似性计算
+│   └── 支持跨topic的语义检索
+├── 智能检索策略 (Intelligent Retrieval)
+│   ├── 语义搜索：理解记忆内容含义
+│   ├── 标签过滤：可选择性按topic过滤
+│   └── 时间过滤：支持时间范围检索
+├── 记忆关联机制 (Memory Association)
+│   ├── 认知记忆可关联多个topic的记忆
+│   ├── 跨行为类型的经验整合
+│   └── 基于关联关系的智能推荐
+└── 决策整合 (Decision Integration)
+    ├── 综合所有类型记忆做决策
+    ├── 跨行为类型的经验学习
+    └── 语义理解驱动的行为选择
+```
+
+---
+
+## 记忆系统工作流程详解
+
+### 1. 系统架构概览
+
+AgentSociety记忆系统采用分层架构设计：
+
+```
+Memory (主控制器)
+├── KVMemory (状态记忆)
+│   ├── 键值对存储
+│   ├── 向量存储集成
+│   └── 异步锁机制
+└── StreamMemory (流记忆)
+    ├── 时间序列存储
+    ├── 向量搜索
+    └── 认知关联
+```
+
+### 2. 记忆插入（Insert）流程
+
+#### 2.1 状态记忆插入
+```python
+# 通过KVMemory.update()方法
+async def update(self, key: Any, value: Any, mode: Union["replace", "merge"]):
+    # 1. 检查键是否存在
+    if key not in self._data:
+        self._data[key] = value
+        # 2. 检查是否需要嵌入
+        if self.should_embed(key):
+            semantic_text = self._generate_semantic_text(key, value)
+            # 3. 添加到向量存储
+            doc_ids = await self._vectorstore.add_documents(...)
+            self._key_to_doc_id[key] = doc_ids[0]
+```
+
+#### 2.2 流记忆插入
+```python
+# 通过StreamMemory.add()方法
+async def add(self, topic: str, description: str) -> int:
+    # 1. 获取时间戳和位置信息
+    day, t = self._environment.get_datetime()
+    position = await self._status_memory.get("position")
+    
+    # 2. 创建记忆节点
+    memory_node = MemoryNode(
+        topic=topic, day=day, t=t, 
+        location=location, description=description, id=current_id
+    )
+    
+    # 3. 添加到内存队列
+    self._memories.append(memory_node)
+    
+    # 4. 创建向量嵌入
+    await self._vectorstore.add_documents(
+        documents=[description],
+        extra_tags={"topic": topic, "day": day, "time": t}
+    )
+```
+
+### 3. 编码（Encoding）流程
+
+#### 3.1 语义文本生成
+```python
+def _generate_semantic_text(self, key: str, value: Any) -> str:
+    if key in self._memory_config.attributes:
+        config = self._memory_config.attributes[key]
+        if config.embedding_template:
+            return config.embedding_template.format(value)
+    return f"My {key} is {value}"
+```
+
+#### 3.2 向量嵌入生成
+```python
+# 使用FastEmbed进行稀疏向量嵌入
+embeddings = self._embeddings.embed(documents)
+# 创建Qdrant点结构
+points.append(models.PointStruct(
+    id=point_id,
+    vector={"text-sparse": models.SparseVector(
+        indices=embedding.indices.tolist(),
+        values=embedding.values.tolist()
+    )},
+    payload=metadata
+))
+```
+
+### 4. 存储（Storage）流程
+
+#### 4.1 内存存储
+- **KVMemory**: 使用Python字典存储键值对
+- **StreamMemory**: 使用deque(maxlen=1000)限制最大存储
+
+#### 4.2 向量存储
+```python
+# 使用Qdrant向量数据库
+self._client.create_collection(
+    collection_name=self._collection_name,
+    vectors_config=models.VectorParams(size=384, distance=Distance.COSINE),
+    sparse_vectors_config={
+        "text-sparse": models.SparseVectorParams(
+            index=models.SparseIndexParams(on_disk=False)
+        )
+    }
+)
+```
+
+#### 4.3 VectorStore 核心方法实现
+
+```python
+class VectorStore:
+    """向量存储实现，使用Qdrant和FastEmbed"""
+    
+    async def add_documents(self, documents: list[str], extra_tags: Optional[dict] = None) -> list[str]:
+        """
+        添加文档到向量存储
+        
+        Args:
+            documents: 要添加的文档列表
+            extra_tags: 额外的元数据标签
+            
+        Returns:
+            添加的文档ID列表
+        """
+        # 生成嵌入
+        embeddings = self._embeddings.embed(documents)
+        
+        # 准备Qdrant点
+        points = []
+        for i, (doc, embedding) in enumerate(zip(documents, embeddings)):
+            metadata = {"content": doc}
+            if extra_tags is not None:
+                metadata.update(extra_tags)
+            
+            point_id = str(uuid.uuid4())
+            points.append(models.PointStruct(
+                id=point_id,
+                vector={"text-sparse": models.SparseVector(
+                    indices=embedding.indices.tolist(),
+                    values=embedding.values.tolist()
+                )},
+                payload=metadata
+            ))
+        
+        # 上传到Qdrant
+        self._client.upsert(collection_name=self._collection_name, points=points)
+        return [point.id for point in points]
+    
+    async def similarity_search(self, query: str, k: int = 4, filter: Optional[dict] = None) -> list[tuple[str, float, dict]]:
+        """
+        执行相似性搜索
+        
+        Args:
+            query: 查询文本
+            k: 返回结果数量
+            filter: 过滤条件
+            
+        Returns:
+            (内容, 相似度分数, 元数据) 元组列表
+        """
+        # 生成查询嵌入
+        query_embedding = list(self._embeddings.query_embed(query))[0]
+        
+        # 构建过滤条件
+        search_filter = {}
+        if filter is not None:
+            search_filter.update(filter)
+        
+        # 创建命名稀疏向量
+        named_vector = models.NamedSparseVector(
+            name="text-sparse",
+            vector=models.SparseVector(
+                indices=query_embedding.indices.tolist(),
+                values=query_embedding.values.tolist()
+            )
+        )
+        
+        # 构建过滤条件
+        must_conditions = []
+        for key, value in search_filter.items():
+            if isinstance(value, dict):
+                must_conditions.append(
+                    models.FieldCondition(
+                        key=key,
+                        range=models.Range(
+                            gte=value.get("gte"),
+                            lte=value.get("lte")
+                        )
+                    )
+                )
+            else:
+                must_conditions.append(
+                    models.FieldCondition(key=key, match=models.MatchValue(value=value))
+                )
+        
+        # 执行搜索
+        search_result = self._client.search(
+            collection_name=self._collection_name,
+            query_vector=named_vector,
+            limit=k,
+            query_filter=models.Filter(must=must_conditions)
+        )
+        
+        # 格式化结果
+        results = []
+        for hit in search_result:
+            content = hit.payload.get("content", "")
+            score = hit.score
+            metadata = {k: v for k, v in hit.payload.items() if k != "content"}
+            results.append((content, score, metadata))
+        
+        return results
+```
+
+### 5. 检索（Retrieve）流程
+
+#### 5.1 状态记忆检索
+```python
+async def get(self, key: Any, default_value: Optional[Any] = None) -> Any:
+    if key in self._data:
+        return deepcopy(self._data[key])
+    else:
+        if default_value is None:
+            raise KeyError(f"No attribute `{key}` in memories!")
+        else:
+            return default_value
+```
+
+#### 5.2 流记忆检索
+```python
+async def search(self, query: str, topic: Optional[str] = None, 
+                top_k: int = 3, day_range: Optional[tuple] = None) -> str:
+    # 1. 构建过滤条件
+    filter_dict = {"type": "stream"}
+    if topic: filter_dict["topic"] = topic
+    if day_range: filter_dict["day"] = {"gte": start_day, "lte": end_day}
+    
+    # 2. 执行向量相似性搜索
+    top_results = await self._vectorstore.similarity_search(
+        query=query, k=top_k, filter=filter_dict
+    )
+    
+    # 3. 格式化结果
+    return self.format_memory(sorted_results)
+```
+
+### 6. 更新（Update）流程
+
+#### 6.1 替换模式更新
+```python
+if mode == "replace":
+    self._data[key] = value
+    if self.should_embed(key):
+        # 删除旧嵌入
+        await self._vectorstore.delete_documents([old_doc_id])
+        # 添加新嵌入
+        doc_ids = await self._vectorstore.add_documents([new_semantic_text])
+```
+
+#### 6.2 合并模式更新
+```python
+elif mode == "merge":
+    if isinstance(original_value, set):
+        original_value.update(set(value))
+    elif isinstance(original_value, dict):
+        original_value.update(dict(value))
+    elif isinstance(original_value, list):
+        original_value.extend(list(value))
+    # 更新嵌入
+    await self._update_embeddings(key, self._data[key])
+```
+
+### 7. 遗忘（Forgetting）机制
+
+#### 7.1 时间衰减遗忘
+```python
+# 在NeedsBlock中实现
+async def time_decay(self):
+    time_diff = (tick_now - self.last_evaluation_time) / 3600
+    # 应用指数衰减
+    hunger_satisfaction = max(0, hunger_satisfaction - self.alpha_H * time_diff)
+    energy_satisfaction = max(0, energy_satisfaction - self.alpha_D * time_diff)
+```
+
+#### 7.2 容量限制遗忘
+```python
+# StreamMemory使用deque限制
+self._memories: deque = deque(maxlen=max_len)  # 默认1000条
+```
+
+### 8. 认知处理流程
+
+#### 8.1 态度更新
+```python
+async def attitude_update(self):
+    """
+    更新智能体对特定话题的态度
+    
+    工作流程:
+    1. 获取当前态度状态
+    2. 搜索相关历史事件
+    3. 构建LLM提示词
+    4. 生成新的态度评分
+    5. 更新记忆中的态度
+    
+    Args:
+        无直接参数，从memory中获取当前状态
+        
+    Returns:
+        None，直接更新memory中的attitude字段
+    """
+    # 1. 获取当前态度
+    attitude = await self.memory.status.get("attitude")
+    
+    # 2. 获取智能体基本信息
+    prompt_data = {
+        "gender": await self.memory.status.get("gender"),
+        "age": await self.memory.status.get("age"),
+        "race": await self.memory.status.get("race"),
+        "religion": await self.memory.status.get("religion"),
+        "marriage_status": await self.memory.status.get("marriage_status"),
+        "residence": await self.memory.status.get("residence"),
+        "occupation": await self.memory.status.get("occupation"),
+        "education": await self.memory.status.get("education"),
+        "personality": await self.memory.status.get("personality"),
+        "consumption": await self.memory.status.get("consumption"),
+        "family_consumption": await self.memory.status.get("family_consumption"),
+        "income": await self.memory.status.get("income"),
+        "skill": await self.memory.status.get("skill"),
+        "thought": await self.memory.status.get("thought"),
+        "emotion_types": await self.memory.status.get("emotion_types"),
+    }
+    
+    # 3. 对每个态度话题进行更新
+    for topic in attitude:
+        # 搜索相关事件
+        incident_str = await self.memory.stream.search(query=topic, top_k=20)
+        
+        # 构建提示词
+        description_prompt = f"""
+        You are a {prompt_data['gender']}, aged {prompt_data['age']}, belonging to the {prompt_data['race']} race and identifying as {prompt_data['religion']}. 
+        Your marital status is {prompt_data['marriage_status']}, and you currently reside in a {prompt_data['residence']} area. 
+        Your occupation is {prompt_data['occupation']}, and your education level is {prompt_data['education']}. 
+        You are {prompt_data['personality']}, with a consumption level of {prompt_data['consumption']} and a family consumption level of {prompt_data['family_consumption']}. 
+        Your income is {prompt_data['income']}, and you are skilled in {prompt_data['skill']}.
+        My current emotion intensities are (0 meaning not at all, 10 meaning very much):
+        sadness: {prompt_data['sadness']}, joy: {prompt_data['joy']}, fear: {prompt_data['fear']}, disgust: {prompt_data['disgust']}, anger: {prompt_data['anger']}, surprise: {prompt_data['surprise']}.
+        You have the following thoughts: {prompt_data['thought']}.
+        In the following 21 words, I have chosen {prompt_data['emotion_types']} to represent your current status:
+        Joy, Distress, Resentment, Pity, Hope, Fear, Satisfaction, Relief, Disappointment, Pride, Admiration, Shame, Reproach, Liking, Disliking, Gratitude, Anger, Gratification, Remorse, Love, Hate.
+        """
+        
+        # 添加事件信息
+        if incident_str:
+            incident_prompt = "Today, these incidents happened:" + incident_str
+        else:
+            incident_prompt = "No incidents happened today."
+        
+        # 构建问题
+        previous_attitude = str(attitude[topic])
+        problem_prompt = (
+            f"You need to decide your attitude towards topic: {topic}, "
+            f"which you previously rated your attitude towards this topic as: {previous_attitude} "
+            "(0 meaning oppose, 10 meaning support). "
+            'Please return a new attitude rating (0-10, smaller meaning oppose, larger meaning support) in JSON format, and explain, e.g. {{"attitude": 5}}'
+        )
+        
+        # 4. 调用LLM生成新态度
+        question_prompt = description_prompt + incident_prompt + problem_prompt
+        question_prompt = FormatPrompt(question_prompt)
+        
+        # 添加情感数据
+        emotion = await self.memory.status.get("emotion")
+        prompt_data.update({
+            "sadness": emotion["sadness"],
+            "joy": emotion["joy"],
+            "fear": emotion["fear"],
+            "disgust": emotion["disgust"],
+            "anger": emotion["anger"],
+            "surprise": emotion["surprise"]
+        })
+        
+        await question_prompt.format(**prompt_data)
+        
+        # 重试机制
+        evaluation = True
+        response = {}
+        for retry in range(10):
+            try:
+                _response = await self.llm.atext_request(
+                    question_prompt.to_dialog(),
+                    timeout=300,
+                    response_format={"type": "json_object"}
+                )
+                json_str = extract_json(_response)
+                if json_str:
+                    response = json_repair.loads(json_str)
+                    evaluation = False
+                    break
+            except Exception:
+                pass
+        
+        if evaluation:
+            raise Exception(f"Request for attitude:{topic} update failed")
+        
+        # 5. 更新态度
+        attitude[topic] = response["attitude"]
+    
+    # 保存更新后的态度
+    await self.memory.status.update("attitude", attitude)
+```
+
+#### 8.2 思维更新
+```python
+async def thought_update(self):
+    """
+    生成智能体的日常反思和思维更新
+    
+    工作流程:
+    1. 搜索今日发生的事件
+    2. 构建反思提示词
+    3. 调用LLM生成思维总结
+    4. 更新思维状态和认知记忆
+    
+    Returns:
+        str: 生成的思维描述
+    """
+    # 1. 构建基本信息提示
+    description_prompt = """
+    You are a {gender}, aged {age}, belonging to the {race} race and identifying as {religion}. 
+    Your marital status is {marriage_status}, and you currently reside in a {residence} area. 
+    Your occupation is {occupation}, and your education level is {education}. 
+    You are {personality}, with a consumption level of {consumption} and a family consumption level of {family_consumption}. 
+    Your income is {income}, and you are skilled in {skill}.
+    My current emotion intensities are (0 meaning not at all, 10 meaning very much):
+    sadness: {sadness}, joy: {joy}, fear: {fear}, disgust: {disgust}, anger: {anger}, surprise: {surprise}.
+    You have the following thoughts: {thought}.
+    In the following 21 words, I have chosen {emotion_types} to represent your current status:
+    Joy, Distress, Resentment, Pity, Hope, Fear, Satisfaction, Relief, Disappointment, Pride, Admiration, Shame, Reproach, Liking, Disliking, Gratitude, Anger, Gratification, Remorse, Love, Hate.
+    """
+    
+    # 2. 搜索今日事件
+    incident_str = await self.memory.stream.search_today(top_k=20)
+    if incident_str:
+        incident_prompt = "Today, these incidents happened:\n" + incident_str
+    else:
+        incident_prompt = "No incidents happened today."
+    
+    # 3. 构建反思问题
+    question_prompt = """
+        Please review what happened today and share your thoughts and feelings about it.
+        Consider your current emotional state and experiences, then:
+        1. Summarize your thoughts and reflections on today's events
+        2. Choose one word that best describes your current emotional state from: Joy, Distress, Resentment, Pity, Hope, Fear, Satisfaction, Relief, Disappointment, Pride, Admiration, Shame, Reproach, Liking, Disliking, Gratitude, Anger, Gratification, Remorse, Love, Hate.
+        Return in JSON format, e.g. {{"thought": "Currently nothing good or bad is happening, I think ...."}}
+    """
+    
+    # 4. 组合完整提示词
+    question_prompt = description_prompt + incident_prompt + question_prompt
+    question_prompt = FormatPrompt(question_prompt)
+    
+    # 5. 获取情感数据
+    emotion = await self.memory.status.get("emotion")
+    await question_prompt.format(
+        gender=await self.memory.status.get("gender"),
+        age=await self.memory.status.get("age"),
+        race=await self.memory.status.get("race"),
+        religion=await self.memory.status.get("religion"),
+        marriage_status=await self.memory.status.get("marriage_status"),
+        residence=await self.memory.status.get("residence"),
+        occupation=await self.memory.status.get("occupation"),
+        education=await self.memory.status.get("education"),
+        personality=await self.memory.status.get("personality"),
+        consumption=await self.memory.status.get("consumption"),
+        family_consumption=await self.memory.status.get("family_consumption"),
+        income=await self.memory.status.get("income"),
+        skill=await self.memory.status.get("skill"),
+        sadness=emotion["sadness"],
+        joy=emotion["joy"],
+        fear=emotion["fear"],
+        disgust=emotion["disgust"],
+        anger=emotion["anger"],
+        surprise=emotion["surprise"],
+        thought=await self.memory.status.get("thought"),
+        emotion_types=await self.memory.status.get("emotion_types")
+    )
+    
+    # 6. 调用LLM生成思维
+    evaluation = True
+    response = {}
+    for retry in range(10):
+        try:
+            _response = await self.llm.atext_request(
+                question_prompt.to_dialog(),
+                timeout=300,
+                response_format={"type": "json_object"}
+            )
+            json_str = extract_json(_response)
+            if json_str:
+                response = json_repair.loads(json_str)
+                evaluation = False
+                break
+        except Exception:
+            pass
+    
+    if evaluation:
+        raise Exception("Request for cognition update failed")
+    
+    # 7. 更新思维状态
+    thought = str(response["thought"])
+    await self.memory.status.update("thought", thought)
+    
+    # 8. 添加认知记忆
+    await self.memory.stream.add(topic="cognition", description=thought)
+    
+    return thought
+```
+
+### 9. 记忆配置系统
+
+#### 9.1 记忆属性定义
+```python
+class MemoryAttribute(BaseModel):
+    name: str
+    type: Any
+    default_or_value: Any
+    description: str
+    whether_embedding: bool = False
+    embedding_template: Optional[str] = None
+```
+
+#### 9.2 配置生成
+```python
+def memory_config_societyagent(distributions, class_config=None):
+    attributes = {
+        "name": MemoryAttribute(name="name", type=str, 
+                               default_or_value="unknown", whether_embedding=True),
+        "emotion": MemoryAttribute(name="emotion", type=dict,
+                                  default_or_value={"sadness": 5, "joy": 5, ...}),
+        # ... 更多属性
+    }
+    return MemoryConfig(attributes=attributes)
+```
+
+### 10. 工作流程总结
+
+1. **初始化**: 根据配置创建记忆结构，初始化向量存储
+2. **插入**: 新信息通过KVMemory或StreamMemory存储，需要嵌入的字段自动生成向量
+3. **编码**: 使用FastEmbed生成稀疏向量嵌入，存储到Qdrant
+4. **存储**: 双重存储机制（内存+向量数据库）
+5. **检索**: 支持精确检索和语义相似性搜索
+6. **更新**: 支持替换和合并两种更新模式
+7. **遗忘**: 通过时间衰减和容量限制实现自然遗忘
+8. **认知**: 定期进行态度和思维更新，形成长期记忆
+
+### 11. 核心技术创新
+
+- **稀疏向量存储**: 使用Qdrant和FastEmbed实现高效的语义搜索
+- **记忆配置系统**: 灵活的配置机制支持不同类型的智能体
+- **认知处理流程**: 自动化的态度更新和思维反思机制
+- **多层次检索**: 支持精确匹配和语义相似性搜索
+- **异步并发**: 全异步设计，支持高并发操作
+- **自然遗忘**: 通过时间衰减和容量限制模拟人类记忆特性
+
 ---
 
 ## API 接口
@@ -291,6 +1246,50 @@ recent_activities = await memory.stream.search(
 today_memories = await memory.stream.search_today(query="work")
 ```
 
+#### 记忆互通与语义整合示例
+
+```python
+# 1. 跨topic的语义搜索（记忆互通）
+# 搜索所有与"购物"相关的记忆，不限制topic
+shopping_experiences = await memory.stream.search(
+    query="shopping experience",
+    top_k=10
+)
+
+# 2. 特定topic的过滤搜索
+social_shopping = await memory.stream.search(
+    query="shopping with friends",
+    topic="social",
+    top_k=5
+)
+
+# 3. 跨行为类型的记忆关联
+# 创建认知记忆，关联多个topic的记忆
+cognition_id = await memory.stream.add(
+    topic="cognition",
+    description="I had a great shopping day with friends at the mall"
+)
+
+# 关联相关的社交、移动、经济记忆
+await memory.stream.add_cognition_to_memory(
+    memory_ids=[social_id, mobility_id, economy_id],
+    cognition=cognition_id
+)
+
+# 4. 基于综合记忆的决策
+# 搜索所有相关记忆做决策
+all_related_memories = await memory.stream.search(
+    query="mall shopping experience",
+    day_range=(current_day-30, current_day)
+)
+
+# 基于跨topic的记忆做决策
+if "positive" in all_related_memories:
+    decision = "I'll go to the mall because I had good experiences there"
+else:
+    decision = "I'll try a different shopping location"
+```
+
 ### 智能体集成接口
 
 #### SocietyAgent 记忆使用
@@ -319,25 +1318,25 @@ class SocietyAgent(CitizenAgentBase):
 
 ---
 
-## 使用示例
+## 使用示例（Usage Examples）
 
-### 1. 创建智能体记忆系统
+### 1. 创建智能体记忆系统（Creating Agent Memory System）
 
 ```python
-# 1. 创建记忆配置
+# 1. 创建记忆配置（Create Memory Configuration）
 memory_config = memory_config_societyagent(distributions)
 
-# 2. 创建记忆实例
+# 2. 创建记忆实例（Create Memory Instance）
 memory = Memory(
     environment=environment,
     embedding=embedding,
     memory_config=memory_config
 )
 
-# 3. 初始化向量化
+# 3. 初始化向量化（Initialize Embeddings）
 await memory.initialize_embeddings()
 
-# 4. 创建智能体
+# 4. 创建智能体（Create Agent）
 agent = SocietyAgent(
     id=1,
     name="Alice",
@@ -346,58 +1345,58 @@ agent = SocietyAgent(
 )
 ```
 
-### 2. 智能体行为与记忆交互
+### 2. 智能体行为与记忆交互（Agent Behavior & Memory Interaction）
 
 ```python
-# 智能体执行行为
+# 智能体执行行为（Agent Behavior Execution）
 async def agent_behavior():
-    # 获取当前需求
+    # 获取当前需求（Get Current Needs）
     hunger = await agent.memory.status.get("hunger_satisfaction")
     
     if hunger < 0.3:
-        # 记录决策
+        # 记录决策（Record Decision）
         await agent.memory.stream.add(
             topic="decision",
             description="I decided to eat because I'm hungry"
         )
         
-        # 执行吃饭行为
+        # 执行吃饭行为（Execute Eating Behavior）
         result = await agent.eat()
         
-        # 更新状态
+        # 更新状态（Update Status）
         await agent.memory.status.update("hunger_satisfaction", 0.9)
         
-        # 记录结果
+        # 记录结果（Record Result）
         await agent.memory.stream.add(
             topic="activity",
             description=f"I ate and now feel satisfied: {result}"
         )
 ```
 
-### 3. 记忆搜索与决策
+### 3. 记忆搜索与决策（Memory Search & Decision Making）
 
 ```python
-# 基于记忆做决策
+# 基于记忆做决策（Make Decisions Based on Memory）
 async def make_decision():
-    # 搜索相关经验
+    # 搜索相关经验（Search Related Experiences）
     past_experiences = await agent.memory.stream.search(
         query="shopping at this store",
         top_k=5
     )
     
-    # 搜索情绪状态
+    # 搜索情绪状态（Search Emotional State）
     happy_memories = await agent.memory.status.search(
         query="happy shopping",
         top_k=3
     )
     
-    # 基于记忆做决策
+    # 基于记忆做决策（Make Decision Based on Memory）
     if "positive" in happy_memories:
         decision = "I'll go shopping because I had good experiences before"
     else:
         decision = "I'm hesitant about shopping due to past experiences"
     
-    # 记录决策过程
+    # 记录决策过程（Record Decision Process）
     await agent.memory.stream.add(
         topic="cognition",
         description=f"Decision: {decision}. Based on: {past_experiences}"
@@ -480,19 +1479,361 @@ class AdvancedStreamMemory(StreamMemory):
 
 ---
 
-## 总结
+## 系统总结
 
-AgentSociety Memory 系统通过分层架构设计，实现了：
+### 🎯 核心价值
+AgentSociety记忆系统是一个**为多智能体社会模拟设计的智能记忆管理系统**。它让AI智能体能够像人类一样拥有记忆，从而做出更智能、更人性化的决策。
 
-1. **模块化**：存储层、配置层、应用层分离
-2. **类型安全**：基于 Pydantic 的类型验证
-3. **高性能**：异步编程和向量化搜索
-4. **可扩展**：支持自定义记忆类型和智能体
-5. **易用性**：简洁的 API 接口和丰富的功能
+### 🏗️ 系统特点
 
-该系统为复杂的社会模拟提供了强大的记忆管理能力，支持智能体进行更加智能和人性化的行为决策。
+#### 1. 双记忆架构（Dual Memory Architecture）
+- **状态记忆（KVMemory）**：存储智能体的当前状态（情绪、需求、关系等）
+- **流记忆（StreamMemory）**：存储智能体的经历和事件（活动、对话、思考等）
+  - 注意：认知记忆、社交记忆等都存储在StreamMemory中，不是独立的存储系统
+
+#### 2. 智能搜索能力（Intelligent Search Capabilities）
+- **相似性搜索**（Similarity Search）：基于向量相似度找到相关内容
+- **语义搜索**（Semantic Search）：理解记忆含义，找到相关内容
+- **时间过滤**（Temporal Filtering）：按时间范围搜索记忆
+- **主题分类**（Topic Classification）：按记忆类型搜索
+
+#### 3. 认知处理机制（Cognitive Processing Mechanisms）
+- **态度更新**（Attitude Update）：智能体根据经历更新对事物的看法
+- **思维反思**（Thought Reflection）：定期进行自我反思和学习
+- **个性形成**（Personality Formation）：通过记忆积累形成独特的个性特征
+
+#### 4. 技术优势（Technical Advantages）
+- **分层架构**（Layered Architecture）：存储层、配置层、应用层清晰分离
+- **类型安全**（Type Safety）：基于Pydantic确保数据正确性
+- **并发安全**（Concurrency Safety）：支持多个智能体同时操作
+- **高性能**（High Performance）：异步编程和向量化搜索
+- **可扩展性**（Scalability）：轻松添加新的记忆类型和智能体
+
+### 🔧 技术架构（Technical Architecture）
+
+```
+应用层 (cityagent/) → 框架层 (agent/) → 存储层 (memory/)
+     ↓                    ↓                ↓
+  具体智能体实现        通用智能体框架      记忆存储管理
+  (Specific Agents)   (Generic Framework)  (Memory Storage)
+```
+
+### 💡 应用场景（Application Scenarios）
+
+- **社会模拟**（Social Simulation）：模拟城市中不同角色的智能体
+- **对话系统**（Dialogue Systems）：让AI助手记住用户偏好和历史对话
+- **游戏AI**（Game AI）：让NPC拥有记忆和个性
+- **教育系统**（Educational Systems）：模拟学习者的知识积累过程
+- **决策支持**（Decision Support）：基于历史经验做出更好的决策
+
+### 🚀 系统优势（System Advantages）
+
+1. **人性化**（Human-like）：模拟人类的记忆机制，让AI更智能
+2. **高效性**（High Efficiency）：异步架构支持大规模智能体系统
+3. **灵活性**（Flexibility）：可配置的记忆属性，适应不同场景
+4. **可扩展性**（Scalability）：模块化设计，易于扩展新功能
+5. **易用性**（Usability）：简洁的API接口，降低使用门槛
+
+这个记忆系统为构建智能社会模拟提供了强大的技术基础，是AI项目开发的重要工具。
 
 ---
 
-*文档版本：1.0*  
-*最后更新：2024年*
+## 案例研究（Case Studies）
+
+### 案例1：飓风影响模拟（Hurricane Impact Simulation）
+
+#### 场景描述
+模拟飓风对城市居民的影响，研究居民在灾难中的行为模式和记忆变化。
+
+#### 记忆系统配置
+```python
+# 智能体配置（Agent Configuration）
+AgentConfig(
+    agent_class="citizen",
+    number=100,
+    memory_from_file="profiles_hurricane.json",
+)
+
+# 记忆属性（Memory Attributes）
+{
+    "home": 500020313,           # 家庭位置
+    "work": 500016351,           # 工作位置
+    "gender": "female",          # 性别
+    "race": "white",             # 种族
+    "education": "below bachelor", # 教育水平
+    "income": 78231,             # 收入
+    "consumption": "slightly high", # 消费水平
+    "age": 70,                   # 年龄
+    "id": 1                      # 智能体ID
+}
+```
+
+#### 记忆工作流程（Memory Workflow）
+
+**1. 灾难前状态记忆（Pre-Disaster Status Memory）**
+```python
+# 存储正常生活状态
+await memory.status.update("safety_satisfaction", 0.9)
+await memory.status.update("emotion", {"joy": 7, "fear": 2, "sadness": 1})
+await memory.status.update("current_need", "social")
+```
+
+**2. 灾难事件记忆（Disaster Event Memory）**
+```python
+# 记录飓风来临
+await memory.stream.add(
+    topic="disaster", 
+    description="飓风警报响起，需要立即撤离"
+)
+
+# 记录撤离过程
+await memory.stream.add(
+    topic="evacuation", 
+    description="前往避难所，路上遇到交通堵塞"
+)
+```
+
+**3. 认知更新（Cognitive Update）**
+```python
+# 智能体反思灾难经历
+await memory.stream.add(
+    topic="cognition", 
+    description="这次飓风让我意识到安全的重要性，需要更好的应急准备"
+)
+
+# 更新对安全的态度
+await memory.status.update("attitude", {
+    "emergency_preparedness": 9,  # 从3提升到9
+    "government_trust": 6         # 从8降低到6
+})
+```
+
+**4. 记忆搜索与决策（Memory Search & Decision）**
+```python
+# 搜索相关经历
+past_disasters = await memory.stream.search(
+    query="飓风 撤离 安全",
+    topic="disaster",
+    day_range=(current_day-30, current_day)
+)
+
+# 基于记忆做决策
+if "positive" in past_disasters:
+    decision = "相信政府指导，按计划撤离"
+else:
+    decision = "自主选择更安全的撤离路线"
+```
+
+#### 关键洞察（Key Insights）
+- **情绪变化**：飓风期间恐惧情绪显著上升，安全需求成为主导
+- **态度转变**：对应急准备的重视程度大幅提升
+- **行为模式**：基于过往经历调整应对策略
+
+---
+
+### 案例2：社会极化研究（Social Polarization Study）
+
+#### 场景描述
+研究社交媒体信息如何影响用户的政治态度，模拟信息茧房（Echo Chamber）效应。
+
+#### 记忆系统配置
+```python
+# 极化智能体配置
+{
+    "id": 1,
+    "attitude": {
+        "Whether to support stronger gun control?": 3  # 初始态度：反对
+    },
+    "social_network": ["agent_2", "agent_3"],  # 社交网络
+    "information_sources": ["conservative_media"]  # 信息来源
+}
+```
+
+#### 记忆工作流程（Memory Workflow）
+
+**1. 初始态度记忆（Initial Attitude Memory）**
+```python
+# 存储初始政治态度
+await memory.status.update("attitude", {
+    "gun_control": 3,  # 1-10量表，3表示反对
+    "immigration": 4,
+    "climate_change": 2
+})
+```
+
+**2. 信息接触记忆（Information Exposure Memory）**
+```python
+# 记录接触的信息
+await memory.stream.add(
+    topic="information", 
+    description="阅读了关于枪支管制的新研究，显示管制措施效果有限"
+)
+
+# 记录社交互动
+await memory.stream.add(
+    topic="social", 
+    description="与朋友Bob讨论了枪支管制问题，我们都认为现有法律已经足够"
+)
+```
+
+**3. 态度更新过程（Attitude Update Process）**
+```python
+# 认知块处理态度更新
+async def attitude_update(self):
+    # 搜索相关信息
+    gun_control_info = await memory.stream.search(
+        query="枪支管制 gun control",
+        top_k=10
+    )
+    
+    # 基于信息更新态度
+    new_attitude = await self.process_attitude_update(
+        topic="gun_control",
+        information=gun_control_info,
+        current_attitude=3
+    )
+    
+    # 更新记忆
+    await memory.status.update("attitude", {
+        "gun_control": new_attitude  # 可能从3变为2（更反对）
+    })
+```
+
+**4. 信息茧房效应（Echo Chamber Effect）**
+```python
+# 搜索同质化信息
+similar_views = await memory.stream.search(
+    query="枪支管制 反对 问题",
+    topic="information",
+    day_range=(current_day-7, current_day)
+)
+
+# 强化现有态度
+if len(similar_views) > 5:
+    # 信息茧房效应：更多同质化信息强化现有态度
+    attitude_strength += 0.1
+```
+
+#### 关键洞察（Key Insights）
+- **态度极化**：接触同质化信息导致态度更加极端
+- **信息茧房**：算法推荐加剧了观点分化
+- **社交影响**：朋友的观点对态度变化有显著影响
+
+---
+
+### 案例3：UBI政策模拟（Universal Basic Income Simulation）
+
+#### 场景描述
+模拟全民基本收入（UBI）政策对不同收入群体的影响，研究政策对工作动机和消费行为的影响。
+
+#### 记忆系统配置
+```python
+# 不同收入群体配置
+high_income_agent = {
+    "income": 100000,
+    "work_skill": 0.9,
+    "work_propensity": 0.8,
+    "consumption_propensity": 0.6
+}
+
+low_income_agent = {
+    "income": 25000,
+    "work_skill": 0.3,
+    "work_propensity": 0.9,
+    "consumption_propensity": 0.9
+}
+```
+
+#### 记忆工作流程（Memory Workflow）
+
+**1. 政策实施前（Pre-Policy Implementation）**
+```python
+# 记录当前工作状态
+await memory.stream.add(
+    topic="work", 
+    description="每天工作8小时，月收入5000元，生活压力较大"
+)
+
+# 记录消费行为
+await memory.stream.add(
+    topic="consumption", 
+    description="主要购买生活必需品，很少进行娱乐消费"
+)
+```
+
+**2. UBI政策实施（UBI Policy Implementation）**
+```python
+# 记录政策信息
+await memory.stream.add(
+    topic="policy", 
+    description="政府宣布实施全民基本收入，每月额外获得2000元"
+)
+
+# 更新收入状态
+await memory.status.update("income", 7000)  # 5000 + 2000
+await memory.status.update("ubi_benefit", 2000)
+```
+
+**3. 行为变化记录（Behavior Change Recording）**
+```python
+# 记录工作决策
+await memory.stream.add(
+    topic="work_decision", 
+    description="由于有了基本收入保障，决定减少工作时间，更多陪伴家人"
+)
+
+# 记录消费变化
+await memory.stream.add(
+    topic="consumption", 
+    description="开始购买一些非必需品，如书籍和娱乐用品"
+)
+```
+
+**4. 长期影响评估（Long-term Impact Assessment）**
+```python
+# 搜索工作相关记忆
+work_memories = await memory.stream.search(
+    query="工作 work 收入 income",
+    topic="work",
+    day_range=(policy_start_day, current_day)
+)
+
+# 搜索消费相关记忆
+consumption_memories = await memory.stream.search(
+    query="消费 consumption 购买 purchase",
+    topic="consumption",
+    day_range=(policy_start_day, current_day)
+)
+
+# 分析行为变化趋势
+work_hours_trend = analyze_trend(work_memories)
+consumption_trend = analyze_trend(consumption_memories)
+```
+
+#### 关键洞察（Key Insights）
+- **工作动机**：高收入群体工作动机略有下降，低收入群体变化不大
+- **消费行为**：所有群体的消费都有所增加，特别是非必需品
+- **生活质量**：整体生活满意度和安全感显著提升
+- **社会影响**：减少了收入不平等带来的社会压力
+
+---
+
+### 案例总结（Case Study Summary）
+
+这三个案例展示了AgentSociety记忆系统在不同场景下的应用：
+
+1. **灾难模拟**：展示了记忆系统如何记录和影响危机应对行为
+2. **社会研究**：展示了记忆系统如何模拟复杂的社会心理过程
+3. **政策评估**：展示了记忆系统如何评估政策对个体行为的影响
+
+每个案例都体现了记忆系统的核心价值：
+- **状态记忆**记录智能体的当前状态和属性
+- **事件记忆**记录时间序列的行为和经历
+- **认知记忆**记录智能体的思考和态度变化
+- **智能搜索**帮助智能体基于历史经验做决策
+
+---
+
+*文档版本：1.2*  
+*最后更新：2024年12月*  
+*适合人群：AI项目新人、多智能体系统学习者*
