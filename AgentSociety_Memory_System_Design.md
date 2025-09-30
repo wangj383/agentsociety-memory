@@ -4,51 +4,146 @@
 1. [系统概述](#系统概述)
 2. [架构设计](#架构设计)
 3. [核心组件](#核心组件)
+   - 3.1 [Memory 存储层](#memory-存储层-memory)
+   - 3.2 [Agent 配置层](#agent-配置层-agent)
+   - 3.3 [CityAgent 应用层](#cityagent-应用层-cityagent)
 4. [数据流设计](#数据流设计)
 5. [记忆系统工作流程详解](#记忆系统工作流程详解)
 6. [API 接口](#api-接口)
 7. [使用示例](#使用示例)
 8. [性能优化](#性能优化)
 9. [扩展性设计](#扩展性设计)
+10. [案例研究](#案例研究)
+11. [系统总结](#系统总结)
+
+---
+# 1. 系统概述
+
+## 🏗️ 系统架构核心
+
+### Overview
+- **双层记忆结构**：`KVMemory`（状态记忆）+ `StreamMemory`（流式记忆），由 `Memory` 聚合  
+- **语义向量空间**：通过 FastEmbed + Qdrant 支持统一向量检索  
+- **检索与认知循环**：支持语义检索、跨主题整合、认知处理  
+- **工程特性**：异步接口、类型安全、模块化扩展  
 
 ---
 
-## 系统概述
+### 双记忆存储架构
 
-### 什么是AgentSociety Memory系统？
+- **KVMemory（状态记忆）**  
+  存储结构化的个体状态信息（如情绪、态度、画像属性），可直接更新与检索。  
 
-AgentSociety Memory 系统是一个**为多智能体社会模拟设计的智能记忆管理系统**（Multi-Agent Social Simulation Memory Management System）。简单来说，它让AI智能体能够像人类一样拥有记忆，从而做出更智能、更人性化的决策。
+- **StreamMemory（流记忆）**  
+  存储时间序列事件（对话、行为、反思），按时间有序，并内置向量索引，用于相似性检索与主题化查询。  
 
-### 为什么需要记忆系统？
-
-在复杂的社会模拟中，智能体需要：
-- **记住**（Remember）过去发生的事情（如"昨天我去了商店"）
-- **学习**（Learn）从经历中（如"那家商店的服务很好"）
-- **决策**（Decide）基于记忆（如"我要再去那家商店"）
-- **成长**（Grow）形成个性（如"我比较喜欢安静的地方"）
-
-### 记忆系统的核心能力
-
-#### 🧠 两种记忆存储类型（Two Memory Storage Types）
-1. **状态记忆**（KVMemory）：智能体的当前状态（情绪、需求、关系强度等）
-2. **流记忆**（StreamMemory）：时间序列的经历（活动、对话、互动等）
-   - 包括：活动记录、对话内容、**认知反思**、社交互动等
-
-#### 🔍 智能搜索能力（Intelligent Search Capabilities）
-- **相似性搜索**（Similarity Search）：基于向量相似度找到相关内容
-- **语义搜索**（Semantic Search）：理解记忆的含义，找到相关内容
-- **时间过滤**（Temporal Filtering）：按时间范围搜索记忆
-- **主题分类**（Topic Classification）：按记忆类型（活动、社交、工作等）搜索
-
-#### ⚡ 高性能特性（High-Performance Features）
-- **分层架构**（Layered Architecture）：存储层、配置层、应用层清晰分离
-- **类型安全**（Type Safety）：基于 Pydantic 确保数据正确性
-- **并发安全**（Concurrency Safety）：支持多个智能体同时操作
-- **可扩展性**（Scalability）：轻松添加新的记忆类型和智能体
+- **统一向量空间**  
+  所有记忆条目（无论 KV 还是 Stream）都会生成向量表示，统一进入向量存储，支持跨类型搜索与融合。  
 
 ---
 
-## 架构设计
+### 智能检索与整合
+
+- **语义搜索**：基于内容语义，而非关键词匹配  
+- **跨主题检索**：支持在不同类别的记忆间寻找关联  
+- **认知处理**：认知模块（如 `CognitionBlock`）调用记忆系统，检索主题相关事件 → LLM 推理 → 更新记忆，形成“记忆—认知—再记忆”的闭环  
+- **时间维度**：流记忆天然按时间序列组织，可结合检索做时序过滤  
+
+---
+
+## 🚀 技术创新亮点
+
+### Overview
+- **FastEmbed + Qdrant**：高效语义嵌入与相似性搜索  
+- **异步设计**：`async` 接口支持大规模智能体并发运行  
+- **模块化结构**：`KVMemory` / `StreamMemory` / `VectorStore` / 配置生成器独立，便于扩展与替换  
+- **类型安全**：核心数据结构基于 Pydantic，保证约束与可维护性  
+
+---
+
+### 记忆互通机制
+
+- **统一存储**：不同主题与类型的记忆条目都在 `StreamMemory` 管理  
+- **向量相似性**：通过向量索引（Qdrant）实现跨类型高效检索  
+- **认知循环**：记忆被检索 → 输入认知模块 → 输出再写入记忆，形成闭环学习  
+
+---
+
+### 高性能特性
+
+- **异步并发**：异步 API，降低 I/O 等待，提升系统规模化性能  
+- **类型安全**：Pydantic 定义字段与配置，避免结构性错误  
+- **可扩展性**：配置生成器可轻松添加不同智能体类型的记忆结构  
+- **容量控制**：流式存储结合外部索引，保证可伸缩性（暂未内置“自然遗忘”机制）  
+
+---
+
+## 🔍 智能搜索能力（Intelligent Search Capabilities）
+
+- **相似性搜索**：基于向量相似度找到语义相关记忆  
+- **语义搜索**：理解上下文含义，而非简单关键词  
+- **时间过滤**：利用流记忆的时序特征做检索筛选  
+- **主题分类**：按记忆类型（如事件、对话、画像字段）组织和调用  
+
+---
+
+## 🔄 最小工作流程（Minimal Example）
+
+### Environment 感知
+智能体从环境接收一个新事件（如对话内容、观察结果）。  
+这一步就是产生一条“经验”（memory item）。  
+
+### Insert → Storage
+- 事件通过 `StreamMemory.add_memory_node()` 插入流记忆。  
+- 如果是属性更新（情绪/态度），则通过 `KVMemory.update()` 写入状态记忆。  
+
+### Merging / Replace（可选）
+若新信息与已有记忆高度相似，可以选择更新原条目，而不是简单追加。  
+（在仓库里，这通常由上层逻辑控制，例如认知块根据检索结果决定更新/覆盖。）  
+
+### Query / Retrieval
+当智能体需要决策时，会构造查询上下文，调用  
+`VectorStore.similarity_search()` 或 `StreamMemory.get_related_cognition()` 检索相关记忆。  
+
+### To Action
+检索到的记忆被送入 **认知模块（如 CognitionBlock）**，  
+经由 LLM 推理 → 生成计划/更新态度 → 输出行为或写回记忆。  
+行为结果再反馈到环境，循环开始下一轮。  
+
+---
+
+## 📄 最小代码骨架（基于仓库 API）
+
+```python
+from agentsociety.memory.memory import Memory
+from agentsociety.agent.memory_config_generator import default_memory_config_citizen
+from fastembed import SparseTextEmbedding
+
+# 1) 初始化
+embedding = SparseTextEmbedding()
+memory = Memory(environment=None, embedding=embedding, memory_config=default_memory_config_citizen())
+await memory.initialize_embeddings()
+
+# 2) Insert: 从环境接收到新事件，写入流记忆
+event_id = await memory.stream.add_memory_node(
+    text="Talked with neighbor about traffic jam",
+    topic="social"
+)
+
+# 3) Update: 更新状态记忆
+await memory.status.update({"mood": "frustrated"})
+
+# 4) Retrieval: 按上下文查询相关记忆
+hits = await memory.stream._vectorstore.similarity_search(query="commute issue", k=3)
+
+# 5) Action: 将检索结果传给 CognitionBlock / LLM，生成行动或态度更新
+# （伪代码）
+# cognition_block = CognitionBlock(...)
+# action = await cognition_block.run(memory, hits)
+
+---
+
+## 2. 架构设计
 
 ### 整体架构：三层分离设计
 
@@ -106,47 +201,51 @@ AgentSociety Memory 系统是一个**为多智能体社会模拟设计的智能�
 - **KVMemory**：存储智能体的状态（如情绪、需求）
 - **StreamMemory**：存储智能体的经历（如活动、对话）
 
-### 数据流向
+### ⚠️数据流向
 
 ```
-智能体行为 → 记忆系统 → 存储层 → 决策影响
-     ↑           ↓         ↓
-   应用层 ←── 框架层 ←── 存储层
+智能体状态 → 记忆读取 → 行为决策 → 行为执行 → 记忆写入 → 状态更新
+    ↑                                                      ↓
+    └─────────────── 循环影响 ←─────────────────────────────┘
 ```
 
-**简单理解**：
-1. 智能体做了一件事（如去商店购物）
-2. 这件事被记录到记忆系统中
-3. 记忆系统存储到相应的记忆类型中
-4. 下次做决策时，智能体会参考这些记忆
+**实际流程**（Based on Code）：
+1. **智能体执行**：`SocietyAgent.forward()` → 执行Blocks（NeedsBlock, PlanBlock, SocialBlock等）
+2. **记忆记录**：`memory.stream.add(topic="social", description="...")` → 记录行为到StreamMemory
+3. **状态更新**：`memory.status.update("current_plan", plan)` → 更新状态到KVMemory  
+4. **记忆检索**：`memory.stream.search(query="...")` → 基于历史记忆做决策
+5. **循环影响**：记忆影响下次行为选择，形成持续学习循环
 
 ---
 
-## 核心组件
+## 3. 核心组件
 
-### 1. Memory 存储层 (memory/) 
+### 3.1 Memory 存储层 (memory/) 
 
-记忆系统由**一个主控制器**和**两个存储组件**组成：
+#### 🎯 系统总览
 
 ```
-Memory (主控制器)
-├── KVMemory (状态记忆) - 存储所有状态信息
-│   ├── social_satisfaction (社交满足度)
-│   ├── hunger_satisfaction (饥饿满足度)
-│   ├── energy_satisfaction (能量满足度)
-│   ├── safety_satisfaction (安全满足度)
-│   ├── emotion (情绪状态)
-│   ├── attitude (态度观点)
-│   └── personal_info (个人信息)
-└── StreamMemory (流记忆) - 存储所有事件，按topic分类
-    ├── topic="social" (社交事件)
-    ├── topic="mobility" (移动事件)
-    ├── topic="economy" (经济事件)
-    ├── topic="activity" (活动事件)
-    └── topic="cognition" (认知事件)
+AgentSociety Memory 系统架构
+├── Memory (主控制器)
+│   ├── KVMemory (状态记忆) - 存储智能体当前状态
+│   │   ├── 情绪状态 (emotion)
+│   │   ├── 需求满足度 (satisfaction) 
+│   │   ├── 个人属性 (personal_info)
+│   │   └── 关系网络 (social_network)
+│   └── StreamMemory (流记忆) - 存储智能体经历事件
+│       ├── topic="social" (社交行为记忆)
+│       ├── topic="mobility" (移动行为记忆)
+│       ├── topic="economy" (经济行为记忆)
+│       ├── topic="activity" (活动行为记忆)
+│       ├── topic="cognition" (认知处理记忆)
+│       └── topic="other" (其他行为记忆)
+└── VectorStore (向量存储) - 支持语义搜索
+    ├── 相似性搜索 (similarity_search)
+    ├── 时间过滤 (day_range filter)
+    └── 主题过滤 (topic filter)
 ```
 
-#### 🔄 记忆互通与语义整合机制
+#### ⚠️ 记忆互通与语义整合机制
 
 **不同Action Space的记忆是互通的**，通过以下机制实现语义整合：
 
@@ -158,16 +257,38 @@ Memory (主控制器)
 │   ├── topic="social" → 社交行为记忆
 │   ├── topic="mobility" → 移动行为记忆
 │   ├── topic="economy" → 经济行为记忆
-│   └── topic="cognition" → 认知处理记忆
+│   ├── topic="activity" → 活动行为记忆
+│   ├── topic="cognition" → 认知处理记忆
+│   └── topic="other" → 其他行为记忆
 ├── 语义检索 (Semantic Retrieval)
 │   ├── 跨topic搜索：基于内容语义而非标签
 │   ├── 向量相似性：所有记忆映射到统一向量空间
 │   └── 关联整合：认知记忆可关联多个topic的记忆
-└── 智能整合 (Intelligent Integration)
-    ├── 跨行为类型决策：基于所有类型经验做决策
-    ├── 记忆关联：不同行为类型的记忆相互关联
-    └── 语义理解：理解记忆内容含义而非仅依赖标签
+├── 智能检索策略 (Intelligent Retrieval)
+│   ├── 语义搜索：理解记忆内容含义
+│   ├── 标签过滤：可选择性按topic过滤
+│   └── 时间过滤：支持时间范围检索
+└── 决策整合 (Decision Integration)
+    ├── 综合所有类型记忆做决策
+    ├── 跨行为类型的经验学习
+    └── 语义理解驱动的行为选择
 ```
+#### 记忆互通流程
+智能体行为 → 记忆记录 → 向量化存储 → 语义搜索 → 决策影响
+     ↑                                              ↓
+     └────────── 循环学习 ←─────────────────────────┘
+
+#### 📊 记忆类型映射
+
+| 记忆类型 | 存储位置 | 内容 | 用途 |
+|---------|---------|------|------|
+| **状态记忆** | KVMemory | 情绪、需求、关系强度 | 当前状态管理 |
+| **事件记忆** | StreamMemory | 活动、对话、经历 | 历史回顾 |
+| **认知记忆** | StreamMemory | 思考、反思、学习 | 认知更新 |
+| **社交记忆** | StreamMemory | 对话历史、互动记录 | 关系维护 |
+
+---
+
 
 #### 🗂️ KVMemory - 状态记忆存储（Status Memory Storage）
 **作用**：存储智能体的当前状态，就像人类的"当前状态"（Current State）
@@ -479,7 +600,7 @@ class Memory:
         return self._stream
 ```
 
-### 2. Agent 配置层 (agent/)
+### 3.2 Agent 配置层 (agent/)
 
 #### MemoryAttribute - 记忆属性定义
 ```python
@@ -489,8 +610,8 @@ class MemoryAttribute(BaseModel):
     type: Any                   # 属性类型
     default_or_value: Any        # 默认值或当前值
     description: str             # 属性描述
-    whether_embedding: bool = False      # 是否需要向量化
-    embedding_template: Optional[str] = None  # 向量化模板
+    ⚠️whether_embedding: bool = False      # 是否需要向量化
+    ⚠️embedding_template: Optional[str] = None  # 向量化模板
 ```
 
 #### MemoryConfig - 统一配置结构
@@ -504,7 +625,7 @@ class MemoryConfig(BaseModel):
         return MemoryConfig(attributes={attr.name: attr for attr in attributes})
 ```
 
-### 3. CityAgent 应用层 (cityagent/)
+### 3.3 CityAgent 应用层 (cityagent/)
 
 #### 社会智能体记忆配置
 ```python
@@ -550,7 +671,7 @@ def memory_config_societyagent(distributions, class_config=None) -> MemoryConfig
 
 ---
 
-## 数据流设计
+## 4. 数据流设计
 
 ### 初始化流程
 ```
@@ -576,66 +697,9 @@ def memory_config_societyagent(distributions, class_config=None) -> MemoryConfig
      ↓           ↓          ↓         ↓
 cityagent/ → memory/ → agent/ → cityagent/
 ```
-
-### 记忆类型映射
-
-| 记忆类型 | 存储位置 | 内容 | 用途 |
-|---------|---------|------|------|
-| **状态记忆** | KVMemory | 情绪、需求、关系强度 | 当前状态管理 |
-| **事件记忆** | StreamMemory | 活动、对话、经历 | 历史回顾 |
-| **认知记忆** | StreamMemory | 思考、反思、学习 | 认知更新 |
-| **社交记忆** | StreamMemory | 对话历史、互动记录 | 关系维护 |
-
-#### 🗂️ 完整存储架构映射
-
-```
-Storage Layer (存储层)
-├── DatabaseWriter (数据库写入器)
-│   ├── agent_profile (智能体档案)
-│   ├── agent_status (智能体状态)
-│   ├── agent_dialog (智能体对话)
-│   └── agent_survey (智能体调查)
-└── Memory System (记忆系统)
-    ├── KVMemory (状态记忆)
-    │   ├── 情绪状态 (emotion)
-    │   ├── 需求满足度 (satisfaction)
-    │   ├── 个人属性 (personal_info)
-    │   └── 关系网络 (social_network)
-    └── StreamMemory (流记忆)
-        ├── topic="social" (社交行为记忆)
-        ├── topic="mobility" (移动行为记忆)
-        ├── topic="economy" (经济行为记忆)
-        ├── topic="activity" (活动行为记忆)
-        └── topic="cognition" (认知处理记忆)
-```
-
-#### 🔄 记忆互通机制详解
-
-**不同Action Space的记忆通过以下方式实现互通**：
-
-```
-记忆互通机制
-├── 统一向量空间 (Unified Vector Space)
-│   ├── 所有topic的记忆映射到同一向量空间
-│   ├── 基于内容语义进行相似性计算
-│   └── 支持跨topic的语义检索
-├── 智能检索策略 (Intelligent Retrieval)
-│   ├── 语义搜索：理解记忆内容含义
-│   ├── 标签过滤：可选择性按topic过滤
-│   └── 时间过滤：支持时间范围检索
-├── 记忆关联机制 (Memory Association)
-│   ├── 认知记忆可关联多个topic的记忆
-│   ├── 跨行为类型的经验整合
-│   └── 基于关联关系的智能推荐
-└── 决策整合 (Decision Integration)
-    ├── 综合所有类型记忆做决策
-    ├── 跨行为类型的经验学习
-    └── 语义理解驱动的行为选择
-```
-
 ---
 
-## 记忆系统工作流程详解
+## 5. 记忆系统工作流程详解
 
 ### 1. 系统架构概览
 
@@ -1200,7 +1264,7 @@ def memory_config_societyagent(distributions, class_config=None):
 
 ---
 
-## API 接口
+## 6. API 接口
 
 ### Memory 核心接口
 
@@ -1318,7 +1382,7 @@ class SocietyAgent(CitizenAgentBase):
 
 ---
 
-## 使用示例（Usage Examples）
+## 7. 使用示例（Usage Examples）
 
 ### 1. 创建智能体记忆系统（Creating Agent Memory System）
 
@@ -1405,7 +1469,7 @@ async def make_decision():
 
 ---
 
-## 性能优化
+## 8. 性能优化
 
 ### 1. 向量化优化
 - **批量处理**：批量创建和更新向量嵌入
@@ -1424,7 +1488,7 @@ async def make_decision():
 
 ---
 
-## 扩展性设计
+## 9. 扩展性设计
 
 ### 1. 新增记忆类型
 ```python
@@ -1479,7 +1543,7 @@ class AdvancedStreamMemory(StreamMemory):
 
 ---
 
-## 系统总结
+## 11. 系统总结
 
 ### 🎯 核心价值
 AgentSociety记忆系统是一个**为多智能体社会模拟设计的智能记忆管理系统**。它让AI智能体能够像人类一样拥有记忆，从而做出更智能、更人性化的决策。
@@ -1538,7 +1602,7 @@ AgentSociety记忆系统是一个**为多智能体社会模拟设计的智能记
 
 ---
 
-## 案例研究（Case Studies）
+## 10. 案例研究（Case Studies）
 
 ### 案例1：飓风影响模拟（Hurricane Impact Simulation）
 
