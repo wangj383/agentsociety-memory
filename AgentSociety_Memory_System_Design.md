@@ -1,20 +1,19 @@
 # AgentSociety Memory 系统整体设计文档
 
 ## 目录
-1. [系统概述](#系统概述)
-2. [架构设计](#架构设计)
-3. [核心组件](#核心组件)
-   - 3.1 [Memory 存储层](#memory-存储层-memory)
-   - 3.2 [Agent 配置层](#agent-配置层-agent)
-   - 3.3 [CityAgent 应用层](#cityagent-应用层-cityagent)
-4. [数据流设计](#数据流设计)
-5. [记忆系统工作流程详解](#记忆系统工作流程详解)
-6. [API 接口](#api-接口)
-7. [使用示例](#使用示例)
-8. [性能优化](#性能优化)
-9. [扩展性设计](#扩展性设计)
-10. [案例研究](#案例研究)
-11. [系统总结](#系统总结)
+1. [系统概述](#1-系统概述)
+2. [架构设计](#2-架构设计)
+3. [核心组件](#3-核心组件)
+   - 3.1 [Memory 存储层](#31-memory-存储层-memory)
+   - 3.2 [Agent 配置层](#32-agent-配置层-agent)
+   - 3.3 [CityAgent 应用层](#33-cityagent-应用层-cityagent)
+4. [数据流设计](#4-数据流设计)
+5. [记忆系统工作流程详解](#5-记忆系统工作流程详解)
+6. [API 接口](#6-api-接口)
+7. [使用示例](#7-使用示例)
+8. [性能优化](#8-性能优化)
+9. [扩展性设计](#9-扩展性设计)
+10. [案例研究](#10-案例研究)
 
 ---
 # 1. 系统概述
@@ -80,72 +79,26 @@
 
 ## 🔍 智能搜索能力（Intelligent Search Capabilities）
 
-- **相似性搜索**：基于向量相似度找到语义相关记忆  
-- **语义搜索**：理解上下文含义，而非简单关键词  
-- **时间过滤**：利用流记忆的时序特征做检索筛选  
-- **主题分类**：按记忆类型（如事件、对话、画像字段）组织和调用  
+- **相似性搜索**（Similarity Search）：基于向量相似度找到语义相关记忆  
+- **语义搜索**（Semantic Search）：理解上下文含义，而非简单关键词  
+- **时间过滤**（Temporal Filtering）：利用流记忆的时序特征做检索筛选  
+- **主题分类**（Topic Classification）：按记忆类型（如事件、对话、画像字段）组织和调用  
 
 ---
 
-## 🔄 最小工作流程（Minimal Example）
-
-### Environment 感知
-智能体从环境接收一个新事件（如对话内容、观察结果）。  
-这一步就是产生一条“经验”（memory item）。  
-
-### Insert → Storage
-- 事件通过 `StreamMemory.add_memory_node()` 插入流记忆。  
-- 如果是属性更新（情绪/态度），则通过 `KVMemory.update()` 写入状态记忆。  
-
-### Merging / Replace（可选）
-若新信息与已有记忆高度相似，可以选择更新原条目，而不是简单追加。  
-（在仓库里，这通常由上层逻辑控制，例如认知块根据检索结果决定更新/覆盖。）  
-
-### Query / Retrieval
-当智能体需要决策时，会构造查询上下文，调用  
-`VectorStore.similarity_search()` 或 `StreamMemory.get_related_cognition()` 检索相关记忆。  
-
-### To Action
-检索到的记忆被送入 **认知模块（如 CognitionBlock）**，  
-经由 LLM 推理 → 生成计划/更新态度 → 输出行为或写回记忆。  
-行为结果再反馈到环境，循环开始下一轮。  
+```
+应用层 (cityagent/) → 框架层 (agent/) → 存储层 (memory/)
+     ↓                    ↓                ↓
+  具体智能体实现        通用智能体框架      记忆存储管理
+  (Specific Agents)   (Generic Framework)  (Memory Storage)
+```
 
 ---
 
-## 📄 最小代码骨架（基于仓库 API）
 
-```python
-from agentsociety.memory.memory import Memory
-from agentsociety.agent.memory_config_generator import default_memory_config_citizen
-from fastembed import SparseTextEmbedding
+# 2. 架构设计
 
-# 1) 初始化
-embedding = SparseTextEmbedding()
-memory = Memory(environment=None, embedding=embedding, memory_config=default_memory_config_citizen())
-await memory.initialize_embeddings()
-
-# 2) Insert: 从环境接收到新事件，写入流记忆
-event_id = await memory.stream.add_memory_node(
-    text="Talked with neighbor about traffic jam",
-    topic="social"
-)
-
-# 3) Update: 更新状态记忆
-await memory.status.update({"mood": "frustrated"})
-
-# 4) Retrieval: 按上下文查询相关记忆
-hits = await memory.stream._vectorstore.similarity_search(query="commute issue", k=3)
-
-# 5) Action: 将检索结果传给 CognitionBlock / LLM，生成行动或态度更新
-# （伪代码）
-# cognition_block = CognitionBlock(...)
-# action = await cognition_block.run(memory, hits)
-
----
-
-## 2. 架构设计
-
-### 整体架构：三层分离设计
+## 整体架构：三层分离设计
 
 记忆系统采用**三层分离**的架构设计，每一层都有明确的职责：
 
@@ -697,6 +650,63 @@ def memory_config_societyagent(distributions, class_config=None) -> MemoryConfig
      ↓           ↓          ↓         ↓
 cityagent/ → memory/ → agent/ → cityagent/
 ```
+---
+
+## 🔄 最小工作流程（Minimal Example）
+
+### Environment 感知
+智能体从环境接收一个新事件（如对话内容、观察结果）。  
+这一步就是产生一条“经验”（memory item）。  
+
+### Insert → Storage
+- 事件通过 `StreamMemory.add_memory_node()` 插入流记忆。  
+- 如果是属性更新（情绪/态度），则通过 `KVMemory.update()` 写入状态记忆。  
+
+### Merging / Replace（可选）
+若新信息与已有记忆高度相似，可以选择更新原条目，而不是简单追加。  
+（在仓库里，这通常由上层逻辑控制，例如认知块根据检索结果决定更新/覆盖。）  
+
+### Query / Retrieval
+当智能体需要决策时，会构造查询上下文，调用  
+`VectorStore.similarity_search()` 或 `StreamMemory.get_related_cognition()` 检索相关记忆。  
+
+### To Action
+检索到的记忆被送入 **认知模块（如 CognitionBlock）**，  
+经由 LLM 推理 → 生成计划/更新态度 → 输出行为或写回记忆。  
+行为结果再反馈到环境，循环开始下一轮。  
+
+---
+
+## 📄 最小代码骨架（基于仓库 API）
+
+```python
+from agentsociety.memory.memory import Memory
+from agentsociety.agent.memory_config_generator import default_memory_config_citizen
+from fastembed import SparseTextEmbedding
+
+# 1) 初始化
+embedding = SparseTextEmbedding()
+memory = Memory(environment=None, embedding=embedding, memory_config=default_memory_config_citizen())
+await memory.initialize_embeddings()
+
+# 2) Insert: 从环境接收到新事件，写入流记忆
+event_id = await memory.stream.add_memory_node(
+    text="Talked with neighbor about traffic jam",
+    topic="social"
+)
+
+# 3) Update: 更新状态记忆
+await memory.status.update({"mood": "frustrated"})
+
+# 4) Retrieval: 按上下文查询相关记忆
+hits = await memory.stream._vectorstore.similarity_search(query="commute issue", k=3)
+
+# 5) Action: 将检索结果传给 CognitionBlock / LLM，生成行动或态度更新
+# （伪代码）
+# cognition_block = CognitionBlock(...)
+# action = await cognition_block.run(memory, hits)
+```
+
 ---
 
 ## 5. 记忆系统工作流程详解
@@ -1543,64 +1553,6 @@ class AdvancedStreamMemory(StreamMemory):
 
 ---
 
-## 11. 系统总结
-
-### 🎯 核心价值
-AgentSociety记忆系统是一个**为多智能体社会模拟设计的智能记忆管理系统**。它让AI智能体能够像人类一样拥有记忆，从而做出更智能、更人性化的决策。
-
-### 🏗️ 系统特点
-
-#### 1. 双记忆架构（Dual Memory Architecture）
-- **状态记忆（KVMemory）**：存储智能体的当前状态（情绪、需求、关系等）
-- **流记忆（StreamMemory）**：存储智能体的经历和事件（活动、对话、思考等）
-  - 注意：认知记忆、社交记忆等都存储在StreamMemory中，不是独立的存储系统
-
-#### 2. 智能搜索能力（Intelligent Search Capabilities）
-- **相似性搜索**（Similarity Search）：基于向量相似度找到相关内容
-- **语义搜索**（Semantic Search）：理解记忆含义，找到相关内容
-- **时间过滤**（Temporal Filtering）：按时间范围搜索记忆
-- **主题分类**（Topic Classification）：按记忆类型搜索
-
-#### 3. 认知处理机制（Cognitive Processing Mechanisms）
-- **态度更新**（Attitude Update）：智能体根据经历更新对事物的看法
-- **思维反思**（Thought Reflection）：定期进行自我反思和学习
-- **个性形成**（Personality Formation）：通过记忆积累形成独特的个性特征
-
-#### 4. 技术优势（Technical Advantages）
-- **分层架构**（Layered Architecture）：存储层、配置层、应用层清晰分离
-- **类型安全**（Type Safety）：基于Pydantic确保数据正确性
-- **并发安全**（Concurrency Safety）：支持多个智能体同时操作
-- **高性能**（High Performance）：异步编程和向量化搜索
-- **可扩展性**（Scalability）：轻松添加新的记忆类型和智能体
-
-### 🔧 技术架构（Technical Architecture）
-
-```
-应用层 (cityagent/) → 框架层 (agent/) → 存储层 (memory/)
-     ↓                    ↓                ↓
-  具体智能体实现        通用智能体框架      记忆存储管理
-  (Specific Agents)   (Generic Framework)  (Memory Storage)
-```
-
-### 💡 应用场景（Application Scenarios）
-
-- **社会模拟**（Social Simulation）：模拟城市中不同角色的智能体
-- **对话系统**（Dialogue Systems）：让AI助手记住用户偏好和历史对话
-- **游戏AI**（Game AI）：让NPC拥有记忆和个性
-- **教育系统**（Educational Systems）：模拟学习者的知识积累过程
-- **决策支持**（Decision Support）：基于历史经验做出更好的决策
-
-### 🚀 系统优势（System Advantages）
-
-1. **人性化**（Human-like）：模拟人类的记忆机制，让AI更智能
-2. **高效性**（High Efficiency）：异步架构支持大规模智能体系统
-3. **灵活性**（Flexibility）：可配置的记忆属性，适应不同场景
-4. **可扩展性**（Scalability）：模块化设计，易于扩展新功能
-5. **易用性**（Usability）：简洁的API接口，降低使用门槛
-
-这个记忆系统为构建智能社会模拟提供了强大的技术基础，是AI项目开发的重要工具。
-
----
 
 ## 10. 案例研究（Case Studies）
 
@@ -1895,9 +1847,3 @@ consumption_trend = analyze_trend(consumption_memories)
 - **事件记忆**记录时间序列的行为和经历
 - **认知记忆**记录智能体的思考和态度变化
 - **智能搜索**帮助智能体基于历史经验做决策
-
----
-
-*文档版本：1.2*  
-*最后更新：2024年12月*  
-*适合人群：AI项目新人、多智能体系统学习者*
