@@ -11,9 +11,8 @@
 5. [记忆系统工作流程详解](#5-记忆系统工作流程详解)
 6. [API 接口](#6-api-接口)
 7. [使用示例](#7-使用示例)
-8. [性能优化](#8-性能优化)
-9. [扩展性设计](#9-扩展性设计)
-10. [案例研究](#10-案例研究)
+8. [扩展性设计](#8-扩展性设计)
+9. [案例研究](#9-案例研究)
 
 ---
 # 1. 系统概述
@@ -38,6 +37,23 @@
 
 - **统一向量空间**  
   所有记忆条目（无论 KV 还是 Stream）都会生成向量表示，统一进入向量存储，支持跨类型搜索与融合。  
+
+
+```
+KVMemory (status)          StreamMemory (stream)
+═════════════════          ═══════════════════════
+• Key-value pairs          • Time-ordered events
+• No timestamp             • Has day + t (seconds)
+• Mutable                  • Append-only
+• Unlimited size           • Max 1000 items
+• Current state            • Event history
+
+Example:                   Example:
+"occupation": "Physicist"  [Day 0, 09:00] "Went to lab"
+"position": {aoi: 123}     [Day 0, 10:00] "Analyzed data"
+"long_term_goals": [...]   [Day 0, 23:00] "Reflected on day"
+```
+
 
 ---
 
@@ -89,7 +105,7 @@
 ```
 应用层 (cityagent/) → 框架层 (agent/) → 存储层 (memory/)
      ↓                    ↓                ↓
-  具体智能体实现        通用智能体框架      记忆存储管理
+  具体智能体实现         智能体框架       记忆存储管理
   (Specific Agents)   (Generic Framework)  (Memory Storage)
 ```
 
@@ -154,8 +170,8 @@
 - **KVMemory**：存储智能体的状态（如情绪、需求）
 - **StreamMemory**：存储智能体的经历（如活动、对话）
 
-### ⚠️数据流向
-
+### 数据流向
+Example
 ```
 智能体状态 → 记忆读取 → 行为决策 → 行为执行 → 记忆写入 → 状态更新
     ↑                                                      ↓
@@ -384,7 +400,6 @@ class KVMemory:
 - 按时间顺序存储（Time-Ordered Storage）
 - 支持主题分类（Topic Classification）（活动、社交、工作等）
 - 支持相似性搜索（Similarity Search）和时间范围过滤
-- 自动限制存储数量（Auto-Limit Storage）（默认1000条）
 - 支持认知关联（Cognitive Association）
 
 ```python
@@ -563,8 +578,8 @@ class MemoryAttribute(BaseModel):
     type: Any                   # 属性类型
     default_or_value: Any        # 默认值或当前值
     description: str             # 属性描述
-    ⚠️whether_embedding: bool = False      # 是否需要向量化
-    ⚠️embedding_template: Optional[str] = None  # 向量化模板
+    whether_embedding: bool = False      # 是否需要向量化
+    embedding_template: Optional[str] = None  # 向量化模板
 ```
 
 #### MemoryConfig - 统一配置结构
@@ -686,7 +701,19 @@ from fastembed import SparseTextEmbedding
 
 # 1) 初始化
 embedding = SparseTextEmbedding()
-memory = Memory(environment=None, embedding=embedding, memory_config=default_memory_config_citizen())
+# day, t = self._environment.get_datetime()
+
+class MyEnvironment:
+    def __init__(self):
+        pass
+
+    def get_datetime(self):
+        # 0,0: day, time
+        return 0, 0
+
+my_environment_obj = MyEnvironment()
+
+memory = Memory(environment=my_environment_obj, embedding=embedding, memory_config=default_memory_config_citizen())
 await memory.initialize_embeddings()
 
 # 2) Insert: 从环境接收到新事件，写入流记忆
@@ -982,23 +1009,13 @@ elif mode == "merge":
 
 ### 7. 遗忘（Forgetting）机制
 
-#### 7.1 时间衰减遗忘
-```python
-# 在NeedsBlock中实现
-async def time_decay(self):
-    time_diff = (tick_now - self.last_evaluation_time) / 3600
-    # 应用指数衰减
-    hunger_satisfaction = max(0, hunger_satisfaction - self.alpha_H * time_diff)
-    energy_satisfaction = max(0, energy_satisfaction - self.alpha_D * time_diff)
-```
-
-#### 7.2 容量限制遗忘
+#### 7.1 容量限制遗忘
 ```python
 # StreamMemory使用deque限制
 self._memories: deque = deque(maxlen=max_len)  # 默认1000条
 ```
 
-### 8. 认知处理流程
+### 8. 认知处理流程（外部+memory）
 
 #### 8.1 态度更新
 ```python
@@ -1479,26 +1496,7 @@ async def make_decision():
 
 ---
 
-## 8. 性能优化
-
-### 1. 向量化优化
-- **批量处理**：批量创建和更新向量嵌入
-- **增量更新**：只更新变化的记忆向量
-- **缓存机制**：缓存常用记忆的向量表示
-
-### 2. 并发优化
-- **异步操作**：所有记忆操作都是异步的
-- **锁机制**：使用 `@lock_decorator` 确保线程安全
-- **非阻塞I/O**：避免阻塞其他操作
-
-### 3. 存储优化
-- **容量限制**：StreamMemory 使用 `deque(maxlen=1000)` 限制内存使用
-- **压缩存储**：对大型记忆进行压缩存储
-- **索引优化**：为常用搜索字段建立索引
-
----
-
-## 9. 扩展性设计
+## 8. 扩展性设计
 
 ### 1. 新增记忆类型
 ```python
@@ -1553,7 +1551,7 @@ class AdvancedStreamMemory(StreamMemory):
 
 ---
 
-## 10. 案例研究
+## 9. 案例研究
 
 ### 案例1：飓风影响模拟（Hurricane Impact Simulation）
 

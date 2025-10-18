@@ -1,0 +1,2408 @@
+{
+  "num_completed_trips": [
+    {
+      "key": "num_completed_trips",
+      "value": 0.0,
+      "step": 1
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 12.0,
+      "step": 3601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 16.0,
+      "step": 7201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 18.0,
+      "step": 10801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 22.0,
+      "step": 14401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 29.0,
+      "step": 18001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 33.0,
+      "step": 21601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 37.0,
+      "step": 25201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 40.0,
+      "step": 28801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 45.0,
+      "step": 32401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 54.0,
+      "step": 36001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 56.0,
+      "step": 39601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 57.0,
+      "step": 43201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 59.0,
+      "step": 46801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 59.0,
+      "step": 50401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 60.0,
+      "step": 54001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 60.0,
+      "step": 57601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 60.0,
+      "step": 61201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 61.0,
+      "step": 64801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 61.0,
+      "step": 68401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 62.0,
+      "step": 72001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 62.0,
+      "step": 75601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 79201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 82801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 86401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 90001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 93601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 97201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 100801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 104401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 108001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 111601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 115201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 118801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 122401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 126001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 129601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 133201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 136801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 140401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 144001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 147601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 151201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 154801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 158401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 162001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 165601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 169201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 172801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 176401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 180001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 183601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 187201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 190801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 194401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 198001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 201601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 205201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 208801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 212401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 216001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 219601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 223201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 226801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 230401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 234001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 237601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 241201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 244801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 248401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 252001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 255601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 259201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 262801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 266401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 270001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 273601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 277201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 280801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 284401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 288001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 291601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 295201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 298801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 302401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 306001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 309601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 313201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 316801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 320401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 324001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 327601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 331201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 334801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 338401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 342001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 345601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 349201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 352801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 356401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 360001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 363601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 367201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 370801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 374401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 378001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 381601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 385201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 388801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 392401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 396001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 399601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 403201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 406801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 410401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 414001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 417601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 421201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 424801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 428401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 432001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 435601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 439201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 442801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 446401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 450001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 453601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 457201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 460801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 464401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 468001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 471601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 475201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 478801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 482401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 486001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 489601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 493201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 496801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 500401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 504001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 507601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 511201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 514801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 518401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 522001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 525601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 529201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 532801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 536401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 540001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 543601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 547201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 550801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 554401
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 558001
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 561601
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 565201
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 568801
+    },
+    {
+      "key": "num_completed_trips",
+      "value": 63.0,
+      "step": 572401
+    }
+  ],
+  "total_travel_time (sec)": [
+    {
+      "key": "total_travel_time (sec)",
+      "value": 0.0,
+      "step": 1
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 19445.0,
+      "step": 3601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 22057.0,
+      "step": 7201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 28435.0,
+      "step": 10801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 31541.0,
+      "step": 14401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 43117.0,
+      "step": 18001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 47261.0,
+      "step": 21601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 53301.0,
+      "step": 25201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 56248.0,
+      "step": 28801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 67671.0,
+      "step": 32401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 78206.0,
+      "step": 36001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 80834.0,
+      "step": 39601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 83670.0,
+      "step": 43201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 84959.0,
+      "step": 46801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 84959.0,
+      "step": 50401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 86952.0,
+      "step": 54001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 86952.0,
+      "step": 57601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 86952.0,
+      "step": 61201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 89410.0,
+      "step": 64801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 90607.0,
+      "step": 68401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 91906.0,
+      "step": 72001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 91906.0,
+      "step": 75601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 79201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 82801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 86401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 90001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 93601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 97201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 100801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 104401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 108001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 111601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 115201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 118801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 122401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 126001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 129601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 133201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 136801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 140401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 144001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 147601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 151201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 154801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 158401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 162001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 165601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 169201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 172801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 176401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 180001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 183601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 187201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 190801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 194401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 198001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 201601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 205201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 208801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 212401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 216001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 219601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 223201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 226801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 230401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 234001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 237601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 241201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 244801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 248401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 252001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 255601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 259201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 262801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 266401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 270001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 273601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 277201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 280801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 284401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 288001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 291601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 295201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 298801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 302401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 306001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 309601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 313201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 316801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 320401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 324001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 327601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 331201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 334801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 338401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 342001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 345601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 349201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 352801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 356401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 360001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 363601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 367201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 370801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 374401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 378001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 381601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 385201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 388801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 392401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 396001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 399601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 403201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 406801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 410401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 414001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 417601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 421201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 424801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 428401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 432001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 435601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 439201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 442801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 446401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 450001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 453601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 457201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 460801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 464401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 468001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 471601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 475201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 478801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 482401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 486001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 489601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 493201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 496801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 500401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 504001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 507601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 511201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 514801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 518401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 522001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 525601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 529201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 532801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 536401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 540001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 543601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 547201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 550801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 554401
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 558001
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 561601
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 565201
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 568801
+    },
+    {
+      "key": "total_travel_time (sec)",
+      "value": 93773.0,
+      "step": 572401
+    }
+  ],
+  "total_travel_distance (m)": [
+    {
+      "key": "total_travel_distance (m)",
+      "value": 0.0,
+      "step": 1
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 181456.40924463328,
+      "step": 3601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 202905.26289892348,
+      "step": 7201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 269601.4395379818,
+      "step": 10801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 289161.8235572486,
+      "step": 14401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 395672.7379868701,
+      "step": 18001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 441798.79106626136,
+      "step": 21601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 505095.28197187115,
+      "step": 25201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 539931.1458472556,
+      "step": 28801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 656604.7857686298,
+      "step": 32401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 776411.4600189143,
+      "step": 36001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 791821.9491980877,
+      "step": 39601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 826587.9436646183,
+      "step": 43201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 841753.5284610047,
+      "step": 46801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 841753.5284610047,
+      "step": 50401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 859011.881509854,
+      "step": 54001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 859011.881509854,
+      "step": 57601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 859011.881509854,
+      "step": 61201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 878044.3389925353,
+      "step": 64801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 895542.548506492,
+      "step": 68401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 915689.97427341,
+      "step": 72001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 915689.97427341,
+      "step": 75601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 79201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 82801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 86401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 90001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 93601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 97201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 100801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 104401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 108001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 111601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 115201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 118801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 122401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 126001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 129601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 133201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 136801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 140401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 144001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 147601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 151201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 154801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 158401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 162001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 165601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 169201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 172801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 176401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 180001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 183601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 187201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 190801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 194401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 198001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 201601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 205201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 208801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 212401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 216001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 219601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 223201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 226801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 230401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 234001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 237601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 241201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 244801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 248401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 252001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 255601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 259201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 262801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 266401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 270001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 273601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 277201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 280801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 284401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 288001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 291601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 295201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 298801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 302401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 306001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 309601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 313201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 316801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 320401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 324001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 327601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 331201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 334801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 338401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 342001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 345601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 349201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 352801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 356401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 360001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 363601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 367201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 370801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 374401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 378001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 381601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 385201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 388801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 392401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 396001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 399601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 403201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 406801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 410401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 414001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 417601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 421201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 424801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 428401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 432001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 435601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 439201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 442801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 446401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 450001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 453601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 457201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 460801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 464401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 468001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 471601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 475201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 478801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 482401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 486001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 489601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 493201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 496801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 500401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 504001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 507601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 511201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 514801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 518401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 522001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 525601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 529201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 532801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 536401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 540001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 543601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 547201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 550801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 554401
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 558001
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 561601
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 565201
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 568801
+    },
+    {
+      "key": "total_travel_distance (m)",
+      "value": 942159.0171556091,
+      "step": 572401
+    }
+  ]
+}

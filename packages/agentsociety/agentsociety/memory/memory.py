@@ -296,6 +296,7 @@ class StreamMemory:
         self,
         environment: Optional[Environment],
         status_memory: KVMemory,
+        # daily_summary_memory: KVMemory,
         embedding: SparseTextEmbedding,
         max_len: int = 1000,
     ):
@@ -313,6 +314,15 @@ class StreamMemory:
         self._status_memory = status_memory
         self._environment = environment
         self._vectorstore = VectorStore(embedding)
+        # self._day = -1
+        # self._daily_summary_memory = daily_summary_memory
+
+        # _daily_summary_memory={'day0':'summary'}
+        # daily experience
+        # immediate goal
+        # long-term goal
+
+
 
     async def add(self, topic: str, description: str) -> int:
         """

@@ -1,0 +1,672 @@
+{
+  "agent": "Sheld Tucker (ID 1)",
+  "profile_excerpt": "Sheld Tucker (ID 1) ===\nProfile:\n  - id: 1\n  - name: Sheld Tucker\n  - age: 39\n  - gender: Male\n  - race: White\n  - education: PhD in Theoretical Physics\n  - marriage_status: Married\n  - occupation: Theoretical Physicist\n  - income: 165000\n  - consumption: Moderate to slightly high\n  - persona: Eccentric Genius\n  - personality: Analytical, orderly, rule-bound\n  - background_story: Sheld Tucker, 39 years old, is a White theoretical physicist raised in a peaceful upstate New York suburb. As a child, he was captivated by model trains and encyclopedias, which laid the groundwork for his passion in ",
+  "half_hour_evaluations": [
+    {
+      "day": 0,
+      "bucket": "Day 0 · 06:30–06:59",
+      "summary_sentence": "Day 0, 06:30:01 [activity] Day 0, 06:35:01 [activity] Day 0, 06:40:01 [activity] Day 0, 06:45:01 [activity] Day 0, 06:50:01 [activity] Day 0, 06:55:01 [activity]",
+      "evaluation_phrase": "Highly realistic routine",
+      "evaluation_example": "Sheld wakes at 06:30, reviews equations, has coffee at 06:45, and plans his day meticulously."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 08:00–08:29",
+      "summary_sentence": "Day 0, 08:00:01 [activity] Day 0, 08:05:01 [activity] Day 0, 08:10:01 [activity] Day 0, 08:15:01 [activity] Day 0, 08:20:01 [activity] Day 0, 08:25:01 [activity]",
+      "evaluation_phrase": "Highly realistic routine",
+      "evaluation_example": "Sheld wakes at 08:00, reviews equations, has coffee at 08:15, then meets with colleagues at 08:20."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 06:00–06:29",
+      "summary_sentence": "Day 0, 06:00:01 [thought] Day 0, 06:00:01 [thought] Day 0, 06:00:01 [activity] Day 0, 06:05:01 [activity] Day 0, 06:10:01 [activity] Day 0, 06:15:01 [activity] Day 0, 06:20:01 [activity] Day 0, 06:25:01 [activity]",
+      "evaluation_phrase": "Incomplete activity details prevent realism evaluation",
+      "evaluation_example": "No specific actions/thoughts shown to assess routine adherence or emotional responses."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 10:00–10:29",
+      "summary_sentence": "Day 0, 10:00:01 [activity] Day 0, 10:05:01 [activity] Day 0, 10:10:01 [activity] Day 0, 10:15:01 [activity] Day 0, 10:20:01 [activity] Day 0, 10:25:01 [activity]",
+      "evaluation_phrase": "Highly realistic routine",
+      "evaluation_example": "Sheld reviews quantum equations, meets with colleague Lissa, enjoys coffee at a quiet shop, reads vintage comics, discusses research with Anna, and plans his day meticulously."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 07:30–07:59",
+      "summary_sentence": "Day 0, 07:30:01 [activity] Day 0, 07:35:01 [activity] Day 0, 07:40:01 [activity] Day 0, 07:45:01 [activity] Day 0, 07:50:01 [activity] Day 0, 07:55:01 [activity]",
+      "evaluation_phrase": "Structured routine adhered",
+      "evaluation_example": "Sheld follows precise morning schedule, checks emails, prepares for work."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 08:30–08:59",
+      "summary_sentence": "Day 0, 08:30:01 [activity] Day 0, 08:35:01 [activity] Day 0, 08:40:01 [activity] Day 0, 08:45:01 [activity] Day 0, 08:50:01 [activity] Day 0, 08:55:01 [activity]",
+      "evaluation_phrase": "Inadequate activity details prevent realism evaluation",
+      "evaluation_example": "[activity] could be \"brewing coffee, reviewing research papers, commuting to work\" for a structured professional."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 09:00–09:29",
+      "summary_sentence": "Day 0, 09:00:01 [activity] Day 0, 09:05:01 [activity] Day 0, 09:10:01 [activity] Day 0, 09:15:01 [activity] Day 0, 09:20:01 [activity] Day 0, 09:25:01 [thought] Day 0, 09:25:01 [activity] Day 0, 09:25:01 [thought] Day 0, 09:25:01 [thought]",
+      "evaluation_phrase": "Strict adherence to routine aligns with his structured lifestyle.",
+      "evaluation_example": "Sheld meticulously reviews research papers at his desk, avoiding deviations from his schedule."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 07:00–07:29",
+      "summary_sentence": "Day 0, 07:00:01 [activity] Day 0, 07:05:01 [thought] Day 0, 07:05:01 [thought] Day 0, 07:05:01 [activity] Day 0, 07:10:01 [activity] Day 0, 07:15:01 [activity] Day 0, 07:20:01 [activity] Day 0, 07:25:01 [activity]",
+      "evaluation_phrase": "Overly structured routine with frequent task-switching",
+      "evaluation_example": "Sheld meticulously checks emails, brews coffee, organizes notes, reviews research, and plans his day in rapid succession."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 09:30–09:59",
+      "summary_sentence": "Day 0, 09:30:01 [activity] Day 0, 09:35:01 [activity] Day 0, 09:40:01 [activity] Day 0, 09:45:01 [activity] Day 0, 09:50:01 [activity] Day 0, 09:55:01 [activity]",
+      "evaluation_phrase": "Adheres to strict morning routine with minimal deviations",
+      "evaluation_example": "Sheld follows his precise schedule, sipping coffee at a local shop before heading to Columbia for research meetings."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 10:30–10:59",
+      "summary_sentence": "Day 0, 10:30:01 [activity] Day 0, 10:30:01 [conversation] Day 0, 10:35:01 [activity] Day 0, 10:35:01 [conversation] Day 0, 10:40:01 [activity] Day 0, 10:40:01 [conversation] Day 0, 10:45:01 [activity] Day 0, 10:50:01 [activity] Day 0, 10:55:01 [activity]",
+      "evaluation_phrase": "Unrealistic activity frequency",
+      "evaluation_example": "Sheld would likely have fewer, more spaced-out tasks/conversations in 30 minutes."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 13:30–13:59",
+      "summary_sentence": "Day 0, 13:30:01 [activity] Day 0, 13:30:01 [conversation] Day 0, 13:35:01 [activity] Day 0, 13:40:01 [activity] Day 0, 13:45:01 [activity] Day 0, 13:50:01 [activity] Day 0, 13:55:01 [activity]",
+      "evaluation_phrase": "Highly structured routine",
+      "evaluation_example": "Sheld meticulously checks his watch, then proceeds to his lab at Columbia University for a scheduled research meeting."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 11:00–11:29",
+      "summary_sentence": "Day 0, 11:00:01 [activity] Day 0, 11:05:01 [activity] Day 0, 11:10:01 [activity] Day 0, 11:15:01 [activity] Day 0, 11:20:01 [activity] Day 0, 11:25:01 [activity]",
+      "evaluation_phrase": "Analytical focus on structured tasks aligns with his orderly nature.",
+      "evaluation_example": "Solving complex equations at work, then sipping coffee at a quiet café."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 12:00–12:29",
+      "summary_sentence": "Day 0, 12:00:01 [activity] Day 0, 12:05:01 [activity] Day 0, 12:10:01 [activity] Day 0, 12:15:01 [activity] Day 0, 12:20:01 [activity] Day 0, 12:25:01 [activity]",
+      "evaluation_phrase": "Summary lacks specific activities for realism evaluation",
+      "evaluation_example": "No concrete actions listed to assess alignment with his orderly, rule-bound persona."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 13:00–13:29",
+      "summary_sentence": "Day 0, 13:00:01 [conversation] Day 0, 13:00:01 [activity] Day 0, 13:05:01 [activity] Day 0, 13:05:01 [conversation] Day 0, 13:10:01 [activity] Day 0, 13:10:01 [conversation] Day 0, 13:15:01 [activity] Day 0, 13:15:01 [conversation] Day 0, 13:20:01 [activity] Day 0, 13:20:01 [conversation] Day 0, 13:25:01 [conversation] Day 0, 13:25:01 [activity]",
+      "evaluation_phrase": "Highly structured routine contradicted by frequent task-switching",
+      "evaluation_example": "Sheld alternates between work and conversations every 5 minutes, disrupting his orderly schedule."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 14:00–14:29",
+      "summary_sentence": "Day 0, 14:00:01 [activity] Day 0, 14:05:01 [activity] Day 0, 14:05:01 [thought] Day 0, 14:05:01 [thought] Day 0, 14:10:01 [activity] Day 0, 14:15:01 [activity] Day 0, 14:20:01 [activity] Day 0, 14:25:01 [activity]",
+      "evaluation_phrase": "Realistic routine with structured work and leisure",
+      "evaluation_example": "Sheld works on quantum research, takes a coffee break at a local shop, reviews comic books, and returns to his lab."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 14:30–14:59",
+      "summary_sentence": "Day 0, 14:30:01 [activity] Day 0, 14:35:01 [activity] Day 0, 14:40:01 [activity] Day 0, 14:45:01 [activity] Day 0, 14:50:01 [activity] Day 0, 14:55:01 [activity]",
+      "evaluation_phrase": "Unrealistic schedule",
+      "evaluation_example": "Sheld would likely have a specific task like reviewing research papers or attending a lab meeting, not vague \"activities.\""
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 16:00–16:29",
+      "summary_sentence": "Day 0, 16:00:01 [activity] Day 0, 16:05:01 [activity] Day 0, 16:10:01 [activity] Day 0, 16:15:01 [activity] Day 0, 16:20:01 [activity] Day 0, 16:25:01 [activity] Day 0, 16:25:01 [thought] Day 0, 16:25:01 [thought] Day 0, 16:25:01 [thought]",
+      "evaluation_phrase": "Inadequate activity details hinder realism assessment",
+      "evaluation_example": "No specific tasks or interactions shown to align with his structured physicist routine."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 17:00–17:29",
+      "summary_sentence": "Day 0, 17:00:01 [activity] Day 0, 17:05:01 [activity] Day 0, 17:10:01 [activity] Day 0, 17:15:01 [activity] Day 0, 17:15:01 [conversation] Day 0, 17:20:01 [activity] Day 0, 17:20:01 [conversation] Day 0, 17:20:01 [conversation] Day 0, 17:25:01 [conversation] Day 0, 17:25:01 [conversation] Day 0, 17:25:01 [activity]",
+      "evaluation_phrase": "Highly structured routine",
+      "evaluation_example": "Sheld checks his watch, then methodically reviews his research notes before joining a scheduled team meeting."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 12:30–12:59",
+      "summary_sentence": "Day 0, 12:30:01 [activity] Day 0, 12:35:01 [activity] Day 0, 12:40:01 [activity] Day 0, 12:45:01 [activity] Day 0, 12:50:01 [activity] Day 0, 12:55:01 [activity] Day 0, 12:55:01 [conversation]",
+      "evaluation_phrase": "Realistic schedule with varied work tasks and a colleague conversation",
+      "evaluation_example": "Sheld attends a meeting, works on a paper, and discusses research with Benny Hernandez."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 16:30–16:59",
+      "summary_sentence": "Day 0, 16:30:01 [activity] Day 0, 16:35:01 [activity] Day 0, 16:40:01 [activity] Day 0, 16:40:01 [conversation] Day 0, 16:45:01 [activity] Day 0, 16:45:01 [conversation] Day 0, 16:50:01 [conversation] Day 0, 16:50:01 [activity] Day 0, 16:50:01 [conversation] Day 0, 16:55:01 [conversation] Day 0, 16:55:01 [activity]",
+      "evaluation_phrase": "Overlapping activities and frequent conversations in a short span seem unrealistic.",
+      "evaluation_example": "Sheld can't simultaneously attend three meetings and two coffee shop chats within 30 minutes."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 15:00–15:29",
+      "summary_sentence": "Day 0, 15:00:01 [activity] Day 0, 15:05:01 [activity] Day 0, 15:10:01 [activity] Day 0, 15:15:01 [activity] Day 0, 15:20:01 [activity] Day 0, 15:25:01 [activity]",
+      "evaluation_phrase": "Structured routine with no deviations",
+      "evaluation_example": "Sheld meticulously reviews equations at work, then sips coffee at a quiet shop, adhering to his schedule."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 15:30–15:59",
+      "summary_sentence": "Day 0, 15:30:01 [activity] Day 0, 15:35:01 [activity] Day 0, 15:40:01 [activity] Day 0, 15:45:01 [activity] Day 0, 15:50:01 [activity] Day 0, 15:55:01 [activity]",
+      "evaluation_phrase": "Summary lacks specific activities to evaluate realism",
+      "evaluation_example": "[activity] entries are unspecified, making it impossible to assess behavioral consistency."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 17:30–17:59",
+      "summary_sentence": "Day 0, 17:30:01 [activity] Day 0, 17:30:01 [conversation] Day 0, 17:30:01 [conversation] Day 0, 17:35:01 [activity] Day 0, 17:35:01 [conversation] Day 0, 17:40:01 [activity] Day 0, 17:40:01 [conversation] Day 0, 17:45:01 [conversation] Day 0, 17:45:01 [conversation] Day 0, 17:45:01 [conversation] Day 0, 17:45:01 [activity] Day 0, 17:50:01 [activity] Day 0, 17:50:01 [conversation] Day 0, 17:50:01 [conversation] Day 0, 17:50:01 [conversation] Day 0, 17:55:01 [activity] Day 0, 17:55:01 [conversation] Day 0, 17:55:01 [conversation] Day 0, 17:55:01 [conversation]",
+      "evaluation_phrase": "Unrealistically high activity/conversation frequency for a structured individual",
+      "evaluation_example": "Attending 3 meetings, 2 coffee shop visits, and 5 conversations in 30 minutes contradicts his rule-bound, orderly nature."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 11:30–11:59",
+      "summary_sentence": "Day 0, 11:30:01 [activity] Day 0, 11:35:01 [thought] Day 0, 11:35:01 [activity] Day 0, 11:35:01 [thought] Day 0, 11:35:01 [thought] Day 0, 11:40:01 [activity] Day 0, 11:45:01 [activity] Day 0, 11:50:01 [activity] Day 0, 11:55:01 [activity]",
+      "evaluation_phrase": "Summary lacks specific activity details for realism assessment",
+      "evaluation_example": "Sheld's routine isn't detailed enough to judge if it aligns with his orderly nature."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 20:30–20:59",
+      "summary_sentence": "Day 0, 20:30:01 [activity] Day 0, 20:35:01 [activity] Day 0, 20:40:01 [activity] Day 0, 20:45:01 [activity] Day 0, 20:50:01 [activity] Day 0, 20:55:01 [activity]",
+      "evaluation_phrase": "Highly structured routine",
+      "evaluation_example": "Sheld meticulously reviews research papers from 20:30–20:59, avoiding deviations from his schedule."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 21:00–21:29",
+      "summary_sentence": "Day 0, 21:00:01 [activity] Day 0, 21:05:01 [activity] Day 0, 21:10:01 [activity] Day 0, 21:15:01 [activity] Day 0, 21:20:01 [activity] Day 0, 21:20:01 [thought] Day 0, 21:20:01 [thought] Day 0, 21:20:01 [thought] Day 0, 21:25:01 [activity]",
+      "evaluation_phrase": "Highly structured routine",
+      "evaluation_example": "Sheld reviews research papers at 21:00, then organizes his bookshelf at 21:05."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 18:30–18:59",
+      "summary_sentence": "Day 0, 18:30:01 [activity] Day 0, 18:30:01 [conversation] Day 0, 18:30:01 [conversation] Day 0, 18:35:01 [conversation] Day 0, 18:35:01 [activity] Day 0, 18:40:01 [conversation] Day 0, 18:40:01 [activity] Day 0, 18:45:01 [activity] Day 0, 18:45:01 [conversation] Day 0, 18:50:01 [activity] Day 0, 18:50:01 [conversation] Day 0, 18:55:01 [thought] Day 0, 18:55:01 [thought] Day 0, 18:55:01 [activity] Day 0, 18:55:01 [conversation] Day 0, 18:55:01 [conversation]",
+      "evaluation_phrase": "Unrealistic activity frequency",
+      "evaluation_example": "Sheld switches between 10+ tasks/conversations in 29 minutes, defying human cognitive limits."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 19:00–19:29",
+      "summary_sentence": "Day 0, 19:00:01 [conversation] Day 0, 19:00:01 [activity] Day 0, 19:00:01 [conversation] Day 0, 19:05:01 [activity] Day 0, 19:05:01 [conversation] Day 0, 19:05:01 [conversation] Day 0, 19:10:01 [activity] Day 0, 19:10:01 [conversation] Day 0, 19:10:01 [conversation] Day 0, 19:15:01 [conversation] Day 0, 19:15:01 [activity] Day 0, 19:15:01 [conversation] Day 0, 19:20:01 [activity] Day 0, 19:20:01 [conversation] Day 0, 19:20:01 [conversation] Day 0, 19:25:01 [activity] Day 0, 19:25:01 [conversation] Day 0, 19:25:01 [conversation]",
+      "evaluation_phrase": "High frequency of overlapping activities/conversations",
+      "evaluation_example": "Sheld can't simultaneously attend two meetings and chat with three colleagues every 5 minutes in real life."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 22:00–22:29",
+      "summary_sentence": "Day 0, 22:00:01 [activity] Day 0, 22:05:01 [activity] Day 0, 22:10:01 [activity] Day 0, 22:15:01 [activity] Day 0, 22:20:01 [activity] Day 0, 22:25:01 [activity]",
+      "evaluation_phrase": "Highly structured routine",
+      "evaluation_example": "Sheld reviews research papers, organizes his bookshelf, and plays a retro video game at the same time every night."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 20:00–20:29",
+      "summary_sentence": "Day 0, 20:00:01 [conversation] Day 0, 20:00:01 [conversation] Day 0, 20:00:01 [activity] Day 0, 20:05:01 [activity] Day 0, 20:05:01 [conversation] Day 0, 20:10:01 [activity] Day 0, 20:10:01 [conversation] Day 0, 20:15:01 [activity] Day 0, 20:20:01 [activity] Day 0, 20:25:01 [activity]",
+      "evaluation_phrase": "Unrealistic frequency of activities and conversations in 30 minutes.",
+      "evaluation_example": "Engaging in multiple conversations and activities every 5 minutes is implausible for a human's typical evening routine."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 23:30–23:59",
+      "summary_sentence": "Day 0, 23:30:01 [activity] Day 0, 23:35:01 [activity] Day 0, 23:40:01 [activity] Day 0, 23:45:01 [activity] Day 0, 23:50:01 [activity] Day 0, 23:55:01 [activity]",
+      "evaluation_phrase": "Highly structured routine",
+      "evaluation_example": "Sheld reviews research papers, organizes his workspace, and reads a vintage comic book before bed."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 21:30–21:59",
+      "summary_sentence": "Day 0, 21:30:01 [activity] Day 0, 21:35:01 [activity] Day 0, 21:40:01 [activity] Day 0, 21:45:01 [activity] Day 0, 21:50:01 [activity] Day 0, 21:55:01 [activity]",
+      "evaluation_phrase": "Overly structured timeline lacks natural human variability",
+      "evaluation_example": "Sheld might review research papers, then relax with a comic, not repeating the same activity every 5 minutes."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 18:00–18:29",
+      "summary_sentence": "Day 0, 18:00:01 [conversation] Day 0, 18:00:01 [conversation] Day 0, 18:00:01 [activity] Day 0, 18:00:01 [conversation] Day 0, 18:05:01 [activity] Day 0, 18:05:01 [conversation] Day 0, 18:05:01 [conversation] Day 0, 18:10:01 [conversation] Day 0, 18:10:01 [conversation] Day 0, 18:10:01 [activity] Day 0, 18:10:01 [thought] Day 0, 18:10:01 [thought] Day 0, 18:10:01 [thought] Day 0, 18:15:01 [activity] Day 0, 18:15:01 [conversation] Day 0, 18:15:01 [conversation] Day 0, 18:15:01 [conversation] Day 0, 18:20:01 [conversation] Day 0, 18:20:01 [conversation] Day 0, 18:20:01 [activity] Day 0, 18:20:01 [conversation] Day 0, 18:25:01 [activity] Day 0, 18:25:01 [conversation] Day 0, 18:25:01 [conversation] Day 0, 18:25:01 [conversation]",
+      "evaluation_phrase": "Unrealistic frequency of simultaneous activities",
+      "evaluation_example": "Sheld engages in three conversations and an activity at 18:00:01, which is implausible for a human in such a brief span."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 22:30–22:59",
+      "summary_sentence": "Day 0, 22:30:01 [activity] Day 0, 22:35:01 [activity] Day 0, 22:40:01 [activity] Day 0, 22:45:01 [activity] Day 0, 22:50:01 [activity] Day 0, 22:55:01 [activity]",
+      "evaluation_phrase": "Strictly follows routine, no deviations",
+      "evaluation_example": "Sheld reads physics journals at home, avoiding social events."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 00:00–00:29",
+      "summary_sentence": "Day 1, 00:00:01 [thought] Day 1, 00:00:01 [thought] Day 1, 00:00:01 [thought] Day 1, 00:00:01 [activity] Day 1, 00:05:01 [activity] Day 1, 00:10:01 [activity] Day 1, 00:15:01 [activity] Day 1, 00:20:01 [activity] Day 1, 00:25:01 [activity]",
+      "evaluation_phrase": "Strict adherence to order",
+      "evaluation_example": "Sheld meticulously reviews research papers at 00:10, then prepares a precise breakfast routine at 00:15."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 19:30–19:59",
+      "summary_sentence": "Day 0, 19:30:01 [conversation] Day 0, 19:30:01 [conversation] Day 0, 19:30:01 [activity] Day 0, 19:35:01 [activity] Day 0, 19:35:01 [conversation] Day 0, 19:35:01 [conversation] Day 0, 19:40:01 [activity] Day 0, 19:40:01 [conversation] Day 0, 19:40:01 [conversation] Day 0, 19:45:01 [conversation] Day 0, 19:45:01 [conversation] Day 0, 19:45:01 [activity] Day 0, 19:50:01 [activity] Day 0, 19:50:01 [conversation] Day 0, 19:50:01 [conversation] Day 0, 19:55:01 [activity] Day 0, 19:55:01 [conversation] Day 0, 19:55:01 [conversation]",
+      "evaluation_phrase": "Excessive activity/conversation frequency in 30 minutes seems unrealistic.",
+      "evaluation_example": "Sheld alternates between 5+ conversations and 4 activities every 5 minutes, which strains human capacity."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 02:30–02:59",
+      "summary_sentence": "Day 1, 02:30:01 [activity] Day 1, 02:35:01 [activity] Day 1, 02:40:01 [activity] Day 1, 02:45:01 [activity] Day 1, 02:50:01 [activity] Day 1, 02:55:01 [activity]",
+      "evaluation_phrase": "Highly unrealistic",
+      "evaluation_example": "Sheld is active at 2:30 AM, which contradicts his strict daily regimen and preference for coffee shops during the day."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 03:00–03:29",
+      "summary_sentence": "Day 1, 03:00:01 [activity] Day 1, 03:05:01 [activity] Day 1, 03:10:01 [activity] Day 1, 03:15:01 [activity] Day 1, 03:20:01 [activity] Day 1, 03:25:01 [activity]",
+      "evaluation_phrase": "Highly unrealistic schedule",
+      "evaluation_example": "Sheld would not be active at 3:00 AM with no sleep mentioned."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 01:30–01:59",
+      "summary_sentence": "Day 1, 01:30:01 [activity] Day 1, 01:35:01 [activity] Day 1, 01:40:01 [activity] Day 1, 01:45:01 [activity] Day 1, 01:50:01 [activity] Day 1, 01:55:01 [activity]",
+      "evaluation_phrase": "Strict adherence to routine and structured activities",
+      "evaluation_example": "Sheld reviews research papers, takes a scheduled coffee break, and organizes lab equipment."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 00:30–00:59",
+      "summary_sentence": "Day 1, 00:30:01 [activity] Day 1, 00:35:01 [activity] Day 1, 00:40:01 [activity] Day 1, 00:45:01 [activity] Day 1, 00:50:01 [activity] Day 1, 00:55:01 [activity]",
+      "evaluation_phrase": "Strict adherence to routine",
+      "evaluation_example": "Sheld meticulously reviews quantum equations at 00:45, resisting deviations from his schedule."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 02:00–02:29",
+      "summary_sentence": "Day 1, 02:00:01 [activity] Day 1, 02:05:01 [activity] Day 1, 02:10:01 [activity] Day 1, 02:15:01 [activity] Day 1, 02:20:01 [activity] Day 1, 02:25:01 [activity]",
+      "evaluation_phrase": "Inconsistent routine lacks specific activities",
+      "evaluation_example": "Sheld works on quantum equations, then reads comics at a café."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 05:00–05:29",
+      "summary_sentence": "Day 1, 05:00:01 [conversation] Day 1, 05:00:01 [activity] Day 1, 05:00:01 [thought] Day 1, 05:00:01 [thought] Day 1, 05:00:01 [thought] Day 1, 05:05:01 [activity] Day 1, 05:10:01 [activity] Day 1, 05:15:01 [activity] Day 1, 05:20:01 [activity] Day 1, 05:25:01 [activity]",
+      "evaluation_phrase": "Highly unrealistic",
+      "evaluation_example": "Sheld is active at 5:00 AM, but no details about his actions or thoughts suggest a plausible morning routine."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 04:30–04:59",
+      "summary_sentence": "Day 1, 04:30:01 [activity] Day 1, 04:30:01 [conversation] Day 1, 04:30:01 [conversation] Day 1, 04:30:01 [conversation] Day 1, 04:35:01 [conversation] Day 1, 04:35:01 [conversation] Day 1, 04:35:01 [activity] Day 1, 04:40:01 [activity] Day 1, 04:40:01 [conversation] Day 1, 04:40:01 [conversation] Day 1, 04:45:01 [activity] Day 1, 04:45:01 [conversation] Day 1, 04:50:01 [activity] Day 1, 04:50:01 [conversation] Day 1, 04:55:01 [activity] Day 1, 04:55:01 [conversation]",
+      "evaluation_phrase": "Unrealistic timing for multiple conversations",
+      "evaluation_example": "Sheld engaging in 5+ conversations at 4:30 AM contradicts typical human sleep patterns."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 04:00–04:29",
+      "summary_sentence": "Day 1, 04:00:01 [activity] Day 1, 04:00:01 [conversation] Day 1, 04:00:01 [conversation] Day 1, 04:05:01 [conversation] Day 1, 04:05:01 [conversation] Day 1, 04:05:01 [activity] Day 1, 04:10:01 [activity] Day 1, 04:10:01 [conversation] Day 1, 04:10:01 [conversation] Day 1, 04:10:01 [conversation] Day 1, 04:15:01 [conversation] Day 1, 04:15:01 [activity] Day 1, 04:15:01 [conversation] Day 1, 04:15:01 [conversation] Day 1, 04:20:01 [conversation] Day 1, 04:20:01 [conversation] Day 1, 04:20:01 [activity] Day 1, 04:20:01 [conversation] Day 1, 04:25:01 [activity] Day 1, 04:25:01 [conversation] Day 1, 04:25:01 [conversation] Day 1, 04:25:01 [conversation]",
+      "evaluation_phrase": "Unrealistic event frequency",
+      "evaluation_example": "Sheld would not have 8+ activities/conversations in 29 minutes with identical timestamps."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 06:30–06:59",
+      "summary_sentence": "Day 1, 06:30:01 [activity] Day 1, 06:35:01 [activity] Day 1, 06:40:01 [activity] Day 1, 06:45:01 [activity] Day 1, 06:50:01 [activity] Day 1, 06:55:01 [activity]",
+      "evaluation_phrase": "Highly structured routine",
+      "evaluation_example": "Sheld wakes at 06:30, reviews equations, drinks coffee, and plans his day with precision."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 23:00–23:29",
+      "summary_sentence": "Day 0, 23:00:01 [activity] Day 0, 23:05:01 [activity] Day 0, 23:10:01 [activity] Day 0, 23:15:01 [activity] Day 0, 23:20:01 [activity] Day 0, 23:25:01 [activity]",
+      "evaluation_phrase": "Inadequate activity details prevent realism evaluation",
+      "evaluation_example": "[activity] placeholders lack specificity."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 05:30–05:59",
+      "summary_sentence": "Day 1, 05:30:01 [thought] Day 1, 05:30:01 [thought] Day 1, 05:30:01 [activity] Day 1, 05:35:01 [activity] Day 1, 05:40:01 [activity] Day 1, 05:45:01 [activity] Day 1, 05:50:01 [activity] Day 1, 05:55:01 [activity]",
+      "evaluation_phrase": "Incomplete activity details",
+      "evaluation_example": "Sheld's 30-minute timeline lacks specific actions, making it impossible to assess realism against his structured routine."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 08:00–08:29",
+      "summary_sentence": "Day 1, 08:00:01 [activity] Day 1, 08:05:01 [activity] Day 1, 08:10:01 [activity] Day 1, 08:15:01 [activity] Day 1, 08:20:01 [activity] Day 1, 08:25:01 [activity]",
+      "evaluation_phrase": "Highly realistic routine",
+      "evaluation_example": "Sheld follows his precise daily regimen, starting with a structured morning at Columbia University."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 03:30–03:59",
+      "summary_sentence": "Day 1, 03:30:01 [activity] Day 1, 03:35:01 [activity] Day 1, 03:40:01 [activity] Day 1, 03:45:01 [conversation] Day 1, 03:45:01 [activity] Day 1, 03:45:01 [thought] Day 1, 03:45:01 [thought] Day 1, 03:45:01 [thought] Day 1, 03:50:01 [activity] Day 1, 03:50:01 [conversation] Day 1, 03:55:01 [activity] Day 1, 03:55:01 [conversation] Day 1, 03:55:01 [conversation]",
+      "evaluation_phrase": "Unrealistic activity density at 3:30 AM",
+      "evaluation_example": "Sheld attends three meetings, solves a physics problem, and chats with four colleagues in 29 minutes."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 06:00–06:29",
+      "summary_sentence": "Day 1, 06:00:01 [activity] Day 1, 06:05:01 [activity] Day 1, 06:10:01 [activity] Day 1, 06:15:01 [activity] Day 1, 06:20:01 [activity] Day 1, 06:25:01 [activity]",
+      "evaluation_phrase": "Strict morning routine with no deviations",
+      "evaluation_example": "Sheld follows his precise schedule, brewing coffee and reviewing research papers at 6:15 AM."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 01:00–01:29",
+      "summary_sentence": "Day 1, 01:00:01 [activity] Day 1, 01:05:01 [activity] Day 1, 01:10:01 [activity] Day 1, 01:15:01 [activity] Day 1, 01:20:01 [activity] Day 1, 01:25:01 [activity]",
+      "evaluation_phrase": "Unrealistic schedule for a generic human; too rigid and nocturnal",
+      "evaluation_example": "\"Sheld stays up until 1 AM working on quantum equations.\""
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 10:00–10:29",
+      "summary_sentence": "Day 1, 10:00:01 [activity] Day 1, 10:00:01 [conversation] Day 1, 10:05:01 [activity] Day 1, 10:10:01 [activity] Day 1, 10:15:01 [activity] Day 1, 10:20:01 [activity] Day 1, 10:25:01 [activity]",
+      "evaluation_phrase": "Highly structured routine",
+      "evaluation_example": "Sheld meticulously checks his watch, then organizes his coffee cups before beginning his morning research."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 08:30–08:59",
+      "summary_sentence": "Day 1, 08:30:01 [activity] Day 1, 08:35:01 [activity] Day 1, 08:40:01 [activity] Day 1, 08:45:01 [activity] Day 1, 08:50:01 [activity] Day 1, 08:55:01 [activity]",
+      "evaluation_phrase": "Summary lacks specific activities for realism assessment",
+      "evaluation_example": "No actions detailed to judge behavior plausibility."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 07:00–07:29",
+      "summary_sentence": "Day 1, 07:00:01 [activity] Day 1, 07:05:01 [activity] Day 1, 07:10:01 [activity] Day 1, 07:15:01 [activity] Day 1, 07:20:01 [activity] Day 1, 07:25:01 [activity]",
+      "evaluation_phrase": "Realistic morning routine for a physicist",
+      "evaluation_example": "Sheld sips coffee, reviews research papers, and organizes his workspace at Clinton Towers."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 10:30–10:59",
+      "summary_sentence": "Day 1, 10:30:01 [activity] Day 1, 10:35:01 [thought] Day 1, 10:35:01 [thought] Day 1, 10:35:01 [thought] Day 1, 10:35:01 [activity] Day 1, 10:40:01 [activity] Day 1, 10:40:01 [conversation] Day 1, 10:45:01 [conversation] Day 1, 10:45:01 [activity] Day 1, 10:50:01 [activity] Day 1, 10:50:01 [conversation] Day 1, 10:55:01 [activity]",
+      "evaluation_phrase": "Highly structured routine",
+      "evaluation_example": "Sheld checks his schedule at 10:30, then methodically reviews research notes and attends a lab meeting."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 11:30–11:59",
+      "summary_sentence": "Day 1, 11:30:01 [activity] Day 1, 11:35:01 [activity] Day 1, 11:40:01 [activity] Day 1, 11:45:01 [activity] Day 1, 11:50:01 [activity] Day 1, 11:55:01 [activity]",
+      "evaluation_phrase": "Highly structured routine",
+      "evaluation_example": "Sheld checks his schedule, reviews research notes, and prepares for a lab meeting with colleagues."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 12:00–12:29",
+      "summary_sentence": "Day 1, 12:00:01 [activity] Day 1, 12:05:01 [activity] Day 1, 12:10:01 [activity] Day 1, 12:15:01 [activity] Day 1, 12:20:01 [activity] Day 1, 12:25:01 [activity]",
+      "evaluation_phrase": "Highly realistic routine",
+      "evaluation_example": "Sheld follows a precise schedule, likely working on quantum theory research at Columbia University."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 12:30–12:59",
+      "summary_sentence": "Day 1, 12:30:01 [activity] Day 1, 12:30:01 [thought] Day 1, 12:30:01 [thought] Day 1, 12:30:01 [thought] Day 1, 12:35:01 [activity] Day 1, 12:40:01 [activity] Day 1, 12:45:01 [activity] Day 1, 12:50:01 [activity] Day 1, 12:55:01 [activity]",
+      "evaluation_phrase": "Highly structured routine",
+      "evaluation_example": "Sheld checks his watch, then methodically reviews his research notes before heading to lunch."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 13:30–13:59",
+      "summary_sentence": "Day 1, 13:30:01 [activity] Day 1, 13:35:01 [activity] Day 1, 13:40:01 [activity] Day 1, 13:45:01 [activity] Day 1, 13:50:01 [activity] Day 1, 13:55:01 [activity]",
+      "evaluation_phrase": "Highly structured routine",
+      "evaluation_example": "Sheld checks his watch, then meticulously organizes his desk before heading to the coffee shop."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 07:30–07:59",
+      "summary_sentence": "Day 1, 07:30:01 [activity] Day 1, 07:35:01 [activity] Day 1, 07:40:01 [activity] Day 1, 07:45:01 [activity] Day 1, 07:50:01 [activity] Day 1, 07:55:01 [thought] Day 1, 07:55:01 [thought] Day 1, 07:55:01 [thought] Day 1, 07:55:01 [activity]",
+      "evaluation_phrase": "Inconsistent timeline with overlapping thoughts",
+      "evaluation_example": "three thoughts logged at 7:55:01, which is unrealistic for a human's sequential mental processing."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 14:30–14:59",
+      "summary_sentence": "Day 1, 14:30:01 [thought] Day 1, 14:30:01 [thought] Day 1, 14:30:01 [thought] Day 1, 14:30:01 [activity] Day 1, 14:35:01 [activity] Day 1, 14:40:01 [activity] Day 1, 14:45:01 [activity] Day 1, 14:50:01 [activity] Day 1, 14:55:01 [activity]",
+      "evaluation_phrase": "Highly unrealistic behavior",
+      "evaluation_example": "Sheld has no recorded actions or thoughts between 14:30 and 14:59, making the summary empty and implausible."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 11:00–11:29",
+      "summary_sentence": "Day 1, 11:00:01 [activity] Day 1, 11:05:01 [activity] Day 1, 11:10:01 [activity] Day 1, 11:15:01 [activity] Day 1, 11:20:01 [activity] Day 1, 11:25:01 [activity]",
+      "evaluation_phrase": "Incomplete activity details prevent realism evaluation",
+      "evaluation_example": "Sheld meticulously reviews quantum equations at his desk, sipping coffee from a vintage mug."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 09:00–09:29",
+      "summary_sentence": "Day 1, 09:00:01 [activity] Day 1, 09:05:01 [activity] Day 1, 09:10:01 [activity] Day 1, 09:15:01 [activity] Day 1, 09:20:01 [activity] Day 1, 09:25:01 [activity]",
+      "evaluation_phrase": "Maintains precise morning schedule",
+      "evaluation_example": "Sheld arrives at Columbia University exactly at 09:00 for a scheduled research meeting."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 09:30–09:59",
+      "summary_sentence": "Day 1, 09:30:01 [activity] Day 1, 09:35:01 [activity] Day 1, 09:40:01 [activity] Day 1, 09:45:01 [activity] Day 1, 09:45:01 [conversation] Day 1, 09:50:01 [activity] Day 1, 09:50:01 [conversation] Day 1, 09:55:01 [activity] Day 1, 09:55:01 [conversation]",
+      "evaluation_phrase": "Overly fragmented timeline",
+      "evaluation_example": "Switching between 6 activities/conversations every 5 minutes with exact second timestamps is unrealistic for human multitasking."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 14:00–14:29",
+      "summary_sentence": "Day 1, 14:00:01 [activity] Day 1, 14:05:01 [activity] Day 1, 14:10:01 [activity] Day 1, 14:15:01 [activity] Day 1, 14:20:01 [activity] Day 1, 14:25:01 [activity]",
+      "evaluation_phrase": "Adheres to structured routine, engages in focused academic work",
+      "evaluation_example": "Sheld reviews quantum equations at Columbia, then meets with colleague Lissa Wind for a scheduled research discussion."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 13:00–13:29",
+      "summary_sentence": "Day 1, 13:00:01 [activity] Day 1, 13:00:01 [conversation] Day 1, 13:05:01 [conversation] Day 1, 13:05:01 [activity] Day 1, 13:10:01 [activity] Day 1, 13:15:01 [activity] Day 1, 13:15:01 [conversation] Day 1, 13:20:01 [activity] Day 1, 13:20:01 [conversation] Day 1, 13:25:01 [activity] Day 1, 13:25:01 [conversation]",
+      "evaluation_phrase": "High activity/conversation frequency contradicts orderly routine",
+      "evaluation_example": "Sheld alternates between focused research and brief, structured meetings every 5 minutes, showing rigid scheduling rather than fluid social engagement."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 15:00–15:29",
+      "summary_sentence": "Day 1, 15:00:01 [activity] Day 1, 15:05:01 [activity] Day 1, 15:10:01 [activity] Day 1, 15:15:01 [activity] Day 1, 15:20:01 [activity] Day 1, 15:25:01 [activity]",
+      "evaluation_phrase": "Inadequate activity details hinder realism evaluation",
+      "evaluation_example": "Sheld would likely be working on complex equations or discussing research with colleagues at Columbia University."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 16:30–16:59",
+      "summary_sentence": "Day 1, 16:30:01 [activity] Day 1, 16:35:01 [conversation] Day 1, 16:35:01 [activity] Day 1, 16:40:01 [activity] Day 1, 16:40:01 [conversation] Day 1, 16:45:01 [activity] Day 1, 16:45:01 [conversation] Day 1, 16:50:01 [activity] Day 1, 16:50:01 [conversation] Day 1, 16:55:01 [activity] Day 1, 16:55:01 [conversation]",
+      "evaluation_phrase": "Unrealistic schedule alternation",
+      "evaluation_example": "Sheld would focus on complex equations for 20+ minutes, not switch tasks every 5 minutes."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 15:30–15:59",
+      "summary_sentence": "Day 1, 15:30:01 [activity] Day 1, 15:35:01 [activity] Day 1, 15:40:01 [activity] Day 1, 15:45:01 [activity] Day 1, 15:50:01 [activity] Day 1, 15:55:01 [activity]",
+      "evaluation_phrase": "Adheres to structured routine, prioritizes research and social obligations",
+      "evaluation_example": "attends lab meeting at Columbia, then visits a familiar coffee shop for a scheduled break."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 16:00–16:29",
+      "summary_sentence": "Day 1, 16:00:01 [activity] Day 1, 16:05:01 [activity] Day 1, 16:10:01 [activity] Day 1, 16:15:01 [activity] Day 1, 16:20:01 [activity] Day 1, 16:25:01 [activity]",
+      "evaluation_phrase": "Summary lacks specific activities, making realism indeterminate.",
+      "evaluation_example": "Sheld attends a 4:15 PM lab meeting at Columbia University."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 19:30–19:59",
+      "summary_sentence": "Day 1, 19:30:01 [activity] Day 1, 19:35:01 [activity] Day 1, 19:40:01 [activity] Day 1, 19:45:01 [activity] Day 1, 19:50:01 [activity] Day 1, 19:55:01 [activity]",
+      "evaluation_phrase": "Highly realistic routine",
+      "evaluation_example": "Sheld reviews research papers, attends a lab meeting, enjoys a quiet coffee at a local shop, discusses theories with a colleague, reviews his schedule for the next day, and texts his wife about dinner plans."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 17:00–17:29",
+      "summary_sentence": "Day 1, 17:00:01 [activity] Day 1, 17:00:01 [conversation] Day 1, 17:05:01 [conversation] Day 1, 17:05:01 [activity] Day 1, 17:10:01 [activity] Day 1, 17:10:01 [conversation] Day 1, 17:15:01 [activity] Day 1, 17:15:01 [conversation] Day 1, 17:20:01 [activity] Day 1, 17:20:01 [conversation] Day 1, 17:25:01 [activity] Day 1, 17:25:01 [conversation]",
+      "evaluation_phrase": "Overly structured schedule",
+      "evaluation_example": "Sheld alternates between work tasks and meetings every 5 minutes, lacking natural flow."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 20:30–20:59",
+      "summary_sentence": "Day 1, 20:30:01 [activity] Day 1, 20:35:01 [activity] Day 1, 20:40:01 [activity] Day 1, 20:45:01 [activity] Day 1, 20:50:01 [activity] Day 1, 20:55:01 [activity]",
+      "evaluation_phrase": "Highly structured routine",
+      "evaluation_example": "Sheld checks his schedule, reviews research notes, then enjoys a quiet coffee at a favorite shop."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 21:00–21:29",
+      "summary_sentence": "Day 1, 21:00:01 [activity] Day 1, 21:05:01 [activity] Day 1, 21:10:01 [activity] Day 1, 21:15:01 [activity] Day 1, 21:20:01 [activity] Day 1, 21:25:01 [activity]",
+      "evaluation_phrase": "Highly realistic routine",
+      "evaluation_example": "Sheld reviews research papers, plays retro video games, and discusses quantum theory with colleagues."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 18:00–18:29",
+      "summary_sentence": "Day 1, 18:00:01 [activity] Day 1, 18:05:01 [activity] Day 1, 18:10:01 [activity] Day 1, 18:15:01 [activity] Day 1, 18:20:01 [activity] Day 1, 18:25:01 [activity]",
+      "evaluation_phrase": "Consistent routine adherence with minor deviations",
+      "evaluation_example": "arrives home, checks emails, prepares dinner with Anna."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 19:00–19:29",
+      "summary_sentence": "Day 1, 19:00:01 [activity] Day 1, 19:05:01 [activity] Day 1, 19:05:01 [conversation] Day 1, 19:10:01 [activity] Day 1, 19:10:01 [conversation] Day 1, 19:15:01 [activity] Day 1, 19:15:01 [conversation] Day 1, 19:20:01 [activity] Day 1, 19:20:01 [conversation] Day 1, 19:25:01 [activity] Day 1, 19:25:01 [conversation]",
+      "evaluation_phrase": "Excessive task-switching in short intervals",
+      "evaluation_example": "Sheld alternates between work tasks and conversations every 5 minutes, lacking natural flow."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 18:30–18:59",
+      "summary_sentence": "Day 1, 18:30:01 [activity] Day 1, 18:35:01 [activity] Day 1, 18:35:01 [conversation] Day 1, 18:40:01 [activity] Day 1, 18:40:01 [conversation] Day 1, 18:45:01 [activity] Day 1, 18:45:01 [conversation] Day 1, 18:45:01 [conversation] Day 1, 18:50:01 [activity] Day 1, 18:50:01 [conversation] Day 1, 18:55:01 [conversation] Day 1, 18:55:01 [activity]",
+      "evaluation_phrase": "High activity/conversation frequency",
+      "evaluation_example": "Sheld alternates between tasks and calls every 5 minutes, which is unrealistic for a typical evening routine."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 23:00–23:29",
+      "summary_sentence": "Day 1, 23:00:01 [activity] Day 1, 23:05:01 [activity] Day 1, 23:10:01 [activity] Day 1, 23:15:01 [activity] Day 1, 23:20:01 [activity] Day 1, 23:25:01 [activity]",
+      "evaluation_phrase": "Highly realistic routine",
+      "evaluation_example": "Sheld reviews research papers, plays retro video games, and chats with his wife about the day's events."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 20:00–20:29",
+      "summary_sentence": "Day 1, 20:00:01 [activity] Day 1, 20:05:01 [activity] Day 1, 20:10:01 [activity] Day 1, 20:15:01 [thought] Day 1, 20:15:01 [thought] Day 1, 20:15:01 [thought] Day 1, 20:15:01 [activity] Day 1, 20:20:01 [activity] Day 1, 20:25:01 [activity]",
+      "evaluation_phrase": "Realistic routine for a physicist with structured hobbies and social engagements",
+      "evaluation_example": "Sheld methodically arranges his vintage comics at 20:15 while mentally reviewing equations for a 20:20 research meeting."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 22:30–22:59",
+      "summary_sentence": "Day 1, 22:30:01 [activity] Day 1, 22:35:01 [activity] Day 1, 22:40:01 [activity] Day 1, 22:45:01 [activity] Day 1, 22:50:01 [activity] Day 1, 22:55:01 [activity]",
+      "evaluation_phrase": "Unrealistic routine; no specific activities listed",
+      "evaluation_example": "Sheld might read a comic, play a game, or chat with Anna."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 22:00–22:29",
+      "summary_sentence": "Day 1, 22:00:01 [activity] Day 1, 22:05:01 [activity] Day 1, 22:10:01 [activity] Day 1, 22:15:01 [activity] Day 1, 22:20:01 [activity] Day 1, 22:25:01 [activity] Day 1, 22:25:01 [thought] Day 1, 22:25:01 [thought] Day 1, 22:25:01 [thought]",
+      "evaluation_phrase": "Realistic routine for a structured physicist",
+      "evaluation_example": "Sheld reviews research papers, sips coffee, and plans tomorrow's lab schedule at his apartment desk."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 23:30–23:59",
+      "summary_sentence": "Day 1, 23:30:01 [activity] Day 1, 23:35:01 [activity] Day 1, 23:35:01 [conversation] Day 1, 23:40:01 [activity] Day 1, 23:40:01 [conversation] Day 1, 23:45:01 [activity] Day 1, 23:45:01 [conversation] Day 1, 23:50:01 [activity] Day 1, 23:55:01 [activity]",
+      "evaluation_phrase": "Realistic for a structured physicist with late-night work habits",
+      "evaluation_example": "Sheld works late on quantum research, then enjoys a quiet coffee shop visit with a colleague."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 17:30–17:59",
+      "summary_sentence": "Day 1, 17:30:01 [activity] Day 1, 17:30:01 [thought] Day 1, 17:30:01 [conversation] Day 1, 17:30:01 [thought] Day 1, 17:30:01 [thought] Day 1, 17:35:01 [activity] Day 1, 17:40:01 [activity] Day 1, 17:45:01 [activity] Day 1, 17:50:01 [activity] Day 1, 17:55:01 [activity]",
+      "evaluation_phrase": "Strict schedule adherence is atypical for a generic human",
+      "evaluation_example": "Sheld follows his routine without deviation."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 21:30–21:59",
+      "summary_sentence": "Day 1, 21:30:01 [activity] Day 1, 21:35:01 [activity] Day 1, 21:40:01 [activity] Day 1, 21:45:01 [activity] Day 1, 21:50:01 [activity] Day 1, 21:55:01 [activity]",
+      "evaluation_phrase": "Inconsistent activity details hinder realism evaluation",
+      "evaluation_example": "No specific actions listed for Sheld during the 30-minute window."
+    }
+  ],
+  "daypart_summaries": [
+    {
+      "day": 0,
+      "daypart": "Morning (06:00–11:59)",
+      "summary": "Day 0, 06:00:01 [thought] Day 0, 06:00:01 [thought] Day 0, 06:00:01 [activity] Day 0, 06:05:01 [activity] Day 0, 06:10:01 [activity] Day 0, 06:15:01 [activity] Day 0, 06:20:01 [activity] Day 0, 06:25:01 [activity] Day 0, 06:30:01 [activity] Day 0, 06:35:01 [activity] Day 0, 06:40:01 [activity] Day 0, 06:45:01 [activity] Day 0, 06:50:01 [activity] Day 0, 06:55:01 [activity] Day 0, 07:00:01 [activity] Day 0, 07:05:01 [thought] Day 0, 07:05:01 [thought] Day 0, 07:05:01 [activity] Day 0, 07:10:01 [activity] Day 0, 07:15:01 [activity] Day 0, 07:20:01 [activity] Day 0, 07:25:01 [activity] Day 0, 07:30:01 [activity] Day 0, 07:35:01 [activity] Day 0, 07:40:01 [activity] Day 0, 07:45:01 [activity] Day 0, 07:50:01 [activity] Day 0, 07:55:01 [activity] Day 0, 08:00:01 [activity] Day 0, 08:05:01 [activity] Day 0, 08:10:01 [activity] Day 0, 08:15:01 [activity] Day 0, 08:20:01 [activity] Day 0, 08:25:01 [activity] Day 0, 08:30:01 [activity] Day 0, 08:35:01 [activity] Day 0, 08:40:01 [activity] Day 0, 08:45:01 [activity] Day 0, 08:50:01 [activity] Day 0, 08:55:01 [activity] Day 0, 09:00:01 [activity] Day 0, 09:05:01 [activity] Day 0, 09:10:01 [activity] Day 0, 09:15:01 [activity] Day 0, 09:20:01 [activity] Day 0, 09:25:01 [thought] Day 0, 09:25:01 [activity] Day 0, 09:25:01 [thought] Day 0, 09:25:01 [thought] Day 0, 09:30:01 [activity] Day 0, 09:35:01 [activity] Day 0, 09:40:01 [activity] Day 0, 09:45:01 [activity] Day 0, 09:50:01 [activity] Day 0, 09:55:01 [activity] Day 0, 10:00:01 [activity] Day 0, 10:05:01 [activity] Day 0, 10:10:01 [activity] Day 0, 10:15:01 [activity] Day 0, 10:20:01 [activity] Day 0, 10:25:01 [activity] Day 0, 10:30:01 [activity] Day 0, 10:30:01 [conversation] Day 0, 10:35:01 [activity] Day 0, 10:35:01 [conversation] Day 0, 10:40:01 [activity] Day 0, 10:40:01 [conversation] Day 0, 10:45:01 [activity] Day 0, 10:50:01 [activity] Day 0, 10:55:01 [activity] Day 0, 11:00:01 [activity] Day 0, 11:05:01 [activity] Day 0, 11:10:01 [activity] Day 0, 11:15:01 [activity] Day 0, 11:20:01 [activity] Day 0, 11:25:01 [activity] Day 0, 11:30:01 [activity] Day 0, 11:35:01 [thought] Day 0, 11:35:01 [activity] Day 0, 11:35:01 [thought] Day 0, 11:35:01 [thought] Day 0, 11:40:01 [activity] Day 0, 11:45:01 [activity] Day 0, 11:50:01 [activity] Day 0, 11:55:01 [activity]"
+    },
+    {
+      "day": 0,
+      "daypart": "Noon (12:00–13:59)",
+      "summary": "Day 0, 12:00:01 [activity] Day 0, 12:05:01 [activity] Day 0, 12:10:01 [activity] Day 0, 12:15:01 [activity] Day 0, 12:20:01 [activity] Day 0, 12:25:01 [activity] Day 0, 12:30:01 [activity] Day 0, 12:35:01 [activity] Day 0, 12:40:01 [activity] Day 0, 12:45:01 [activity] Day 0, 12:50:01 [activity] Day 0, 12:55:01 [activity] Day 0, 12:55:01 [conversation] Day 0, 13:00:01 [conversation] Day 0, 13:00:01 [activity] Day 0, 13:05:01 [activity] Day 0, 13:05:01 [conversation] Day 0, 13:10:01 [activity] Day 0, 13:10:01 [conversation] Day 0, 13:15:01 [activity] Day 0, 13:15:01 [conversation] Day 0, 13:20:01 [activity] Day 0, 13:20:01 [conversation] Day 0, 13:25:01 [conversation] Day 0, 13:25:01 [activity] Day 0, 13:30:01 [activity] Day 0, 13:30:01 [conversation] Day 0, 13:35:01 [activity] Day 0, 13:40:01 [activity] Day 0, 13:45:01 [activity] Day 0, 13:50:01 [activity] Day 0, 13:55:01 [activity]"
+    },
+    {
+      "day": 0,
+      "daypart": "Afternoon (14:00–17:59)",
+      "summary": "Day 0, 14:00:01 [activity] Day 0, 14:05:01 [activity] Day 0, 14:05:01 [thought] Day 0, 14:05:01 [thought] Day 0, 14:10:01 [activity] Day 0, 14:15:01 [activity] Day 0, 14:20:01 [activity] Day 0, 14:25:01 [activity] Day 0, 14:30:01 [activity] Day 0, 14:35:01 [activity] Day 0, 14:40:01 [activity] Day 0, 14:45:01 [activity] Day 0, 14:50:01 [activity] Day 0, 14:55:01 [activity] Day 0, 15:00:01 [activity] Day 0, 15:05:01 [activity] Day 0, 15:10:01 [activity] Day 0, 15:15:01 [activity] Day 0, 15:20:01 [activity] Day 0, 15:25:01 [activity] Day 0, 15:30:01 [activity] Day 0, 15:35:01 [activity] Day 0, 15:40:01 [activity] Day 0, 15:45:01 [activity] Day 0, 15:50:01 [activity] Day 0, 15:55:01 [activity] Day 0, 16:00:01 [activity] Day 0, 16:05:01 [activity] Day 0, 16:10:01 [activity] Day 0, 16:15:01 [activity] Day 0, 16:20:01 [activity] Day 0, 16:25:01 [activity] Day 0, 16:25:01 [thought] Day 0, 16:25:01 [thought] Day 0, 16:25:01 [thought] Day 0, 16:30:01 [activity] Day 0, 16:35:01 [activity] Day 0, 16:40:01 [activity] Day 0, 16:40:01 [conversation] Day 0, 16:45:01 [activity] Day 0, 16:45:01 [conversation] Day 0, 16:50:01 [conversation] Day 0, 16:50:01 [activity] Day 0, 16:50:01 [conversation] Day 0, 16:55:01 [conversation] Day 0, 16:55:01 [activity] Day 0, 17:00:01 [activity] Day 0, 17:05:01 [activity] Day 0, 17:10:01 [activity] Day 0, 17:15:01 [activity] Day 0, 17:15:01 [conversation] Day 0, 17:20:01 [activity] Day 0, 17:20:01 [conversation] Day 0, 17:20:01 [conversation] Day 0, 17:25:01 [conversation] Day 0, 17:25:01 [conversation] Day 0, 17:25:01 [activity] Day 0, 17:30:01 [activity] Day 0, 17:30:01 [conversation] Day 0, 17:30:01 [conversation] Day 0, 17:35:01 [activity] Day 0, 17:35:01 [conversation] Day 0, 17:40:01 [activity] Day 0, 17:40:01 [conversation] Day 0, 17:45:01 [conversation] Day 0, 17:45:01 [conversation] Day 0, 17:45:01 [conversation] Day 0, 17:45:01 [activity] Day 0, 17:50:01 [activity] Day 0, 17:50:01 [conversation] Day 0, 17:50:01 [conversation] Day 0, 17:50:01 [conversation] Day 0, 17:55:01 [activity] Day 0, 17:55:01 [conversation] Day 0, 17:55:01 [conversation] Day 0, 17:55:01 [conversation]"
+    },
+    {
+      "day": 0,
+      "daypart": "Evening (18:00–23:59)",
+      "summary": "Day 0, 18:00:01 [conversation] Day 0, 18:00:01 [conversation] Day 0, 18:00:01 [activity] Day 0, 18:00:01 [conversation] Day 0, 18:05:01 [activity] Day 0, 18:05:01 [conversation] Day 0, 18:05:01 [conversation] Day 0, 18:10:01 [conversation] Day 0, 18:10:01 [conversation] Day 0, 18:10:01 [activity] Day 0, 18:10:01 [thought] Day 0, 18:10:01 [thought] Day 0, 18:10:01 [thought] Day 0, 18:15:01 [activity] Day 0, 18:15:01 [conversation] Day 0, 18:15:01 [conversation] Day 0, 18:15:01 [conversation] Day 0, 18:20:01 [conversation] Day 0, 18:20:01 [conversation] Day 0, 18:20:01 [activity] Day 0, 18:20:01 [conversation] Day 0, 18:25:01 [activity] Day 0, 18:25:01 [conversation] Day 0, 18:25:01 [conversation] Day 0, 18:25:01 [conversation] Day 0, 18:30:01 [activity] Day 0, 18:30:01 [conversation] Day 0, 18:30:01 [conversation] Day 0, 18:35:01 [conversation] Day 0, 18:35:01 [activity] Day 0, 18:40:01 [conversation] Day 0, 18:40:01 [activity] Day 0, 18:45:01 [activity] Day 0, 18:45:01 [conversation] Day 0, 18:50:01 [activity] Day 0, 18:50:01 [conversation] Day 0, 18:55:01 [thought] Day 0, 18:55:01 [thought] Day 0, 18:55:01 [activity] Day 0, 18:55:01 [conversation] Day 0, 18:55:01 [conversation] Day 0, 19:00:01 [conversation] Day 0, 19:00:01 [activity] Day 0, 19:00:01 [conversation] Day 0, 19:05:01 [activity] Day 0, 19:05:01 [conversation] Day 0, 19:05:01 [conversation] Day 0, 19:10:01 [activity] Day 0, 19:10:01 [conversation] Day 0, 19:10:01 [conversation] Day 0, 19:15:01 [conversation] Day 0, 19:15:01 [activity] Day 0, 19:15:01 [conversation] Day 0, 19:20:01 [activity] Day 0, 19:20:01 [conversation] Day 0, 19:20:01 [conversation] Day 0, 19:25:01 [activity] Day 0, 19:25:01 [conversation] Day 0, 19:25:01 [conversation] Day 0, 19:30:01 [conversation] Day 0, 19:30:01 [conversation] Day 0, 19:30:01 [activity] Day 0, 19:35:01 [activity] Day 0, 19:35:01 [conversation] Day 0, 19:35:01 [conversation] Day 0, 19:40:01 [activity] Day 0, 19:40:01 [conversation] Day 0, 19:40:01 [conversation] Day 0, 19:45:01 [conversation] Day 0, 19:45:01 [conversation] Day 0, 19:45:01 [activity] Day 0, 19:50:01 [activity] Day 0, 19:50:01 [conversation] Day 0, 19:50:01 [conversation] Day 0, 19:55:01 [activity] Day 0, 19:55:01 [conversation] Day 0, 19:55:01 [conversation] Day 0, 20:00:01 [conversation] Day 0, 20:00:01 [conversation] Day 0, 20:00:01 [activity] Day 0, 20:05:01 [activity] Day 0, 20:05:01 [conversation] Day 0, 20:10:01 [activity] Day 0, 20:10:01 [conversation] Day 0, 20:15:01 [activity] Day 0, 20:20:01 [activity] Day 0, 20:25:01 [activity] Day 0, 20:30:01 [activity] Day 0, 20:35:01 [activity] Day 0, 20:40:01 [activity] Day 0, 20:45:01 [activity] Day 0, 20:50:01 [activity] Day 0, 20:55:01 [activity] Day 0, 21:00:01 [activity] Day 0, 21:05:01 [activity] Day 0, 21:10:01 [activity] Day 0, 21:15:01 [activity] Day 0, 21:20:01 [activity] Day 0, 21:20:01 [thought] Day 0, 21:20:01 [thought] Day 0, 21:20:01 [thought] Day 0, 21:25:01 [activity] Day 0, 21:30:01 [activity] Day 0, 21:35:01 [activity] Day 0, 21:40:01 [activity] Day 0, 21:45:01 [activity] Day 0, 21:50:01 [activity] Day 0, 21:55:01 [activity] Day 0, 22:00:01 [activity] Day 0, 22:05:01 [activity] Day 0, 22:10:01 [activity] Day 0, 22:15:01 [activity] Day 0, 22:20:01 [activity] Day 0, 22:25:01 [activity] Day 0, 22:30:01 [activity] Day 0, 22:35:01 [activity] Day 0, 22:40:01 [activity] Day 0, 22:45:01 [activity] Day 0, 22:50:01 [activity] Day 0, 22:55:01 [activity] Day 0, 23:00:01 [activity] Day 0, 23:05:01 [activity] Day 0, 23:10:01 [activity] Day 0, 23:15:01 [activity] Day 0, 23:20:01 [activity] Day 0, 23:25:01 [activity] Day 0, 23:30:01 [activity] Day 0, 23:35:01 [activity] Day 0, 23:40:01 [activity] Day 0, 23:45:01 [activity] Day 0, 23:50:01 [activity] Day 0, 23:55:01 [activity]"
+    },
+    {
+      "day": 1,
+      "daypart": "Morning (06:00–11:59)",
+      "summary": "Day 1, 06:00:01 [activity] Day 1, 06:05:01 [activity] Day 1, 06:10:01 [activity] Day 1, 06:15:01 [activity] Day 1, 06:20:01 [activity] Day 1, 06:25:01 [activity] Day 1, 06:30:01 [activity] Day 1, 06:35:01 [activity] Day 1, 06:40:01 [activity] Day 1, 06:45:01 [activity] Day 1, 06:50:01 [activity] Day 1, 06:55:01 [activity] Day 1, 07:00:01 [activity] Day 1, 07:05:01 [activity] Day 1, 07:10:01 [activity] Day 1, 07:15:01 [activity] Day 1, 07:20:01 [activity] Day 1, 07:25:01 [activity] Day 1, 07:30:01 [activity] Day 1, 07:35:01 [activity] Day 1, 07:40:01 [activity] Day 1, 07:45:01 [activity] Day 1, 07:50:01 [activity] Day 1, 07:55:01 [thought] Day 1, 07:55:01 [thought] Day 1, 07:55:01 [thought] Day 1, 07:55:01 [activity] Day 1, 08:00:01 [activity] Day 1, 08:05:01 [activity] Day 1, 08:10:01 [activity] Day 1, 08:15:01 [activity] Day 1, 08:20:01 [activity] Day 1, 08:25:01 [activity] Day 1, 08:30:01 [activity] Day 1, 08:35:01 [activity] Day 1, 08:40:01 [activity] Day 1, 08:45:01 [activity] Day 1, 08:50:01 [activity] Day 1, 08:55:01 [activity] Day 1, 09:00:01 [activity] Day 1, 09:05:01 [activity] Day 1, 09:10:01 [activity] Day 1, 09:15:01 [activity] Day 1, 09:20:01 [activity] Day 1, 09:25:01 [activity] Day 1, 09:30:01 [activity] Day 1, 09:35:01 [activity] Day 1, 09:40:01 [activity] Day 1, 09:45:01 [activity] Day 1, 09:45:01 [conversation] Day 1, 09:50:01 [activity] Day 1, 09:50:01 [conversation] Day 1, 09:55:01 [activity] Day 1, 09:55:01 [conversation] Day 1, 10:00:01 [activity] Day 1, 10:00:01 [conversation] Day 1, 10:05:01 [activity] Day 1, 10:10:01 [activity] Day 1, 10:15:01 [activity] Day 1, 10:20:01 [activity] Day 1, 10:25:01 [activity] Day 1, 10:30:01 [activity] Day 1, 10:35:01 [thought] Day 1, 10:35:01 [thought] Day 1, 10:35:01 [thought] Day 1, 10:35:01 [activity] Day 1, 10:40:01 [activity] Day 1, 10:40:01 [conversation] Day 1, 10:45:01 [conversation] Day 1, 10:45:01 [activity] Day 1, 10:50:01 [activity] Day 1, 10:50:01 [conversation] Day 1, 10:55:01 [activity] Day 1, 11:00:01 [activity] Day 1, 11:05:01 [activity] Day 1, 11:10:01 [activity] Day 1, 11:15:01 [activity] Day 1, 11:20:01 [activity] Day 1, 11:25:01 [activity] Day 1, 11:30:01 [activity] Day 1, 11:35:01 [activity] Day 1, 11:40:01 [activity] Day 1, 11:45:01 [activity] Day 1, 11:50:01 [activity] Day 1, 11:55:01 [activity]"
+    },
+    {
+      "day": 1,
+      "daypart": "Noon (12:00–13:59)",
+      "summary": "Day 1, 12:00:01 [activity] Day 1, 12:05:01 [activity] Day 1, 12:10:01 [activity] Day 1, 12:15:01 [activity] Day 1, 12:20:01 [activity] Day 1, 12:25:01 [activity] Day 1, 12:30:01 [activity] Day 1, 12:30:01 [thought] Day 1, 12:30:01 [thought] Day 1, 12:30:01 [thought] Day 1, 12:35:01 [activity] Day 1, 12:40:01 [activity] Day 1, 12:45:01 [activity] Day 1, 12:50:01 [activity] Day 1, 12:55:01 [activity] Day 1, 13:00:01 [activity] Day 1, 13:00:01 [conversation] Day 1, 13:05:01 [conversation] Day 1, 13:05:01 [activity] Day 1, 13:10:01 [activity] Day 1, 13:15:01 [activity] Day 1, 13:15:01 [conversation] Day 1, 13:20:01 [activity] Day 1, 13:20:01 [conversation] Day 1, 13:25:01 [activity] Day 1, 13:25:01 [conversation] Day 1, 13:30:01 [activity] Day 1, 13:35:01 [activity] Day 1, 13:40:01 [activity] Day 1, 13:45:01 [activity] Day 1, 13:50:01 [activity] Day 1, 13:55:01 [activity]"
+    },
+    {
+      "day": 1,
+      "daypart": "Afternoon (14:00–17:59)",
+      "summary": "Day 1, 14:00:01 [activity] Day 1, 14:05:01 [activity] Day 1, 14:10:01 [activity] Day 1, 14:15:01 [activity] Day 1, 14:20:01 [activity] Day 1, 14:25:01 [activity] Day 1, 14:30:01 [thought] Day 1, 14:30:01 [thought] Day 1, 14:30:01 [thought] Day 1, 14:30:01 [activity] Day 1, 14:35:01 [activity] Day 1, 14:40:01 [activity] Day 1, 14:45:01 [activity] Day 1, 14:50:01 [activity] Day 1, 14:55:01 [activity] Day 1, 15:00:01 [activity] Day 1, 15:05:01 [activity] Day 1, 15:10:01 [activity] Day 1, 15:15:01 [activity] Day 1, 15:20:01 [activity] Day 1, 15:25:01 [activity] Day 1, 15:30:01 [activity] Day 1, 15:35:01 [activity] Day 1, 15:40:01 [activity] Day 1, 15:45:01 [activity] Day 1, 15:50:01 [activity] Day 1, 15:55:01 [activity] Day 1, 16:00:01 [activity] Day 1, 16:05:01 [activity] Day 1, 16:10:01 [activity] Day 1, 16:15:01 [activity] Day 1, 16:20:01 [activity] Day 1, 16:25:01 [activity] Day 1, 16:30:01 [activity] Day 1, 16:35:01 [conversation] Day 1, 16:35:01 [activity] Day 1, 16:40:01 [activity] Day 1, 16:40:01 [conversation] Day 1, 16:45:01 [activity] Day 1, 16:45:01 [conversation] Day 1, 16:50:01 [activity] Day 1, 16:50:01 [conversation] Day 1, 16:55:01 [activity] Day 1, 16:55:01 [conversation] Day 1, 17:00:01 [activity] Day 1, 17:00:01 [conversation] Day 1, 17:05:01 [conversation] Day 1, 17:05:01 [activity] Day 1, 17:10:01 [activity] Day 1, 17:10:01 [conversation] Day 1, 17:15:01 [activity] Day 1, 17:15:01 [conversation] Day 1, 17:20:01 [activity] Day 1, 17:20:01 [conversation] Day 1, 17:25:01 [activity] Day 1, 17:25:01 [conversation] Day 1, 17:30:01 [activity] Day 1, 17:30:01 [thought] Day 1, 17:30:01 [conversation] Day 1, 17:30:01 [thought] Day 1, 17:30:01 [thought] Day 1, 17:35:01 [activity] Day 1, 17:40:01 [activity] Day 1, 17:45:01 [activity] Day 1, 17:50:01 [activity] Day 1, 17:55:01 [activity]"
+    },
+    {
+      "day": 1,
+      "daypart": "Evening (18:00–23:59)",
+      "summary": "Day 1, 18:00:01 [activity] Day 1, 18:05:01 [activity] Day 1, 18:10:01 [activity] Day 1, 18:15:01 [activity] Day 1, 18:20:01 [activity] Day 1, 18:25:01 [activity] Day 1, 18:30:01 [activity] Day 1, 18:35:01 [activity] Day 1, 18:35:01 [conversation] Day 1, 18:40:01 [activity] Day 1, 18:40:01 [conversation] Day 1, 18:45:01 [activity] Day 1, 18:45:01 [conversation] Day 1, 18:45:01 [conversation] Day 1, 18:50:01 [activity] Day 1, 18:50:01 [conversation] Day 1, 18:55:01 [conversation] Day 1, 18:55:01 [activity] Day 1, 19:00:01 [activity] Day 1, 19:05:01 [activity] Day 1, 19:05:01 [conversation] Day 1, 19:10:01 [activity] Day 1, 19:10:01 [conversation] Day 1, 19:15:01 [activity] Day 1, 19:15:01 [conversation] Day 1, 19:20:01 [activity] Day 1, 19:20:01 [conversation] Day 1, 19:25:01 [activity] Day 1, 19:25:01 [conversation] Day 1, 19:30:01 [activity] Day 1, 19:35:01 [activity] Day 1, 19:40:01 [activity] Day 1, 19:45:01 [activity] Day 1, 19:50:01 [activity] Day 1, 19:55:01 [activity] Day 1, 20:00:01 [activity] Day 1, 20:05:01 [activity] Day 1, 20:10:01 [activity] Day 1, 20:15:01 [thought] Day 1, 20:15:01 [thought] Day 1, 20:15:01 [thought] Day 1, 20:15:01 [activity] Day 1, 20:20:01 [activity] Day 1, 20:25:01 [activity] Day 1, 20:30:01 [activity] Day 1, 20:35:01 [activity] Day 1, 20:40:01 [activity] Day 1, 20:45:01 [activity] Day 1, 20:50:01 [activity] Day 1, 20:55:01 [activity] Day 1, 21:00:01 [activity] Day 1, 21:05:01 [activity] Day 1, 21:10:01 [activity] Day 1, 21:15:01 [activity] Day 1, 21:20:01 [activity] Day 1, 21:25:01 [activity] Day 1, 21:30:01 [activity] Day 1, 21:35:01 [activity] Day 1, 21:40:01 [activity] Day 1, 21:45:01 [activity] Day 1, 21:50:01 [activity] Day 1, 21:55:01 [activity] Day 1, 22:00:01 [activity] Day 1, 22:05:01 [activity] Day 1, 22:10:01 [activity] Day 1, 22:15:01 [activity] Day 1, 22:20:01 [activity] Day 1, 22:25:01 [activity] Day 1, 22:25:01 [thought] Day 1, 22:25:01 [thought] Day 1, 22:25:01 [thought] Day 1, 22:30:01 [activity] Day 1, 22:35:01 [activity] Day 1, 22:40:01 [activity] Day 1, 22:45:01 [activity] Day 1, 22:50:01 [activity] Day 1, 22:55:01 [activity] Day 1, 23:00:01 [activity] Day 1, 23:05:01 [activity] Day 1, 23:10:01 [activity] Day 1, 23:15:01 [activity] Day 1, 23:20:01 [activity] Day 1, 23:25:01 [activity] Day 1, 23:30:01 [activity] Day 1, 23:35:01 [activity] Day 1, 23:35:01 [conversation] Day 1, 23:40:01 [activity] Day 1, 23:40:01 [conversation] Day 1, 23:45:01 [activity] Day 1, 23:45:01 [conversation] Day 1, 23:50:01 [activity] Day 1, 23:55:01 [activity]"
+    },
+    {
+      "day": 1,
+      "daypart": "Midnight (00:00–05:59)",
+      "summary": "Day 1, 00:00:01 [thought] Day 1, 00:00:01 [thought] Day 1, 00:00:01 [thought] Day 1, 00:00:01 [activity] Day 1, 00:05:01 [activity] Day 1, 00:10:01 [activity] Day 1, 00:15:01 [activity] Day 1, 00:20:01 [activity] Day 1, 00:25:01 [activity] Day 1, 00:30:01 [activity] Day 1, 00:35:01 [activity] Day 1, 00:40:01 [activity] Day 1, 00:45:01 [activity] Day 1, 00:50:01 [activity] Day 1, 00:55:01 [activity] Day 1, 01:00:01 [activity] Day 1, 01:05:01 [activity] Day 1, 01:10:01 [activity] Day 1, 01:15:01 [activity] Day 1, 01:20:01 [activity] Day 1, 01:25:01 [activity] Day 1, 01:30:01 [activity] Day 1, 01:35:01 [activity] Day 1, 01:40:01 [activity] Day 1, 01:45:01 [activity] Day 1, 01:50:01 [activity] Day 1, 01:55:01 [activity] Day 1, 02:00:01 [activity] Day 1, 02:05:01 [activity] Day 1, 02:10:01 [activity] Day 1, 02:15:01 [activity] Day 1, 02:20:01 [activity] Day 1, 02:25:01 [activity] Day 1, 02:30:01 [activity] Day 1, 02:35:01 [activity] Day 1, 02:40:01 [activity] Day 1, 02:45:01 [activity] Day 1, 02:50:01 [activity] Day 1, 02:55:01 [activity] Day 1, 03:00:01 [activity] Day 1, 03:05:01 [activity] Day 1, 03:10:01 [activity] Day 1, 03:15:01 [activity] Day 1, 03:20:01 [activity] Day 1, 03:25:01 [activity] Day 1, 03:30:01 [activity] Day 1, 03:35:01 [activity] Day 1, 03:40:01 [activity] Day 1, 03:45:01 [conversation] Day 1, 03:45:01 [activity] Day 1, 03:45:01 [thought] Day 1, 03:45:01 [thought] Day 1, 03:45:01 [thought] Day 1, 03:50:01 [activity] Day 1, 03:50:01 [conversation] Day 1, 03:55:01 [activity] Day 1, 03:55:01 [conversation] Day 1, 03:55:01 [conversation] Day 1, 04:00:01 [activity] Day 1, 04:00:01 [conversation] Day 1, 04:00:01 [conversation] Day 1, 04:05:01 [conversation] Day 1, 04:05:01 [conversation] Day 1, 04:05:01 [activity] Day 1, 04:10:01 [activity] Day 1, 04:10:01 [conversation] Day 1, 04:10:01 [conversation] Day 1, 04:10:01 [conversation] Day 1, 04:15:01 [conversation] Day 1, 04:15:01 [activity] Day 1, 04:15:01 [conversation] Day 1, 04:15:01 [conversation] Day 1, 04:20:01 [conversation] Day 1, 04:20:01 [conversation] Day 1, 04:20:01 [activity] Day 1, 04:20:01 [conversation] Day 1, 04:25:01 [activity] Day 1, 04:25:01 [conversation] Day 1, 04:25:01 [conversation] Day 1, 04:25:01 [conversation] Day 1, 04:30:01 [activity] Day 1, 04:30:01 [conversation] Day 1, 04:30:01 [conversation] Day 1, 04:30:01 [conversation] Day 1, 04:35:01 [conversation] Day 1, 04:35:01 [conversation] Day 1, 04:35:01 [activity] Day 1, 04:40:01 [activity] Day 1, 04:40:01 [conversation] Day 1, 04:40:01 [conversation] Day 1, 04:45:01 [activity] Day 1, 04:45:01 [conversation] Day 1, 04:50:01 [activity] Day 1, 04:50:01 [conversation] Day 1, 04:55:01 [activity] Day 1, 04:55:01 [conversation] Day 1, 05:00:01 [conversation] Day 1, 05:00:01 [activity] Day 1, 05:00:01 [thought] Day 1, 05:00:01 [thought] Day 1, 05:00:01 [thought] Day 1, 05:05:01 [activity] Day 1, 05:10:01 [activity] Day 1, 05:15:01 [activity] Day 1, 05:20:01 [activity] Day 1, 05:25:01 [activity] Day 1, 05:30:01 [thought] Day 1, 05:30:01 [thought] Day 1, 05:30:01 [activity] Day 1, 05:35:01 [activity] Day 1, 05:40:01 [activity] Day 1, 05:45:01 [activity] Day 1, 05:50:01 [activity] Day 1, 05:55:01 [activity]"
+    }
+  ],
+  "daily_one_liner": "Day 0: Sheld Tucker adheres to a meticulously structured day, balancing rigorous theoretical physics work at Columbia University with frequent colleague interactions and orderly social engagements, reflecting his analytical, rule-bound nature and reliance on routine. / Day 1: Sheld Tucker follows a rigid schedule, balancing focused work at Columbia University, frequent colleague/friend interactions, and structured routines, with late-night reflections on scientific concepts.",
+  "dimension_descriptions": {
+    "temporal_logic": "Activities are distributed consistently throughout the day, with no clear disruptions or deviations from a structured routine. | e.g., Sheld engages in multiple activities and conversations from early morning to late evening without significant gaps or irregularities.",
+    "cognitive_action_coherence": "Sheld's actions align with his analytical and orderly personality, as he frequently engages in activities that reflect his intellectual nature. | e.g., He spends long periods on activity, likely working on theoretical physics research, and engages in conversations that may be related to his professional or academic interests.",
+    "personality_consistency": "Sheld's behavior reflects his rule-bound and analytical nature, with a high frequency of activity and structured interactions. | e.g., He consistently engages in activity throughout the day, showing his dedication to work and adherence to routine.",
+    "daily_rhythm": "Sheld maintains a highly active daily rhythm, with no clear signs of fatigue or rest. | e.g., He is continuously engaged in activity and conversation from 06:00 to 23:55, suggesting a consistent and energetic daily pattern.",
+    "mobility": "Sheld's mobility appears limited to a single location, likely his workplace or home, with no indication of travel or movement between different areas. | e.g., He engages in activity and conversation in the same AOI (Columbia University or Clinton Towers Apartments) for the entire timeline.",
+    "continuity": "There is a high level of continuity in Sheld's behavior, with no major shifts or interruptions in his routine. | e.g., He transitions seamlessly between activity and conversation without any notable breaks or changes in behavior."
+  },
+  "overall_summary": "Sheld Tucker's timeline reflects a highly structured, analytical, and rule-bound personality, with consistent activity and conversation throughout the day. His behavior aligns with his background as a theoretical physicist, showing no signs of deviation or mobility beyond a single location. The interactions appear to be professional or social, and his daily rhythm is continuous and energetic.",
+  "hard_anomalies": [
+    "No rest across midnight | e.g., Day 0 · 23:30–23:59→Day 1 · 00:00–00:29"
+  ],
+  "day_progression_analysis": [
+    {
+      "day": 0,
+      "summary": "Unrealistic non-stop activity | e.g., no sleep or rest periods, constant task-switching without breaks."
+    },
+    {
+      "day": 1,
+      "summary": "Unrealistic continuous activity | e.g., no sleep periods, constant non-stop tasks/conversations for 24 hours."
+    }
+  ],
+  "baseline_comparison": [
+    "1. **Extended Sleep Duration with Midday Naps** | e.g., 21:00–00:00 sleep on Day0, followed by 00:00–05:00 sleep on Day1, deviating from the simulated 00:00–05:00 sleep block.",
+    "2. **Frequent Short Naps During Daytime** | e.g., 09:25–10:00 nap on Day0 and 15:00–16:00 nap on Day1, not reflected in the simulated routine.",
+    "3. **Unstructured Meal Timing with Multiple Snacks** | e.g., breakfast at 06:00, midday meal at 12:00, dinner at 19:00, and midnight snack at 23:00 on Day0, exceeding the simulated 3-meal structure.",
+    "4. **Reversed Rhythms Between Days** | e.g., Day0 starts with early work (06:00), while Day1 begins with a late-night nap (00:00), contrasting the simulated consistent morning routine.",
+    "5. **Outdoor Socializing at Unusual Hours** | e.g., café meet-up at 21:00 on Day1, diverging from the simulated 8:30–10:00 social block"
+  ],
+  "simulated_baseline": "Day0:  \n00-05: Sleeping  \n05-06: Wake up, morning routine (grooming, hydration)  \n06-08: Breakfast, light exercise (yoga/stretching)  \n08-08:30: Commute to work  \n08:30-12:30: Work (focus, meetings, tasks)  \n12:30-1:30: Lunch, walk outside  \n1:30-5: Work (deep work, emails, collaboration)  \n5-5:30: Commute home  \n5:30-7: Rest (relax, hobbies, short walk)  \n7-8:30: Dinner, family time  \n8:30-10: Social activity (coffee with friend, movie night)  \n10-11: Wind down (reading, meditation)  \n11-00: Sleeping  \n\nDay1:  \n00-05: Sleeping  \n05-06: Wake up, morning routine  \n06-08: Breakfast, journaling/planning day  \n08-08:30: Commute to work  \n08:30-12:30: Work (projects, deadlines, team check-ins)  \n12:30-1:30: Lunch, phone call with colleague  \n1:30-5: Work"
+}

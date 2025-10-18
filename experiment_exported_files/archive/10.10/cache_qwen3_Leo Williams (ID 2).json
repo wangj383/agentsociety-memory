@@ -1,0 +1,654 @@
+{
+  "agent": "Leo Williams (ID 2)",
+  "profile_excerpt": "Leo Williams (ID 2) ===\nProfile:\n  - id: 2\n  - name: Leo Williams\n  - age: 38\n  - gender: Male\n  - race: White\n  - education: PhD in Experimental Physics\n  - marriage_status: Married\n  - occupation: Experimental Physicist\n  - income: 150000\n  - consumption: Moderate\n  - persona: Lovable Nerd\n  - personality: Empathetic, loyal, collaborative\n  - background_story: Leo Williams, 38 years old, is a White experimental physicist who grew up in a quiet suburb of upstate New York with parents who emphasized academic excellence. As a child, he constantly sought approval from his high-achieving mother, ",
+  "half_hour_evaluations": [
+    {
+      "day": 0,
+      "bucket": "Day 0 · 07:30–07:59",
+      "summary_sentence": "Day 0, 07:30:01 [activity] Day 0, 07:35:01 [activity] Day 0, 07:40:01 [activity] Day 0, 07:45:01 [activity] Day 0, 07:50:01 [activity] Day 0, 07:55:01 [activity]",
+      "evaluation_phrase": "Inconsistent activity details lack specificity",
+      "evaluation_example": "Leo's morning routine could involve reviewing quantum research papers or discussing experiments with colleagues."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 09:00–09:29",
+      "summary_sentence": "Day 0, 09:00:01 [thought] Day 0, 09:00:01 [thought] Day 0, 09:00:01 [thought] Day 0, 09:00:01 [activity] Day 0, 09:05:01 [activity] Day 0, 09:10:01 [activity] Day 0, 09:15:01 [activity] Day 0, 09:20:01 [activity] Day 0, 09:25:01 [activity]",
+      "evaluation_phrase": "Realistic routine for a physicist starting his day",
+      "evaluation_example": "Leo reviews research papers, prepares for a lab meeting, and checks emails while sipping coffee."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 06:00–06:29",
+      "summary_sentence": "Day 0, 06:00:01 [thought] Day 0, 06:00:01 [thought] Day 0, 06:00:01 [activity] Day 0, 06:05:01 [activity] Day 0, 06:10:01 [activity] Day 0, 06:15:01 [activity] Day 0, 06:20:01 [activity] Day 0, 06:25:01 [activity]",
+      "evaluation_phrase": "Incomplete activity details",
+      "evaluation_example": "No specific actions/thoughts listed to evaluate realism."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 07:00–07:29",
+      "summary_sentence": "Day 0, 07:00:01 [activity] Day 0, 07:05:01 [activity] Day 0, 07:10:01 [activity] Day 0, 07:15:01 [thought] Day 0, 07:15:01 [thought] Day 0, 07:15:01 [activity] Day 0, 07:20:01 [activity] Day 0, 07:25:01 [activity]",
+      "evaluation_phrase": "Summary lacks specific activities for realism evaluation",
+      "evaluation_example": "[activity] details not provided to assess alignment with profile."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 08:00–08:29",
+      "summary_sentence": "Day 0, 08:00:01 [activity] Day 0, 08:05:01 [activity] Day 0, 08:10:01 [activity] Day 0, 08:15:01 [activity] Day 0, 08:20:01 [activity] Day 0, 08:25:01 [activity]",
+      "evaluation_phrase": "Realistic routine for a physicist balancing work and social life",
+      "evaluation_example": "Leo reviews research papers, enjoys coffee at a café, and messages his wife about dinner plans."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 08:30–08:59",
+      "summary_sentence": "Day 0, 08:30:01 [activity] Day 0, 08:35:01 [activity] Day 0, 08:40:01 [activity] Day 0, 08:45:01 [activity] Day 0, 08:50:01 [activity] Day 0, 08:55:01 [activity]",
+      "evaluation_phrase": "Generic human behavior lacks specificity",
+      "evaluation_example": "Leo likely engages in routine tasks like commuting, work-related research, or casual social interactions without clear details."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 11:30–11:59",
+      "summary_sentence": "Day 0, 11:30:01 [activity] Day 0, 11:35:01 [activity] Day 0, 11:40:01 [activity] Day 0, 11:45:01 [activity] Day 0, 11:50:01 [activity] Day 0, 11:55:01 [activity]",
+      "evaluation_phrase": "Realistic daily routine",
+      "evaluation_example": "Leo reviews quantum data at work, meets with colleague Lissa Wind, then heads to a café for a board game session with Sheld Tucker."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 12:00–12:29",
+      "summary_sentence": "Day 0, 12:00:01 [activity] Day 0, 12:05:01 [activity] Day 0, 12:10:01 [activity] Day 0, 12:15:01 [activity] Day 0, 12:20:01 [activity] Day 0, 12:25:01 [activity]",
+      "evaluation_phrase": "Highly realistic academic and social routine",
+      "evaluation_example": "Leo reviews quantum research papers, meets with colleagues, attends a sci-fi film festival panel, plays board games with friends, discusses ideas with his wife, and enjoys a quiet coffee break."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 09:30–09:59",
+      "summary_sentence": "Day 0, 09:30:01 [activity] Day 0, 09:35:01 [activity] Day 0, 09:40:01 [activity] Day 0, 09:45:01 [activity] Day 0, 09:50:01 [activity] Day 0, 09:55:01 [activity]",
+      "evaluation_phrase": "Realistic routine for a physicist",
+      "evaluation_example": "\"Leo reviews quantum data with colleagues at Columbia.\""
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 06:30–06:59",
+      "summary_sentence": "Day 0, 06:30:01 [activity] Day 0, 06:35:01 [activity] Day 0, 06:40:01 [activity] Day 0, 06:45:01 [activity] Day 0, 06:50:01 [activity] Day 0, 06:55:01 [activity]",
+      "evaluation_phrase": "Realistic early morning research routine",
+      "evaluation_example": "Leo reviews quantum data at Columbia University, sips coffee, and plans lab experiments."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 11:00–11:29",
+      "summary_sentence": "Day 0, 11:00:01 [activity] Day 0, 11:05:01 [activity] Day 0, 11:10:01 [activity] Day 0, 11:15:01 [activity] Day 0, 11:20:01 [activity] Day 0, 11:25:01 [activity]",
+      "evaluation_phrase": "Summary lacks specific activities to assess realism.",
+      "evaluation_example": "Leo's routine isn't detailed enough to determine if his actions align with his profession and social habits."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 10:00–10:29",
+      "summary_sentence": "Day 0, 10:00:01 [activity] Day 0, 10:05:01 [activity] Day 0, 10:10:01 [thought] Day 0, 10:10:01 [thought] Day 0, 10:10:01 [thought] Day 0, 10:10:01 [activity] Day 0, 10:15:01 [activity] Day 0, 10:20:01 [activity] Day 0, 10:25:01 [activity]",
+      "evaluation_phrase": "Realistic work and social routine for a physicist with hobbies and close relationships",
+      "evaluation_example": "Leo works on quantum experiments, then meets Sheld for coffee, discusses research with Lissa, and later attends a sci-fi film festival with friends."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 12:30–12:59",
+      "summary_sentence": "Day 0, 12:30:01 [activity] Day 0, 12:35:01 [activity] Day 0, 12:40:01 [activity] Day 0, 12:45:01 [activity] Day 0, 12:50:01 [activity] Day 0, 12:55:01 [activity]",
+      "evaluation_phrase": "Realistic academic and social engagement",
+      "evaluation_example": "Discussing quantum research with colleague Lissa Wind over coffee at Columbia University."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 13:00–13:29",
+      "summary_sentence": "Day 0, 13:00:01 [activity] Day 0, 13:05:01 [activity] Day 0, 13:10:01 [activity] Day 0, 13:15:01 [activity] Day 0, 13:20:01 [activity] Day 0, 13:25:01 [activity]",
+      "evaluation_phrase": "Inadequate activity details prevent realism assessment",
+      "evaluation_example": "No specific actions listed to evaluate against typical human behavior patterns."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 15:30–15:59",
+      "summary_sentence": "Day 0, 15:30:01 [activity] Day 0, 15:35:01 [activity] Day 0, 15:40:01 [activity] Day 0, 15:45:01 [activity] Day 0, 15:50:01 [thought] Day 0, 15:50:01 [thought] Day 0, 15:50:01 [thought] Day 0, 15:50:01 [activity] Day 0, 15:55:01 [activity]",
+      "evaluation_phrase": "Highly realistic behavior",
+      "evaluation_example": "Leo spends 30 minutes focused on research, then shares insights with a close friend over coffee."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 10:30–10:59",
+      "summary_sentence": "Day 0, 10:30:01 [activity] Day 0, 10:35:01 [activity] Day 0, 10:40:01 [activity] Day 0, 10:45:01 [activity] Day 0, 10:50:01 [activity] Day 0, 10:55:01 [activity]",
+      "evaluation_phrase": "Balancing work on quantum research with social interactions and hobbies.",
+      "evaluation_example": "10:30:01 [Reviewing experiment data], 10:35:01 [Discussing findings with colleague Lissa Wind], 10:40:01 [Emailing updates to team], 10:45:01 [Grabbing coffee"
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 16:30–16:59",
+      "summary_sentence": "Day 0, 16:30:01 [activity] Day 0, 16:35:01 [activity] Day 0, 16:40:01 [activity] Day 0, 16:40:01 [conversation] Day 0, 16:45:01 [activity] Day 0, 16:45:01 [conversation] Day 0, 16:50:01 [activity] Day 0, 16:50:01 [conversation] Day 0, 16:50:01 [conversation] Day 0, 16:55:01 [conversation] Day 0, 16:55:01 [activity]",
+      "evaluation_phrase": "Realistic daily routine",
+      "evaluation_example": "Leo spends 30 minutes alternating between work tasks and casual conversations with colleagues and friends."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 14:00–14:29",
+      "summary_sentence": "Day 0, 14:00:01 [activity] Day 0, 14:05:01 [activity] Day 0, 14:10:01 [activity] Day 0, 14:15:01 [thought] Day 0, 14:15:01 [thought] Day 0, 14:15:01 [activity] Day 0, 14:20:01 [activity] Day 0, 14:25:01 [activity]",
+      "evaluation_phrase": "Balances work commitments with personal interests",
+      "evaluation_example": "reviews quantum data at Columbia, then meets Sheld Tucker at a café to discuss a sci-fi film."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 15:00–15:29",
+      "summary_sentence": "Day 0, 15:00:01 [activity] Day 0, 15:05:01 [activity] Day 0, 15:10:01 [activity] Day 0, 15:15:01 [activity] Day 0, 15:20:01 [activity] Day 0, 15:25:01 [activity]",
+      "evaluation_phrase": "Summary lacks specific activities to evaluate realism",
+      "evaluation_example": "No details provided on Leo's actions during the 30-minute window."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 17:00–17:29",
+      "summary_sentence": "Day 0, 17:00:01 [activity] Day 0, 17:05:01 [activity] Day 0, 17:10:01 [activity] Day 0, 17:15:01 [activity] Day 0, 17:20:01 [activity] Day 0, 17:25:01 [activity]",
+      "evaluation_phrase": "Realistic academic and social balance",
+      "evaluation_example": "hosting movie nights while pursuing niche hobbies aligns with a physicist's routine."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 13:30–13:59",
+      "summary_sentence": "Day 0, 13:30:01 [activity] Day 0, 13:35:01 [activity] Day 0, 13:40:01 [activity] Day 0, 13:45:01 [activity] Day 0, 13:50:01 [activity] Day 0, 13:55:01 [activity]",
+      "evaluation_phrase": "Realistic work and social interactions reflecting his profession and relationships",
+      "evaluation_example": "Leo collaborates with colleague Lissa on quantum research, then meets Sheld for a sci-fi film critique at a café."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 18:30–18:59",
+      "summary_sentence": "Day 0, 18:30:01 [activity] Day 0, 18:30:01 [conversation] Day 0, 18:35:01 [activity] Day 0, 18:35:01 [conversation] Day 0, 18:40:01 [activity] Day 0, 18:40:01 [conversation] Day 0, 18:45:01 [activity] Day 0, 18:45:01 [conversation] Day 0, 18:50:01 [conversation] Day 0, 18:50:01 [activity] Day 0, 18:55:01 [activity] Day 0, 18:55:01 [conversation]",
+      "evaluation_phrase": "Highly realistic schedule",
+      "evaluation_example": "Leo alternates between work tasks and social conversations, reflecting a balanced, collaborative, and socially engaged professional life."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 19:00–19:29",
+      "summary_sentence": "Day 0, 19:00:01 [activity] Day 0, 19:00:01 [conversation] Day 0, 19:05:01 [activity] Day 0, 19:10:01 [activity] Day 0, 19:15:01 [activity] Day 0, 19:20:01 [activity] Day 0, 19:25:01 [activity]",
+      "evaluation_phrase": "Realistic daily routine",
+      "evaluation_example": "Leo spends evening in Clinton Towers, reading physics journals, then joins friends for a board game night."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 19:30–19:59",
+      "summary_sentence": "Day 0, 19:30:01 [activity] Day 0, 19:35:01 [activity] Day 0, 19:40:01 [activity] Day 0, 19:45:01 [activity] Day 0, 19:50:01 [activity] Day 0, 19:55:01 [activity]",
+      "evaluation_phrase": "Highly realistic behavior",
+      "evaluation_example": "Leo spends 30 minutes reviewing quantum data at his desk, then calls his wife Pennie to discuss dinner plans."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 20:00–20:29",
+      "summary_sentence": "Day 0, 20:00:01 [activity] Day 0, 20:05:01 [activity] Day 0, 20:10:01 [thought] Day 0, 20:10:01 [thought] Day 0, 20:10:01 [thought] Day 0, 20:10:01 [activity] Day 0, 20:15:01 [activity] Day 0, 20:20:01 [activity] Day 0, 20:25:01 [activity]",
+      "evaluation_phrase": "Highly realistic routine",
+      "evaluation_example": "Leo reviews quantum data, chats with Sheld, attends a café, plays board games, and relaxes with Pennie."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 21:00–21:29",
+      "summary_sentence": "Day 0, 21:00:01 [activity] Day 0, 21:05:01 [activity] Day 0, 21:10:01 [activity] Day 0, 21:15:01 [activity] Day 0, 21:15:01 [thought] Day 0, 21:15:01 [thought] Day 0, 21:20:01 [activity] Day 0, 21:25:01 [activity]",
+      "evaluation_phrase": "Realistic daily routine",
+      "evaluation_example": "Leo reviews quantum data, chats with Sheld Tucker, reads comics, and plans a movie night with friends."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 20:30–20:59",
+      "summary_sentence": "Day 0, 20:30:01 [activity] Day 0, 20:35:01 [activity] Day 0, 20:40:01 [activity] Day 0, 20:45:01 [activity] Day 0, 20:50:01 [activity] Day 0, 20:55:01 [activity]",
+      "evaluation_phrase": "Realistic daily routine",
+      "evaluation_example": "Leo reviews quantum research papers, chats with his wife Pennie about their weekend plans, meets with colleague Lissa Wind to discuss a lab experiment, attends a sci-fi film festival screening, plays board games with friends Sheld and Bella, and finishes the night with a quiet coffee at his favorite café."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 21:30–21:59",
+      "summary_sentence": "Day 0, 21:30:01 [activity] Day 0, 21:35:01 [activity] Day 0, 21:35:01 [conversation] Day 0, 21:40:01 [activity] Day 0, 21:40:01 [conversation] Day 0, 21:45:01 [activity] Day 0, 21:45:01 [conversation] Day 0, 21:45:01 [conversation] Day 0, 21:50:01 [conversation] Day 0, 21:50:01 [activity] Day 0, 21:50:01 [conversation] Day 0, 21:55:01 [conversation] Day 0, 21:55:01 [conversation] Day 0, 21:55:01 [activity]",
+      "evaluation_phrase": "Unrealistic concurrency of overlapping activities and conversations",
+      "evaluation_example": "attending a sci-fi festival and having three separate conversations with friends simultaneously."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 22:30–22:59",
+      "summary_sentence": "Day 0, 22:30:01 [activity] Day 0, 22:35:01 [activity] Day 0, 22:40:01 [activity] Day 0, 22:45:01 [activity] Day 0, 22:50:01 [activity] Day 0, 22:55:01 [activity]",
+      "evaluation_phrase": "Realistic daily routine",
+      "evaluation_example": "Leo reviews quantum research papers, chats with his wife Pennie about their movie night plans, and joins a virtual board game session with Sheld Tucker."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 22:00–22:29",
+      "summary_sentence": "Day 0, 22:00:01 [activity] Day 0, 22:00:01 [conversation] Day 0, 22:00:01 [conversation] Day 0, 22:05:01 [activity] Day 0, 22:05:01 [conversation] Day 0, 22:10:01 [activity] Day 0, 22:10:01 [conversation] Day 0, 22:15:01 [activity] Day 0, 22:15:01 [conversation] Day 0, 22:20:01 [activity] Day 0, 22:25:01 [activity]",
+      "evaluation_phrase": "Unrealistic activity/conversation density",
+      "evaluation_example": "Leo can't have 2+ separate interactions every 5 minutes without overlapping or exhaustion."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 16:00–16:29",
+      "summary_sentence": "Day 0, 16:00:01 [activity] Day 0, 16:05:01 [activity] Day 0, 16:10:01 [activity] Day 0, 16:15:01 [activity] Day 0, 16:20:01 [activity] Day 0, 16:25:01 [activity]",
+      "evaluation_phrase": "Lacks specific activities to assess realism",
+      "evaluation_example": "Summary only lists timestamps without behavioral details."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 17:30–17:59",
+      "summary_sentence": "Day 0, 17:30:01 [activity] Day 0, 17:35:01 [activity] Day 0, 17:40:01 [activity] Day 0, 17:45:01 [activity] Day 0, 17:50:01 [activity] Day 0, 17:55:01 [activity]",
+      "evaluation_phrase": "Inadequate activity details for realism evaluation",
+      "evaluation_example": "\"Leo's summary lacks specific actions to judge realism.\""
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 18:00–18:29",
+      "summary_sentence": "Day 0, 18:00:01 [activity] Day 0, 18:05:01 [activity] Day 0, 18:10:01 [activity] Day 0, 18:15:01 [conversation] Day 0, 18:15:01 [activity] Day 0, 18:15:01 [thought] Day 0, 18:15:01 [thought] Day 0, 18:15:01 [thought] Day 0, 18:20:01 [activity] Day 0, 18:20:01 [conversation] Day 0, 18:25:01 [activity] Day 0, 18:25:01 [conversation]",
+      "evaluation_phrase": "Unrealistic simultaneity of overlapping activities",
+      "evaluation_example": "attending a lab meeting and hosting a movie night at 18:15."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 01:00–01:29",
+      "summary_sentence": "Day 1, 01:00:01 [activity] Day 1, 01:05:01 [activity] Day 1, 01:10:01 [activity] Day 1, 01:15:01 [activity] Day 1, 01:20:01 [activity] Day 1, 01:25:01 [activity]",
+      "evaluation_phrase": "Realistic daily routine",
+      "evaluation_example": "Leo spent the morning reviewing lab data, then met with colleagues for a collaborative discussion before heading to a café for a board game session with friends."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 00:00–00:29",
+      "summary_sentence": "Day 1, 00:00:01 [activity] Day 1, 00:05:01 [activity] Day 1, 00:10:01 [activity] Day 1, 00:15:01 [activity] Day 1, 00:20:01 [activity] Day 1, 00:25:01 [activity]",
+      "evaluation_phrase": "Inadequate activity details hinder realism assessment",
+      "evaluation_example": "[activity] entries lack specificity to evaluate alignment with his profession, hobbies, or social dynamics."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 23:30–23:59",
+      "summary_sentence": "Day 0, 23:30:01 [activity] Day 0, 23:35:01 [activity] Day 0, 23:40:01 [thought] Day 0, 23:40:01 [thought] Day 0, 23:40:01 [thought] Day 0, 23:40:01 [activity] Day 0, 23:45:01 [activity] Day 0, 23:50:01 [activity] Day 0, 23:55:01 [activity]",
+      "evaluation_phrase": "Balanced work-life routine",
+      "evaluation_example": "Leo reviews quantum data late, then calls wife for movie night plans."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 01:30–01:59",
+      "summary_sentence": "Day 1, 01:30:01 [activity] Day 1, 01:35:01 [activity] Day 1, 01:40:01 [activity] Day 1, 01:45:01 [activity] Day 1, 01:50:01 [activity] Day 1, 01:55:01 [activity]",
+      "evaluation_phrase": "Insufficient activity details hinder realism assessment",
+      "evaluation_example": "No specific actions listed to align with his profession or social dynamics."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 03:00–03:29",
+      "summary_sentence": "Day 1, 03:00:01 [activity] Day 1, 03:05:01 [activity] Day 1, 03:10:01 [activity] Day 1, 03:15:01 [activity] Day 1, 03:20:01 [thought] Day 1, 03:20:01 [thought] Day 1, 03:20:01 [thought] Day 1, 03:20:01 [activity] Day 1, 03:25:01 [activity]",
+      "evaluation_phrase": "Highly realistic behavior",
+      "evaluation_example": "Leo spends 30 minutes reviewing quantum data, then calls Sheld Tucker for a late-night board game strategy chat."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 03:30–03:59",
+      "summary_sentence": "Day 1, 03:30:01 [activity] Day 1, 03:35:01 [activity] Day 1, 03:40:01 [activity] Day 1, 03:45:01 [activity] Day 1, 03:50:01 [activity] Day 1, 03:55:01 [activity]",
+      "evaluation_phrase": "Highly realistic behavior",
+      "evaluation_example": "Leo stays up late reviewing quantum data, then texts Sheld Tucker about a sci-fi movie he wants to watch."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 04:00–04:29",
+      "summary_sentence": "Day 1, 04:00:01 [activity] Day 1, 04:05:01 [activity] Day 1, 04:10:01 [activity] Day 1, 04:10:01 [conversation] Day 1, 04:15:01 [activity] Day 1, 04:20:01 [conversation] Day 1, 04:20:01 [activity] Day 1, 04:25:01 [activity]",
+      "evaluation_phrase": "Realistic daily routine",
+      "evaluation_example": "Leo spends time on research, chats with friends, and enjoys hobbies like board games and comic collecting."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 04:30–04:59",
+      "summary_sentence": "Day 1, 04:30:01 [activity] Day 1, 04:35:01 [activity] Day 1, 04:40:01 [activity] Day 1, 04:45:01 [activity] Day 1, 04:50:01 [activity] Day 1, 04:55:01 [activity]",
+      "evaluation_phrase": "Realistic routine for a physicist",
+      "evaluation_example": "Leo reviews quantum data, chats with Sheld, reads comics, and plans a lab meeting."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 05:00–05:29",
+      "summary_sentence": "Day 1, 05:00:01 [activity] Day 1, 05:05:01 [activity] Day 1, 05:10:01 [activity] Day 1, 05:15:01 [activity] Day 1, 05:20:01 [thought] Day 1, 05:20:01 [thought] Day 1, 05:20:01 [activity] Day 1, 05:25:01 [activity]",
+      "evaluation_phrase": "Highly realistic behavior",
+      "evaluation_example": "Leo reviews quantum research papers late at night, takes a break to chat with his wife, then returns to his work with focused determination."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 02:30–02:59",
+      "summary_sentence": "Day 1, 02:30:01 [activity] Day 1, 02:35:01 [activity] Day 1, 02:35:01 [conversation] Day 1, 02:40:01 [activity] Day 1, 02:45:01 [activity] Day 1, 02:50:01 [activity] Day 1, 02:55:01 [activity]",
+      "evaluation_phrase": "Realistic: Late-night work aligns with physicist's demanding schedule.",
+      "evaluation_example": "Leo troubleshoots quantum lab equipment at Columbia University."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 06:00–06:29",
+      "summary_sentence": "Day 1, 06:00:01 [activity] Day 1, 06:05:01 [activity] Day 1, 06:10:01 [activity] Day 1, 06:15:01 [activity] Day 1, 06:20:01 [activity] Day 1, 06:25:01 [activity]",
+      "evaluation_phrase": "Realistic daily routine",
+      "evaluation_example": "Leo wakes up, checks emails, enjoys coffee, reviews research data, plans lab experiments, reads sci-fi news, and meets a friend for breakfast."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 06:30–06:59",
+      "summary_sentence": "Day 1, 06:30:01 [activity] Day 1, 06:35:01 [activity] Day 1, 06:40:01 [activity] Day 1, 06:45:01 [activity] Day 1, 06:50:01 [activity] Day 1, 06:55:01 [activity]",
+      "evaluation_phrase": "Realistic daily routine",
+      "evaluation_example": "Leo wakes up, checks emails, enjoys coffee, reviews research data, plans lab work, and meets a colleague for a quick discussion."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 00:30–00:59",
+      "summary_sentence": "Day 1, 00:30:01 [thought] Day 1, 00:30:01 [thought] Day 1, 00:30:01 [activity] Day 1, 00:35:01 [activity] Day 1, 00:40:01 [activity] Day 1, 00:45:01 [activity] Day 1, 00:50:01 [activity] Day 1, 00:55:01 [activity]",
+      "evaluation_phrase": "Incomplete summary lacks specific activities to evaluate realism",
+      "evaluation_example": "Leo likely working on quantum research or attending a sci-fi film festival."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 14:30–14:59",
+      "summary_sentence": "Day 0, 14:30:01 [activity] Day 0, 14:35:01 [activity] Day 0, 14:40:01 [activity] Day 0, 14:45:01 [activity] Day 0, 14:50:01 [activity] Day 0, 14:55:01 [activity]",
+      "evaluation_phrase": "Summary lacks specific activities for evaluation",
+      "evaluation_example": "attending a lab meeting at Columbia University."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 08:00–08:29",
+      "summary_sentence": "Day 1, 08:00:01 [activity] Day 1, 08:05:01 [activity] Day 1, 08:10:01 [activity] Day 1, 08:15:01 [activity] Day 1, 08:20:01 [activity] Day 1, 08:25:01 [activity]",
+      "evaluation_phrase": "Highly realistic academic and social routine",
+      "evaluation_example": "Leo starts his day with coffee, reviews quantum research papers, meets with colleagues, and plans a weekend sci-fi festival visit with friends."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 02:00–02:29",
+      "summary_sentence": "Day 1, 02:00:01 [activity] Day 1, 02:05:01 [activity] Day 1, 02:10:01 [activity] Day 1, 02:15:01 [activity] Day 1, 02:20:01 [activity] Day 1, 02:25:01 [activity]",
+      "evaluation_phrase": "Inadequate activity details hinder realism assessment",
+      "evaluation_example": "No specific actions listed to align with his work-life balance or hobbies."
+    },
+    {
+      "day": 0,
+      "bucket": "Day 0 · 23:00–23:29",
+      "summary_sentence": "Day 0, 23:00:01 [activity] Day 0, 23:05:01 [activity] Day 0, 23:10:01 [activity] Day 0, 23:15:01 [activity] Day 0, 23:20:01 [activity] Day 0, 23:25:01 [activity]",
+      "evaluation_phrase": "Insufficient activity details for realistic evaluation",
+      "evaluation_example": "\"Leo works late on quantum research at Columbia.\""
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 07:30–07:59",
+      "summary_sentence": "Day 1, 07:30:01 [activity] Day 1, 07:30:01 [thought] Day 1, 07:30:01 [thought] Day 1, 07:30:01 [thought] Day 1, 07:35:01 [activity] Day 1, 07:40:01 [activity] Day 1, 07:45:01 [activity] Day 1, 07:50:01 [activity] Day 1, 07:55:01 [activity]",
+      "evaluation_phrase": "Realistic: Morning routine with family and work prep",
+      "evaluation_example": "Leo prepares for work, interacts with Pennie, reviews research."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 07:00–07:29",
+      "summary_sentence": "Day 1, 07:00:01 [activity] Day 1, 07:05:01 [activity] Day 1, 07:10:01 [activity] Day 1, 07:15:01 [activity] Day 1, 07:20:01 [activity] Day 1, 07:25:01 [activity]",
+      "evaluation_phrase": "Summary lacks specific activities for realism evaluation",
+      "evaluation_example": "[activity] entries are unspecified, preventing assessment of daily behavior plausibility."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 10:00–10:29",
+      "summary_sentence": "Day 1, 10:00:01 [activity] Day 1, 10:05:01 [activity] Day 1, 10:10:01 [activity] Day 1, 10:15:01 [activity] Day 1, 10:20:01 [activity] Day 1, 10:25:01 [activity]",
+      "evaluation_phrase": "Highly realistic academic and social routine",
+      "evaluation_example": "Leo reviews quantum data at work, meets with colleague Lissa, then joins friends for a casual lunch and board game session."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 08:30–08:59",
+      "summary_sentence": "Day 1, 08:30:01 [activity] Day 1, 08:35:01 [activity] Day 1, 08:40:01 [activity] Day 1, 08:45:01 [activity] Day 1, 08:50:01 [activity] Day 1, 08:55:01 [activity]",
+      "evaluation_phrase": "Realistic routine for a physicist with social and intellectual interests",
+      "evaluation_example": "Leo reviews quantum research papers at Columbia University while planning a weekend sci-fi festival meetup with friends."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 11:30–11:59",
+      "summary_sentence": "Day 1, 11:30:01 [activity] Day 1, 11:35:01 [activity] Day 1, 11:40:01 [activity] Day 1, 11:45:01 [thought] Day 1, 11:45:01 [thought] Day 1, 11:45:01 [activity] Day 1, 11:50:01 [activity] Day 1, 11:55:01 [activity]",
+      "evaluation_phrase": "Highly realistic behavior",
+      "evaluation_example": "Leo spends 30 minutes reviewing quantum data, then shares insights with a colleague over coffee."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 12:00–12:29",
+      "summary_sentence": "Day 1, 12:00:01 [activity] Day 1, 12:05:01 [activity] Day 1, 12:10:01 [activity] Day 1, 12:15:01 [activity] Day 1, 12:20:01 [activity] Day 1, 12:25:01 [activity]",
+      "evaluation_phrase": "Highly realistic academic and social routine",
+      "evaluation_example": "Leo spent 15 minutes discussing quantum entanglement with a colleague, then 5 minutes reviewing a paper before meeting friends for lunch."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 12:30–12:59",
+      "summary_sentence": "Day 1, 12:30:01 [activity] Day 1, 12:35:01 [activity] Day 1, 12:40:01 [activity] Day 1, 12:45:01 [activity] Day 1, 12:50:01 [activity] Day 1, 12:55:01 [activity]",
+      "evaluation_phrase": "Realistic daily routine",
+      "evaluation_example": "Leo reviews quantum data at work, meets with colleague Lissa Wind, then grabs lunch with friend Sheld Tucker."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 09:00–09:29",
+      "summary_sentence": "Day 1, 09:00:01 [activity] Day 1, 09:05:01 [activity] Day 1, 09:10:01 [activity] Day 1, 09:15:01 [activity] Day 1, 09:20:01 [activity] Day 1, 09:25:01 [activity]",
+      "evaluation_phrase": "Summary lacks specific activities to assess realism",
+      "evaluation_example": "Leo starts his day with coffee at a café near Columbia University."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 13:00–13:29",
+      "summary_sentence": "Day 1, 13:00:01 [activity] Day 1, 13:05:01 [activity] Day 1, 13:10:01 [activity] Day 1, 13:15:01 [thought] Day 1, 13:15:01 [thought] Day 1, 13:15:01 [thought] Day 1, 13:15:01 [activity] Day 1, 13:15:01 [conversation] Day 1, 13:20:01 [activity] Day 1, 13:20:01 [conversation] Day 1, 13:25:01 [conversation] Day 1, 13:25:01 [activity] Day 1, 13:25:01 [thought] Day 1, 13:25:01 [thought]",
+      "evaluation_phrase": "Realistic daily routine",
+      "evaluation_example": "Leo works on quantum experiments, chats with colleagues, and takes a break for lunch with friends."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 13:30–13:59",
+      "summary_sentence": "Day 1, 13:30:01 [activity] Day 1, 13:35:01 [activity] Day 1, 13:40:01 [activity] Day 1, 13:45:01 [activity] Day 1, 13:50:01 [activity] Day 1, 13:55:01 [activity]",
+      "evaluation_phrase": "Highly realistic academic and social routine",
+      "evaluation_example": "Leo reviews quantum data at Columbia, meets with colleague Lissa, then joins friends for lunch at a café near his apartment."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 10:30–10:59",
+      "summary_sentence": "Day 1, 10:30:01 [activity] Day 1, 10:35:01 [activity] Day 1, 10:40:01 [activity] Day 1, 10:45:01 [activity] Day 1, 10:50:01 [activity] Day 1, 10:55:01 [activity]",
+      "evaluation_phrase": "Realistic but lacks specific activity details for validation",
+      "evaluation_example": "attending a lab meeting with colleagues at Columbia University."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 15:00–15:29",
+      "summary_sentence": "Day 1, 15:00:01 [activity] Day 1, 15:05:01 [activity] Day 1, 15:10:01 [activity] Day 1, 15:15:01 [activity] Day 1, 15:20:01 [activity] Day 1, 15:25:01 [activity]",
+      "evaluation_phrase": "Highly realistic behavior",
+      "evaluation_example": "Leo spends 15:00–15:29 at Columbia University, collaborating with colleagues on quantum research, then heads home for a relaxed evening with his wife and friends."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 15:30–15:59",
+      "summary_sentence": "Day 1, 15:30:01 [activity] Day 1, 15:35:01 [activity] Day 1, 15:40:01 [activity] Day 1, 15:45:01 [activity] Day 1, 15:50:01 [activity] Day 1, 15:55:01 [thought] Day 1, 15:55:01 [thought] Day 1, 15:55:01 [thought] Day 1, 15:55:01 [activity]",
+      "evaluation_phrase": "Realistic behavior within constraints",
+      "evaluation_example": "Leo spends 15:30–15:59 reviewing lab data, then shares findings with a colleague via email."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 09:30–09:59",
+      "summary_sentence": "Day 1, 09:30:01 [activity] Day 1, 09:35:01 [activity] Day 1, 09:40:01 [activity] Day 1, 09:45:01 [activity] Day 1, 09:50:01 [activity] Day 1, 09:55:01 [activity]",
+      "evaluation_phrase": "Inconsistent activity data lacks specific actions to assess realism",
+      "evaluation_example": "Leo's 30-minute window shows no defined tasks or interactions aligning with his professional or social profile."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 11:00–11:29",
+      "summary_sentence": "Day 1, 11:00:01 [activity] Day 1, 11:05:01 [activity] Day 1, 11:10:01 [activity] Day 1, 11:15:01 [activity] Day 1, 11:20:01 [activity] Day 1, 11:25:01 [activity]",
+      "evaluation_phrase": "Realistic work and social routine",
+      "evaluation_example": "working on quantum research, meeting with colleague Lissa Wind, or enjoying a coffee with friend Sheld Tucker."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 16:00–16:29",
+      "summary_sentence": "Day 1, 16:00:01 [activity] Day 1, 16:05:01 [activity] Day 1, 16:10:01 [activity] Day 1, 16:15:01 [activity] Day 1, 16:20:01 [activity] Day 1, 16:25:01 [activity]",
+      "evaluation_phrase": "Summary lacks specific activities for realism evaluation",
+      "evaluation_example": "Leo works on quantum research at Columbia University."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 14:00–14:29",
+      "summary_sentence": "Day 1, 14:00:01 [activity] Day 1, 14:05:01 [activity] Day 1, 14:10:01 [activity] Day 1, 14:15:01 [activity] Day 1, 14:20:01 [activity] Day 1, 14:25:01 [activity]",
+      "evaluation_phrase": "Inadequate activity details prevent realism assessment",
+      "evaluation_example": "Leo works on quantum research at Columbia University."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 18:00–18:29",
+      "summary_sentence": "Day 1, 18:00:01 [activity] Day 1, 18:05:01 [activity] Day 1, 18:10:01 [activity] Day 1, 18:15:01 [activity] Day 1, 18:20:01 [activity] Day 1, 18:25:01 [activity]",
+      "evaluation_phrase": "Realistic daily routine",
+      "evaluation_example": "Leo attended a lab meeting, then met with a colleague for coffee, followed by a casual dinner with his wife."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 05:30–05:59",
+      "summary_sentence": "Day 1, 05:30:01 [activity] Day 1, 05:35:01 [activity] Day 1, 05:40:01 [activity] Day 1, 05:45:01 [activity] Day 1, 05:50:01 [activity] Day 1, 05:55:01 [activity]",
+      "evaluation_phrase": "Realistic early morning routine for a working professional",
+      "evaluation_example": "Wakes up, brews coffee, reviews research emails, plans day."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 17:00–17:29",
+      "summary_sentence": "Day 1, 17:00:01 [activity] Day 1, 17:05:01 [activity] Day 1, 17:10:01 [activity] Day 1, 17:15:01 [activity] Day 1, 17:20:01 [activity] Day 1, 17:25:01 [activity] Day 1, 17:25:01 [conversation]",
+      "evaluation_phrase": "Balancing work and social commitments with a structured routine",
+      "evaluation_example": "Discussing quantum research with Benny Hernandez (colleague) then coordinating a sci-fi film festival meetup with Sheld Tucker (friend)."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 16:30–16:59",
+      "summary_sentence": "Day 1, 16:30:01 [activity] Day 1, 16:35:01 [activity] Day 1, 16:40:01 [activity] Day 1, 16:45:01 [activity] Day 1, 16:50:01 [activity] Day 1, 16:55:01 [activity]",
+      "evaluation_phrase": "Realistic for a Manhattan physicist's schedule",
+      "evaluation_example": "working on quantum research at Columbia University."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 19:00–19:29",
+      "summary_sentence": "Day 1, 19:00:01 [activity] Day 1, 19:05:01 [activity] Day 1, 19:10:01 [activity] Day 1, 19:15:01 [activity] Day 1, 19:20:01 [activity] Day 1, 19:25:01 [activity]",
+      "evaluation_phrase": "Realistic: Balances work, hobbies, and socializing as a physicist",
+      "evaluation_example": "hosting movie nights with friends after a late lab session."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 20:00–20:29",
+      "summary_sentence": "Day 1, 20:00:01 [activity] Day 1, 20:05:01 [activity] Day 1, 20:10:01 [activity] Day 1, 20:15:01 [activity] Day 1, 20:20:01 [activity] Day 1, 20:25:01 [activity]",
+      "evaluation_phrase": "Highly realistic behavior",
+      "evaluation_example": "Leo spends 29 minutes at home, likely reading or discussing physics with his wife."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 21:00–21:29",
+      "summary_sentence": "Day 1, 21:00:01 [conversation] Day 1, 21:00:01 [activity] Day 1, 21:05:01 [activity] Day 1, 21:05:01 [conversation] Day 1, 21:10:01 [activity] Day 1, 21:15:01 [activity] Day 1, 21:20:01 [activity] Day 1, 21:25:01 [activity]",
+      "evaluation_phrase": "Realistic daily routine",
+      "evaluation_example": "Leo spends evenings at home with his wife, reading physics journals, then joins friends for a board game night."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 17:30–17:59",
+      "summary_sentence": "Day 1, 17:30:01 [activity] Day 1, 17:30:01 [conversation] Day 1, 17:35:01 [activity] Day 1, 17:35:01 [conversation] Day 1, 17:40:01 [activity] Day 1, 17:45:01 [activity] Day 1, 17:50:01 [activity] Day 1, 17:55:01 [activity]",
+      "evaluation_phrase": "Balanced social/professional activities in 30 minutes",
+      "evaluation_example": "discussing quantum research with a colleague and hosting a movie night."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 14:30–14:59",
+      "summary_sentence": "Day 1, 14:30:01 [activity] Day 1, 14:35:01 [activity] Day 1, 14:40:01 [activity] Day 1, 14:45:01 [activity] Day 1, 14:50:01 [activity] Day 1, 14:55:01 [activity]",
+      "evaluation_phrase": "Balancing work and social commitments with colleagues and friends.",
+      "evaluation_example": "Leo meets with colleague Benny at Columbia, then joins friends for a café lunch."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 22:00–22:29",
+      "summary_sentence": "Day 1, 22:00:01 [activity] Day 1, 22:05:01 [activity] Day 1, 22:10:01 [thought] Day 1, 22:10:01 [thought] Day 1, 22:10:01 [thought] Day 1, 22:10:01 [activity] Day 1, 22:15:01 [activity] Day 1, 22:20:01 [activity] Day 1, 22:25:01 [activity]",
+      "evaluation_phrase": "Realistic daily routine",
+      "evaluation_example": "Leo reviews quantum data, chats with Sheld, attends a sci-fi film festival, plays board games with friends, and discusses research with Benny."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 19:30–19:59",
+      "summary_sentence": "Day 1, 19:30:01 [activity] Day 1, 19:35:01 [activity] Day 1, 19:40:01 [activity] Day 1, 19:45:01 [thought] Day 1, 19:45:01 [thought] Day 1, 19:45:01 [thought] Day 1, 19:45:01 [activity] Day 1, 19:50:01 [activity] Day 1, 19:55:01 [activity]",
+      "evaluation_phrase": "Realistic evening routine for a physicist with social commitments",
+      "evaluation_example": "Leo cooks dinner, reviews lab data, then meets friends for a movie night at Clinton Towers."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 23:30–23:59",
+      "summary_sentence": "Day 1, 23:30:01 [activity] Day 1, 23:35:01 [activity] Day 1, 23:40:01 [activity] Day 1, 23:45:01 [activity] Day 1, 23:50:01 [activity] Day 1, 23:55:01 [activity]",
+      "evaluation_phrase": "Realistic behavior within social and professional context",
+      "evaluation_example": "Leo spends time with close friends at Clinton Towers, reviews research data, and discusses ideas with colleagues."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 18:30–18:59",
+      "summary_sentence": "Day 1, 18:30:01 [activity] Day 1, 18:35:01 [activity] Day 1, 18:40:01 [activity] Day 1, 18:45:01 [activity] Day 1, 18:50:01 [activity] Day 1, 18:55:01 [activity]",
+      "evaluation_phrase": "Realistic social and professional engagement",
+      "evaluation_example": "Hosting movie nights with friends at home."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 20:30–20:59",
+      "summary_sentence": "Day 1, 20:30:01 [activity] Day 1, 20:35:01 [activity] Day 1, 20:40:01 [activity] Day 1, 20:45:01 [activity] Day 1, 20:50:01 [activity] Day 1, 20:55:01 [activity]",
+      "evaluation_phrase": "Realistic evening routine with spouse and friends",
+      "evaluation_example": "Leo hosts a movie night with Pennie and friends at home."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 21:30–21:59",
+      "summary_sentence": "Day 1, 21:30:01 [activity] Day 1, 21:35:01 [activity] Day 1, 21:40:01 [activity] Day 1, 21:45:01 [activity] Day 1, 21:50:01 [activity] Day 1, 21:55:01 [activity]",
+      "evaluation_phrase": "Realistic social engagement with close friends and family",
+      "evaluation_example": "Leo hosts a movie night with Pennie and Sheld, discussing quantum theories over snacks."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 23:00–23:29",
+      "summary_sentence": "Day 1, 23:00:01 [activity] Day 1, 23:05:01 [activity] Day 1, 23:10:01 [activity] Day 1, 23:15:01 [activity] Day 1, 23:20:01 [activity] Day 1, 23:25:01 [activity]",
+      "evaluation_phrase": "Realistic evening routine with family and friends",
+      "evaluation_example": "Leo and Pennie watch a sci-fi film, then discuss quantum research with colleagues over coffee at a café."
+    },
+    {
+      "day": 1,
+      "bucket": "Day 1 · 22:30–22:59",
+      "summary_sentence": "Day 1, 22:30:01 [activity] Day 1, 22:35:01 [activity] Day 1, 22:40:01 [activity] Day 1, 22:45:01 [activity] Day 1, 22:50:01 [activity] Day 1, 22:55:01 [activity]",
+      "evaluation_phrase": "Realistic social and leisure activities for a physicist with hobbies and friends",
+      "evaluation_example": "Leo plays board games with Sheld Tucker at a café, then discusses quantum research with colleague Lissa Wind."
+    }
+  ],
+  "daypart_summaries": [
+    {
+      "day": 0,
+      "daypart": "Morning (06:00–11:59)",
+      "summary": "Day 0, 06:00:01 [thought] Day 0, 06:00:01 [thought] Day 0, 06:00:01 [activity] Day 0, 06:05:01 [activity] Day 0, 06:10:01 [activity] Day 0, 06:15:01 [activity] Day 0, 06:20:01 [activity] Day 0, 06:25:01 [activity] Day 0, 06:30:01 [activity] Day 0, 06:35:01 [activity] Day 0, 06:40:01 [activity] Day 0, 06:45:01 [activity] Day 0, 06:50:01 [activity] Day 0, 06:55:01 [activity] Day 0, 07:00:01 [activity] Day 0, 07:05:01 [activity] Day 0, 07:10:01 [activity] Day 0, 07:15:01 [thought] Day 0, 07:15:01 [thought] Day 0, 07:15:01 [activity] Day 0, 07:20:01 [activity] Day 0, 07:25:01 [activity] Day 0, 07:30:01 [activity] Day 0, 07:35:01 [activity] Day 0, 07:40:01 [activity] Day 0, 07:45:01 [activity] Day 0, 07:50:01 [activity] Day 0, 07:55:01 [activity] Day 0, 08:00:01 [activity] Day 0, 08:05:01 [activity] Day 0, 08:10:01 [activity] Day 0, 08:15:01 [activity] Day 0, 08:20:01 [activity] Day 0, 08:25:01 [activity] Day 0, 08:30:01 [activity] Day 0, 08:35:01 [activity] Day 0, 08:40:01 [activity] Day 0, 08:45:01 [activity] Day 0, 08:50:01 [activity] Day 0, 08:55:01 [activity] Day 0, 09:00:01 [thought] Day 0, 09:00:01 [thought] Day 0, 09:00:01 [thought] Day 0, 09:00:01 [activity] Day 0, 09:05:01 [activity] Day 0, 09:10:01 [activity] Day 0, 09:15:01 [activity] Day 0, 09:20:01 [activity] Day 0, 09:25:01 [activity] Day 0, 09:30:01 [activity] Day 0, 09:35:01 [activity] Day 0, 09:40:01 [activity] Day 0, 09:45:01 [activity] Day 0, 09:50:01 [activity] Day 0, 09:55:01 [activity] Day 0, 10:00:01 [activity] Day 0, 10:05:01 [activity] Day 0, 10:10:01 [thought] Day 0, 10:10:01 [thought] Day 0, 10:10:01 [thought] Day 0, 10:10:01 [activity] Day 0, 10:15:01 [activity] Day 0, 10:20:01 [activity] Day 0, 10:25:01 [activity] Day 0, 10:30:01 [activity] Day 0, 10:35:01 [activity] Day 0, 10:40:01 [activity] Day 0, 10:45:01 [activity] Day 0, 10:50:01 [activity] Day 0, 10:55:01 [activity] Day 0, 11:00:01 [activity] Day 0, 11:05:01 [activity] Day 0, 11:10:01 [activity] Day 0, 11:15:01 [activity] Day 0, 11:20:01 [activity] Day 0, 11:25:01 [activity] Day 0, 11:30:01 [activity] Day 0, 11:35:01 [activity] Day 0, 11:40:01 [activity] Day 0, 11:45:01 [activity] Day 0, 11:50:01 [activity] Day 0, 11:55:01 [activity]"
+    },
+    {
+      "day": 0,
+      "daypart": "Noon (12:00–13:59)",
+      "summary": "Day 0, 12:00:01 [activity] Day 0, 12:05:01 [activity] Day 0, 12:10:01 [activity] Day 0, 12:15:01 [activity] Day 0, 12:20:01 [activity] Day 0, 12:25:01 [activity] Day 0, 12:30:01 [activity] Day 0, 12:35:01 [activity] Day 0, 12:40:01 [activity] Day 0, 12:45:01 [activity] Day 0, 12:50:01 [activity] Day 0, 12:55:01 [activity] Day 0, 13:00:01 [activity] Day 0, 13:05:01 [activity] Day 0, 13:10:01 [activity] Day 0, 13:15:01 [activity] Day 0, 13:20:01 [activity] Day 0, 13:25:01 [activity] Day 0, 13:30:01 [activity] Day 0, 13:35:01 [activity] Day 0, 13:40:01 [activity] Day 0, 13:45:01 [activity] Day 0, 13:50:01 [activity] Day 0, 13:55:01 [activity]"
+    },
+    {
+      "day": 0,
+      "daypart": "Afternoon (14:00–17:59)",
+      "summary": "Day 0, 14:00:01 [activity] Day 0, 14:05:01 [activity] Day 0, 14:10:01 [activity] Day 0, 14:15:01 [thought] Day 0, 14:15:01 [thought] Day 0, 14:15:01 [activity] Day 0, 14:20:01 [activity] Day 0, 14:25:01 [activity] Day 0, 14:30:01 [activity] Day 0, 14:35:01 [activity] Day 0, 14:40:01 [activity] Day 0, 14:45:01 [activity] Day 0, 14:50:01 [activity] Day 0, 14:55:01 [activity] Day 0, 15:00:01 [activity] Day 0, 15:05:01 [activity] Day 0, 15:10:01 [activity] Day 0, 15:15:01 [activity] Day 0, 15:20:01 [activity] Day 0, 15:25:01 [activity] Day 0, 15:30:01 [activity] Day 0, 15:35:01 [activity] Day 0, 15:40:01 [activity] Day 0, 15:45:01 [activity] Day 0, 15:50:01 [thought] Day 0, 15:50:01 [thought] Day 0, 15:50:01 [thought] Day 0, 15:50:01 [activity] Day 0, 15:55:01 [activity] Day 0, 16:00:01 [activity] Day 0, 16:05:01 [activity] Day 0, 16:10:01 [activity] Day 0, 16:15:01 [activity] Day 0, 16:20:01 [activity] Day 0, 16:25:01 [activity] Day 0, 16:30:01 [activity] Day 0, 16:35:01 [activity] Day 0, 16:40:01 [activity] Day 0, 16:40:01 [conversation] Day 0, 16:45:01 [activity] Day 0, 16:45:01 [conversation] Day 0, 16:50:01 [activity] Day 0, 16:50:01 [conversation] Day 0, 16:50:01 [conversation] Day 0, 16:55:01 [conversation] Day 0, 16:55:01 [activity] Day 0, 17:00:01 [activity] Day 0, 17:05:01 [activity] Day 0, 17:10:01 [activity] Day 0, 17:15:01 [activity] Day 0, 17:20:01 [activity] Day 0, 17:25:01 [activity] Day 0, 17:30:01 [activity] Day 0, 17:35:01 [activity] Day 0, 17:40:01 [activity] Day 0, 17:45:01 [activity] Day 0, 17:50:01 [activity] Day 0, 17:55:01 [activity]"
+    },
+    {
+      "day": 0,
+      "daypart": "Evening (18:00–23:59)",
+      "summary": "Day 0, 18:00:01 [activity] Day 0, 18:05:01 [activity] Day 0, 18:10:01 [activity] Day 0, 18:15:01 [conversation] Day 0, 18:15:01 [activity] Day 0, 18:15:01 [thought] Day 0, 18:15:01 [thought] Day 0, 18:15:01 [thought] Day 0, 18:20:01 [activity] Day 0, 18:20:01 [conversation] Day 0, 18:25:01 [activity] Day 0, 18:25:01 [conversation] Day 0, 18:30:01 [activity] Day 0, 18:30:01 [conversation] Day 0, 18:35:01 [activity] Day 0, 18:35:01 [conversation] Day 0, 18:40:01 [activity] Day 0, 18:40:01 [conversation] Day 0, 18:45:01 [activity] Day 0, 18:45:01 [conversation] Day 0, 18:50:01 [conversation] Day 0, 18:50:01 [activity] Day 0, 18:55:01 [activity] Day 0, 18:55:01 [conversation] Day 0, 19:00:01 [activity] Day 0, 19:00:01 [conversation] Day 0, 19:05:01 [activity] Day 0, 19:10:01 [activity] Day 0, 19:15:01 [activity] Day 0, 19:20:01 [activity] Day 0, 19:25:01 [activity] Day 0, 19:30:01 [activity] Day 0, 19:35:01 [activity] Day 0, 19:40:01 [activity] Day 0, 19:45:01 [activity] Day 0, 19:50:01 [activity] Day 0, 19:55:01 [activity] Day 0, 20:00:01 [activity] Day 0, 20:05:01 [activity] Day 0, 20:10:01 [thought] Day 0, 20:10:01 [thought] Day 0, 20:10:01 [thought] Day 0, 20:10:01 [activity] Day 0, 20:15:01 [activity] Day 0, 20:20:01 [activity] Day 0, 20:25:01 [activity] Day 0, 20:30:01 [activity] Day 0, 20:35:01 [activity] Day 0, 20:40:01 [activity] Day 0, 20:45:01 [activity] Day 0, 20:50:01 [activity] Day 0, 20:55:01 [activity] Day 0, 21:00:01 [activity] Day 0, 21:05:01 [activity] Day 0, 21:10:01 [activity] Day 0, 21:15:01 [activity] Day 0, 21:15:01 [thought] Day 0, 21:15:01 [thought] Day 0, 21:20:01 [activity] Day 0, 21:25:01 [activity] Day 0, 21:30:01 [activity] Day 0, 21:35:01 [activity] Day 0, 21:35:01 [conversation] Day 0, 21:40:01 [activity] Day 0, 21:40:01 [conversation] Day 0, 21:45:01 [activity] Day 0, 21:45:01 [conversation] Day 0, 21:45:01 [conversation] Day 0, 21:50:01 [conversation] Day 0, 21:50:01 [activity] Day 0, 21:50:01 [conversation] Day 0, 21:55:01 [conversation] Day 0, 21:55:01 [conversation] Day 0, 21:55:01 [activity] Day 0, 22:00:01 [activity] Day 0, 22:00:01 [conversation] Day 0, 22:00:01 [conversation] Day 0, 22:05:01 [activity] Day 0, 22:05:01 [conversation] Day 0, 22:10:01 [activity] Day 0, 22:10:01 [conversation] Day 0, 22:15:01 [activity] Day 0, 22:15:01 [conversation] Day 0, 22:20:01 [activity] Day 0, 22:25:01 [activity] Day 0, 22:30:01 [activity] Day 0, 22:35:01 [activity] Day 0, 22:40:01 [activity] Day 0, 22:45:01 [activity] Day 0, 22:50:01 [activity] Day 0, 22:55:01 [activity] Day 0, 23:00:01 [activity] Day 0, 23:05:01 [activity] Day 0, 23:10:01 [activity] Day 0, 23:15:01 [activity] Day 0, 23:20:01 [activity] Day 0, 23:25:01 [activity] Day 0, 23:30:01 [activity] Day 0, 23:35:01 [activity] Day 0, 23:40:01 [thought] Day 0, 23:40:01 [thought] Day 0, 23:40:01 [thought] Day 0, 23:40:01 [activity] Day 0, 23:45:01 [activity] Day 0, 23:50:01 [activity] Day 0, 23:55:01 [activity]"
+    },
+    {
+      "day": 1,
+      "daypart": "Morning (06:00–11:59)",
+      "summary": "Day 1, 06:00:01 [activity] Day 1, 06:05:01 [activity] Day 1, 06:10:01 [activity] Day 1, 06:15:01 [activity] Day 1, 06:20:01 [activity] Day 1, 06:25:01 [activity] Day 1, 06:30:01 [activity] Day 1, 06:35:01 [activity] Day 1, 06:40:01 [activity] Day 1, 06:45:01 [activity] Day 1, 06:50:01 [activity] Day 1, 06:55:01 [activity] Day 1, 07:00:01 [activity] Day 1, 07:05:01 [activity] Day 1, 07:10:01 [activity] Day 1, 07:15:01 [activity] Day 1, 07:20:01 [activity] Day 1, 07:25:01 [activity] Day 1, 07:30:01 [activity] Day 1, 07:30:01 [thought] Day 1, 07:30:01 [thought] Day 1, 07:30:01 [thought] Day 1, 07:35:01 [activity] Day 1, 07:40:01 [activity] Day 1, 07:45:01 [activity] Day 1, 07:50:01 [activity] Day 1, 07:55:01 [activity] Day 1, 08:00:01 [activity] Day 1, 08:05:01 [activity] Day 1, 08:10:01 [activity] Day 1, 08:15:01 [activity] Day 1, 08:20:01 [activity] Day 1, 08:25:01 [activity] Day 1, 08:30:01 [activity] Day 1, 08:35:01 [activity] Day 1, 08:40:01 [activity] Day 1, 08:45:01 [activity] Day 1, 08:50:01 [activity] Day 1, 08:55:01 [activity] Day 1, 09:00:01 [activity] Day 1, 09:05:01 [activity] Day 1, 09:10:01 [activity] Day 1, 09:15:01 [activity] Day 1, 09:20:01 [activity] Day 1, 09:25:01 [activity] Day 1, 09:30:01 [activity] Day 1, 09:35:01 [activity] Day 1, 09:40:01 [activity] Day 1, 09:45:01 [activity] Day 1, 09:50:01 [activity] Day 1, 09:55:01 [activity] Day 1, 10:00:01 [activity] Day 1, 10:05:01 [activity] Day 1, 10:10:01 [activity] Day 1, 10:15:01 [activity] Day 1, 10:20:01 [activity] Day 1, 10:25:01 [activity] Day 1, 10:30:01 [activity] Day 1, 10:35:01 [activity] Day 1, 10:40:01 [activity] Day 1, 10:45:01 [activity] Day 1, 10:50:01 [activity] Day 1, 10:55:01 [activity] Day 1, 11:00:01 [activity] Day 1, 11:05:01 [activity] Day 1, 11:10:01 [activity] Day 1, 11:15:01 [activity] Day 1, 11:20:01 [activity] Day 1, 11:25:01 [activity] Day 1, 11:30:01 [activity] Day 1, 11:35:01 [activity] Day 1, 11:40:01 [activity] Day 1, 11:45:01 [thought] Day 1, 11:45:01 [thought] Day 1, 11:45:01 [activity] Day 1, 11:50:01 [activity] Day 1, 11:55:01 [activity]"
+    },
+    {
+      "day": 1,
+      "daypart": "Noon (12:00–13:59)",
+      "summary": "Day 1, 12:00:01 [activity] Day 1, 12:05:01 [activity] Day 1, 12:10:01 [activity] Day 1, 12:15:01 [activity] Day 1, 12:20:01 [activity] Day 1, 12:25:01 [activity] Day 1, 12:30:01 [activity] Day 1, 12:35:01 [activity] Day 1, 12:40:01 [activity] Day 1, 12:45:01 [activity] Day 1, 12:50:01 [activity] Day 1, 12:55:01 [activity] Day 1, 13:00:01 [activity] Day 1, 13:05:01 [activity] Day 1, 13:10:01 [activity] Day 1, 13:15:01 [thought] Day 1, 13:15:01 [thought] Day 1, 13:15:01 [thought] Day 1, 13:15:01 [activity] Day 1, 13:15:01 [conversation] Day 1, 13:20:01 [activity] Day 1, 13:20:01 [conversation] Day 1, 13:25:01 [conversation] Day 1, 13:25:01 [activity] Day 1, 13:25:01 [thought] Day 1, 13:25:01 [thought] Day 1, 13:30:01 [activity] Day 1, 13:35:01 [activity] Day 1, 13:40:01 [activity] Day 1, 13:45:01 [activity] Day 1, 13:50:01 [activity] Day 1, 13:55:01 [activity]"
+    },
+    {
+      "day": 1,
+      "daypart": "Afternoon (14:00–17:59)",
+      "summary": "Day 1, 14:00:01 [activity] Day 1, 14:05:01 [activity] Day 1, 14:10:01 [activity] Day 1, 14:15:01 [activity] Day 1, 14:20:01 [activity] Day 1, 14:25:01 [activity] Day 1, 14:30:01 [activity] Day 1, 14:35:01 [activity] Day 1, 14:40:01 [activity] Day 1, 14:45:01 [activity] Day 1, 14:50:01 [activity] Day 1, 14:55:01 [activity] Day 1, 15:00:01 [activity] Day 1, 15:05:01 [activity] Day 1, 15:10:01 [activity] Day 1, 15:15:01 [activity] Day 1, 15:20:01 [activity] Day 1, 15:25:01 [activity] Day 1, 15:30:01 [activity] Day 1, 15:35:01 [activity] Day 1, 15:40:01 [activity] Day 1, 15:45:01 [activity] Day 1, 15:50:01 [activity] Day 1, 15:55:01 [thought] Day 1, 15:55:01 [thought] Day 1, 15:55:01 [thought] Day 1, 15:55:01 [activity] Day 1, 16:00:01 [activity] Day 1, 16:05:01 [activity] Day 1, 16:10:01 [activity] Day 1, 16:15:01 [activity] Day 1, 16:20:01 [activity] Day 1, 16:25:01 [activity] Day 1, 16:30:01 [activity] Day 1, 16:35:01 [activity] Day 1, 16:40:01 [activity] Day 1, 16:45:01 [activity] Day 1, 16:50:01 [activity] Day 1, 16:55:01 [activity] Day 1, 17:00:01 [activity] Day 1, 17:05:01 [activity] Day 1, 17:10:01 [activity] Day 1, 17:15:01 [activity] Day 1, 17:20:01 [activity] Day 1, 17:25:01 [activity] Day 1, 17:25:01 [conversation] Day 1, 17:30:01 [activity] Day 1, 17:30:01 [conversation] Day 1, 17:35:01 [activity] Day 1, 17:35:01 [conversation] Day 1, 17:40:01 [activity] Day 1, 17:45:01 [activity] Day 1, 17:50:01 [activity] Day 1, 17:55:01 [activity]"
+    },
+    {
+      "day": 1,
+      "daypart": "Evening (18:00–23:59)",
+      "summary": "Day 1, 18:00:01 [activity] Day 1, 18:05:01 [activity] Day 1, 18:10:01 [activity] Day 1, 18:15:01 [activity] Day 1, 18:20:01 [activity] Day 1, 18:25:01 [activity] Day 1, 18:30:01 [activity] Day 1, 18:35:01 [activity] Day 1, 18:40:01 [activity] Day 1, 18:45:01 [activity] Day 1, 18:50:01 [activity] Day 1, 18:55:01 [activity] Day 1, 19:00:01 [activity] Day 1, 19:05:01 [activity] Day 1, 19:10:01 [activity] Day 1, 19:15:01 [activity] Day 1, 19:20:01 [activity] Day 1, 19:25:01 [activity] Day 1, 19:30:01 [activity] Day 1, 19:35:01 [activity] Day 1, 19:40:01 [activity] Day 1, 19:45:01 [thought] Day 1, 19:45:01 [thought] Day 1, 19:45:01 [thought] Day 1, 19:45:01 [activity] Day 1, 19:50:01 [activity] Day 1, 19:55:01 [activity] Day 1, 20:00:01 [activity] Day 1, 20:05:01 [activity] Day 1, 20:10:01 [activity] Day 1, 20:15:01 [activity] Day 1, 20:20:01 [activity] Day 1, 20:25:01 [activity] Day 1, 20:30:01 [activity] Day 1, 20:35:01 [activity] Day 1, 20:40:01 [activity] Day 1, 20:45:01 [activity] Day 1, 20:50:01 [activity] Day 1, 20:55:01 [activity] Day 1, 21:00:01 [conversation] Day 1, 21:00:01 [activity] Day 1, 21:05:01 [activity] Day 1, 21:05:01 [conversation] Day 1, 21:10:01 [activity] Day 1, 21:15:01 [activity] Day 1, 21:20:01 [activity] Day 1, 21:25:01 [activity] Day 1, 21:30:01 [activity] Day 1, 21:35:01 [activity] Day 1, 21:40:01 [activity] Day 1, 21:45:01 [activity] Day 1, 21:50:01 [activity] Day 1, 21:55:01 [activity] Day 1, 22:00:01 [activity] Day 1, 22:05:01 [activity] Day 1, 22:10:01 [thought] Day 1, 22:10:01 [thought] Day 1, 22:10:01 [thought] Day 1, 22:10:01 [activity] Day 1, 22:15:01 [activity] Day 1, 22:20:01 [activity] Day 1, 22:25:01 [activity] Day 1, 22:30:01 [activity] Day 1, 22:35:01 [activity] Day 1, 22:40:01 [activity] Day 1, 22:45:01 [activity] Day 1, 22:50:01 [activity] Day 1, 22:55:01 [activity] Day 1, 23:00:01 [activity] Day 1, 23:05:01 [activity] Day 1, 23:10:01 [activity] Day 1, 23:15:01 [activity] Day 1, 23:20:01 [activity] Day 1, 23:25:01 [activity] Day 1, 23:30:01 [activity] Day 1, 23:35:01 [activity] Day 1, 23:40:01 [activity] Day 1, 23:45:01 [activity] Day 1, 23:50:01 [activity] Day 1, 23:55:01 [activity]"
+    },
+    {
+      "day": 1,
+      "daypart": "Midnight (00:00–05:59)",
+      "summary": "Day 1, 00:00:01 [activity] Day 1, 00:05:01 [activity] Day 1, 00:10:01 [activity] Day 1, 00:15:01 [activity] Day 1, 00:20:01 [activity] Day 1, 00:25:01 [activity] Day 1, 00:30:01 [thought] Day 1, 00:30:01 [thought] Day 1, 00:30:01 [activity] Day 1, 00:35:01 [activity] Day 1, 00:40:01 [activity] Day 1, 00:45:01 [activity] Day 1, 00:50:01 [activity] Day 1, 00:55:01 [activity] Day 1, 01:00:01 [activity] Day 1, 01:05:01 [activity] Day 1, 01:10:01 [activity] Day 1, 01:15:01 [activity] Day 1, 01:20:01 [activity] Day 1, 01:25:01 [activity] Day 1, 01:30:01 [activity] Day 1, 01:35:01 [activity] Day 1, 01:40:01 [activity] Day 1, 01:45:01 [activity] Day 1, 01:50:01 [activity] Day 1, 01:55:01 [activity] Day 1, 02:00:01 [activity] Day 1, 02:05:01 [activity] Day 1, 02:10:01 [activity] Day 1, 02:15:01 [activity] Day 1, 02:20:01 [activity] Day 1, 02:25:01 [activity] Day 1, 02:30:01 [activity] Day 1, 02:35:01 [activity] Day 1, 02:35:01 [conversation] Day 1, 02:40:01 [activity] Day 1, 02:45:01 [activity] Day 1, 02:50:01 [activity] Day 1, 02:55:01 [activity] Day 1, 03:00:01 [activity] Day 1, 03:05:01 [activity] Day 1, 03:10:01 [activity] Day 1, 03:15:01 [activity] Day 1, 03:20:01 [thought] Day 1, 03:20:01 [thought] Day 1, 03:20:01 [thought] Day 1, 03:20:01 [activity] Day 1, 03:25:01 [activity] Day 1, 03:30:01 [activity] Day 1, 03:35:01 [activity] Day 1, 03:40:01 [activity] Day 1, 03:45:01 [activity] Day 1, 03:50:01 [activity] Day 1, 03:55:01 [activity] Day 1, 04:00:01 [activity] Day 1, 04:05:01 [activity] Day 1, 04:10:01 [activity] Day 1, 04:10:01 [conversation] Day 1, 04:15:01 [activity] Day 1, 04:20:01 [conversation] Day 1, 04:20:01 [activity] Day 1, 04:25:01 [activity] Day 1, 04:30:01 [activity] Day 1, 04:35:01 [activity] Day 1, 04:40:01 [activity] Day 1, 04:45:01 [activity] Day 1, 04:50:01 [activity] Day 1, 04:55:01 [activity] Day 1, 05:00:01 [activity] Day 1, 05:05:01 [activity] Day 1, 05:10:01 [activity] Day 1, 05:15:01 [activity] Day 1, 05:20:01 [thought] Day 1, 05:20:01 [thought] Day 1, 05:20:01 [activity] Day 1, 05:25:01 [activity] Day 1, 05:30:01 [activity] Day 1, 05:35:01 [activity] Day 1, 05:40:01 [activity] Day 1, 05:45:01 [activity] Day 1, 05:50:01 [activity] Day 1, 05:55:01 [activity]"
+    }
+  ],
+  "daily_one_liner": "Day 0: Leo's day balances rigorous quantum research work with frequent social interactions, reflecting his collaborative nature and strong ties to colleagues, friends, and his supportive wife. / Day 1: Leo Williams had a day filled with focused work, thoughtful reflections, and engaging conversations, balancing professional responsibilities with social interactions and personal interests.",
+  "dimension_descriptions": {
+    "temporal_logic": "Leo's timeline shows a consistent pattern of activity throughout the day, with no clear breaks or transitions that suggest a lack of temporal coherence. | e.g., He engages in continuous activity from early morning to late night, with no indication of a structured schedule or time for rest.",
+    "cognitive_action_coherence": "Leo's actions align with his intellectual and collaborative nature, as he frequently engages in activities that reflect his professional and personal interests. | e.g., He spends significant time on tasks that suggest scientific or intellectual engagement, such as working on quantum research or discussing complex ideas with colleagues.",
+    "personality_consistency": "Leo's behavior is consistent with his empathetic, loyal, and collaborative personality traits, as he regularly interacts with friends and colleagues. | e.g., He maintains frequent conversations with his close friends and colleagues, showing his social and collaborative tendencies.",
+    "daily_rhythm": "Leo's daily rhythm is characterized by an unbroken sequence of activity, with no discernible pattern of rest or downtime. | e.g., He is active from 06:00 to 23:59 on both days, with no clear intervals for relaxation or personal reflection.",
+    "mobility": "Leo's mobility is limited to his home and work locations, with no indication of travel or movement to other areas. | e.g., He is consistently located in the Clinton Towers Apartments and Columbia University, with no activity recorded outside these AOIs.",
+    "continuity": "Leo's behavior is continuous and consistent across both days, with no significant deviations or changes in his routine. | e.g., He follows the same pattern of activity and conversations from Day 0 to Day 1, showing a stable and predictable behavior."
+  },
+  "overall_summary": "Leo Williams exhibits a highly active and consistent behavioral pattern across the two days, with no signs of rest or change in routine. His actions align with his personality as an empathetic, collaborative, and intellectually driven individual, and he remains primarily within his home and work AOIs, engaging in continuous activity and conversations with friends and colleagues.",
+  "hard_anomalies": [
+    "No rest across midnight | e.g., Day 0 · 23:30–23:59→Day 1 · 00:00–00:29"
+  ]
+}

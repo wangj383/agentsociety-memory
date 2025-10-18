@@ -1,0 +1,71 @@
+config: "agents:\n  banks:\n  - agent_class: BankAgent\n    memory_config_func: memory_config_bank\n\
+  \  citizens:\n  - agent_class: SocietyAgent\n    agent_params: {}\n    blocks:\n\
+  \      ? !!python/name:agentsociety_community.blocks.citizens.cityagent.other_block.OtherBlock\
+  \ ''\n      : sleep_time_estimation_prompt: \"As an intelligent agent's time estimation\
+  \ system,\\\n          \\ please estimate the time needed to complete the current\
+  \ action based on\\\n          \\ the overall plan and current intention.\\n\\nOverall\
+  \ plan:\\n${context.plan_context[\\\"\\\n          plan\\\"]}\\n\\nCurrent action:\
+  \ ${context.current_step[\\\"intention\\\"]}\\n\\nCurrent\\\n          \\ emotion:\
+  \ ${status.emotion_types}\\n\\nExamples:\\n- \\\"Learn programming\\\"\\\n     \
+  \     : {{\\\"time\\\": 120}}\\n- \\\"Watch a movie\\\": {{\\\"time\\\": 150}} \\\
+  n- \\\"Play mobile\\\n          \\ games\\\": {{\\\"time\\\": 60}}\\n- \\\"Read\
+  \ a book\\\": {{\\\"time\\\": 90}}\\n- \\\"Exercise\\\"\\\n          : {{\\\"time\\\
+  \": 45}}\\n\\nPlease return the result in JSON format (Do not return\\\n       \
+  \   \\ any other text), the time unit is [minute], example:\\n{{\\n    \\\"time\\\
+  \"\\\n          : 10\\n}}\\n\"\n      ? !!python/name:agentsociety_community.blocks.citizens.cityagent.social_block.SocialBlock\
+  \ ''\n      : {}\n      ? !!python/name:agentsociety_community.blocks.citizens.cityagent.economy_block.EconomyBlock\
+  \ ''\n      : UBI: 0\n        num_labor_hours: 168\n        productivity_per_labor:\
+  \ 1\n        time_diff: 2592000\n        worktime_estimation_prompt: \"As an intelligent\
+  \ agent's time estimation system,\\\n          \\ please estimate the time needed\
+  \ to complete the current action based on\\\n          \\ the overall plan and current\
+  \ intention.\\n\\nOverall plan:\\n${context.plan_context[\\\"\\\n          plan\\\
+  \"]}\\n\\nCurrent action: ${context.current_step[\\\"intention\\\"]}\\n\\nCurrent\\\
+  \n          \\ emotion: ${status.emotion_types}\\n\\nExamples:\\n- \\\"Learn programming\\\
+  \"\\\n          : {{\\\"time\\\": 120}}\\n- \\\"Watch a movie\\\": {{\\\"time\\\"\
+  : 150}} \\n- \\\"Play mobile\\\n          \\ games\\\": {{\\\"time\\\": 60}}\\n-\
+  \ \\\"Read a book\\\": {{\\\"time\\\": 90}}\\n- \\\"Exercise\\\"\\\n          :\
+  \ {{\\\"time\\\": 45}}\\n\\nPlease return the result in JSON format (Do not return\\\
+  \n          \\ any other text), the time unit is [minute], example:\\n{{\\n    \\\
+  \"time\\\"\\\n          : 10\\n}}\\n\"\n      ? !!python/name:agentsociety_community.blocks.citizens.cityagent.mobility_block.MobilityBlock\
+  \ ''\n      : radius_prompt: \"As an intelligent decision system, please determine\
+  \ the maximum\\\n          \\ travel radius (in meters) based on the current emotional\
+  \ state.\\n\\nCurrent\\\n          \\ weather: ${context.weather}\\nCurrent temperature:\
+  \ ${context.temperature}\\n\\\n          Your current emotion: ${context.current_emotion}\\\
+  nYour current thought:\\\n          \\ ${context.current_thought}\\nOther information:\
+  \ \\n-------------------------\\n\\\n          ${context.other_information}\\n-------------------------\\\
+  n\\nPlease analyze\\\n          \\ how these emotions would affect travel willingness\
+  \ and return only a single\\\n          \\ integer number between 3000-200000 representing\
+  \ the maximum travel radius\\\n          \\ in meters. A more positive emotional\
+  \ state generally leads to greater\\\n          \\ willingness to travel further.\\\
+  n\\nPlease response in json format (Do not\\\n          \\ return any other text),\
+  \ example:\\n{{\\n    \\\"radius\\\": 10000\\n}}\\n\"\n        search_limit: 50\n\
+  \    memory_config_func: memory_config_societyagent\n    memory_distributions:\n\
+  \      age: UniformIntDistribution(min_value=18, max_value=65)\n      education:\
+  \ ChoiceDistribution(choices=['Doctor', 'Master', 'Bachelor', 'College',\n     \
+  \   'High School'], weights=None)\n      gender: ChoiceDistribution(choices=['Male',\
+  \ 'Female'], weights=None)\n      marriage_status: ChoiceDistribution(choices=['Not\
+  \ married', 'Married', 'Divorced',\n        'Widowed'], weights=None)\n      name:\
+  \ ChoiceDistribution(choices=['Alice', 'Bob', 'Charlie', 'David', 'Eve',\n     \
+  \   'Frank', 'Grace', 'Helen', 'Ivy', 'Jack', 'Kelly', 'Lily', 'Mike', 'Nancy',\n\
+  \        'Oscar', 'Peter', 'Queen', 'Rose', 'Sam', 'Tom', 'Ulysses', 'Vicky', 'Will',\n\
+  \        'Xavier', 'Yvonne', 'Zack'], weights=None)\n      occupation: ChoiceDistribution(choices=['Student',\
+  \ 'Teacher', 'Doctor', 'Engineer',\n        'Manager', 'Businessman', 'Artist',\
+  \ 'Athlete', 'Other'], weights=None)\n    memory_from_file: agent_profiles/c42a6746-4477-4b0d-a4bb-b71f9c9a8dcd/e306778a-c5a9-4bae-9294-3544a4d09848.json\n\
+  \    number: 10\n  firms:\n  - agent_class: FirmAgent\n    memory_config_func: memory_config_firm\n\
+  \  governments:\n  - agent_class: GovernmentAgent\n    memory_config_func: memory_config_government\n\
+  \  init_funcs:\n  - bind_agent_info\n  nbs:\n  - agent_class: NBSAgent\n    memory_config_func:\
+  \ memory_config_nbs\nenv:\n  db:\n    db_type: postgresql\nexp:\n  environment:\
+  \ {}\n  id: b549c20a-5bd2-4ce3-815e-ce1af944ee74\n  name: 9.30 beijing 10agents\n\
+  \  workflow:\n  - days: 7.0\n    type: run\nllm:\n- model: deepseek-chat\n  provider:\
+  \ deepseek\nmap:\n  file_path: /map/beijing.pb\n"
+created_at: 2025-09-30 06:42:53.324938+00:00
+cur_day: 2
+cur_t: 32401.0
+error: Experiment stopped by user
+id: b549c20a-5bd2-4ce3-815e-ce1af944ee74
+input_tokens: 4555038
+name: 9.30 beijing 10agents
+num_day: 0
+output_tokens: 606415
+status: 4
+updated_at: 2025-09-30 11:37:19.706700+00:00

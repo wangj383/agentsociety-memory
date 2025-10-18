@@ -1,0 +1,2521 @@
+day,t,prompt,created_at
+0,21601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:50:22.781200
+0,21901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:50:34.089923
+0,22201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:50:42.435511
+0,22501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:50:53.618921
+0,22801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:51:09.317697
+0,23101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:51:17.863090
+0,23401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:51:27.196465
+0,23701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:51:38.003576
+0,24001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:51:58.362195
+0,24301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:52:19.484939
+0,24601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:52:43.383766
+0,24901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:53:10.785098
+0,25201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:53:36.712784
+0,25501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:54:05.727944
+0,25801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:54:28.661311
+0,26101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:54:51.640871
+0,26401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:54:59.349761
+0,26701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:55:13.176635
+0,27001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:55:27.953753
+0,27301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:55:40.347730
+0,27601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:55:52.717085
+0,27901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:56:10.260669
+0,28201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:56:24.048737
+0,28501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:56:35.737394
+0,28801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:56:43.859085
+0,29101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:56:52.996182
+0,29401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:57:01.612491
+0,29701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:57:26.888248
+0,30001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:57:37.774409
+0,30301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:58:00.144253
+0,30601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:58:27.200194
+0,30901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:58:53.591809
+0,31201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:59:17.643465
+0,31501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 02:59:50.163766
+0,31801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:00:01.943450
+0,32101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:00:39.168687
+0,32401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:01:10.851451
+0,32701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:01:36.382763
+0,33001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:02:06.711721
+0,33301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:02:18.805443
+0,33601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:02:30.534101
+0,33901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:03:01.800466
+0,34201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:03:11.483028
+0,34501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:03:24.035693
+0,34801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:03:51.592599
+0,35101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:04:02.734048
+0,35401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:04:16.207466
+0,35701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:04:25.584198
+0,36001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:04:34.751531
+0,36301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:04:47.013297
+0,36601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:05:17.123122
+0,36901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:05:27.226249
+0,37201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:05:38.132507
+0,37501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:05:52.667525
+0,37801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:06:31.513877
+0,38101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:07:03.475785
+0,38401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:07:20.916140
+0,38701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:07:38.549403
+0,39001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:07:48.729847
+0,39301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:08:23.332805
+0,39601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:08:38.828584
+0,39901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:08:52.946145
+0,40201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:09:06.881931
+0,40501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:09:22.177716
+0,40801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:09:53.281182
+0,41101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:10:05.415299
+0,41401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:10:50.881690
+0,41701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:11:33.404053
+0,42001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:11:43.437972
+0,42301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:12:16.533550
+0,42601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:12:58.555174
+0,42901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:13:08.903952
+0,43201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:13:36.594143
+0,43501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:14:03.433346
+0,43801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:14:15.209960
+0,44101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:14:48.172871
+0,44401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:15:42.540441
+0,44701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:15:52.959030
+0,45001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:16:23.445392
+0,45301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:16:51.342331
+0,45601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:17:16.042066
+0,45901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:17:41.280106
+0,46201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:17:55.582049
+0,46501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:18:25.989008
+0,46801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:18:39.252860
+0,47101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:18:53.307067
+0,47401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:19:06.786303
+0,47701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:19:21.189819
+0,48001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:19:51.080812
+0,48301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:20:25.592538
+0,48601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:20:36.769713
+0,48901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:20:56.692686
+0,49201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:21:25.799840
+0,49501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:21:45.614453
+0,49801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:22:19.739762
+0,50101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:22:37.352633
+0,50401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:22:52.238031
+0,50701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:23:20.283298
+0,51001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:23:38.546194
+0,51301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:24:05.894999
+0,51601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:24:38.720797
+0,51901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:25:06.362089
+0,52201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:25:17.071594
+0,52501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:25:43.700522
+0,52801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:26:10.257069
+0,53101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:26:40.559532
+0,53401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:26:55.147175
+0,53701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:27:05.848258
+0,54001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:27:35.587743
+0,54301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:27:47.100094
+0,54601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:28:14.759207
+0,54901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:28:26.248862
+0,55201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:28:54.993349
+0,55501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:29:06.566194
+0,55801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:34:33.643925
+0,56101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:35:00.408649
+0,56401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:35:39.255140
+0,56701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:36:10.829564
+0,57001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:36:44.427805
+0,57301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:37:19.124369
+0,57601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:37:50.549243
+0,57901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:38:10.427348
+0,58201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:38:25.782193
+0,58501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:38:40.643043
+0,58801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:38:55.804070
+0,59101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:39:26.979110
+0,59401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:40:05.159247
+0,59701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:40:40.437476
+0,60001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:41:13.533351
+0,60301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:41:42.799220
+0,60601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:42:15.135863
+0,60901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:42:39.839134
+0,61201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:42:52.944900
+0,61501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:43:04.693031
+0,61801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:43:37.296907
+0,62101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:43:51.476803
+0,62401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:44:27.390991
+0,62701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:45:08.161143
+0,63001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:45:41.611506
+0,63301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:46:14.850277
+0,63601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:46:56.094722
+0,63901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:47:13.483615
+0,64201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:47:32.527381
+0,64501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:47:47.904590
+0,64801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:48:16.429297
+0,65101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:48:29.897858
+0,65401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:49:04.622869
+0,65701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:49:39.289443
+0,66001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:50:17.675656
+0,66301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:50:31.863664
+0,66601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:51:08.686477
+0,66901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:51:40.808997
+0,67201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:52:11.919727
+0,67501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:52:30.297355
+0,67801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:53:15.589480
+0,68101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:53:53.889075
+0,68401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:54:16.481932
+0,68701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:54:45.400839
+0,69001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:55:17.390131
+0,69301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:55:37.449018
+0,69601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:55:53.720448
+0,69901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:56:37.825554
+0,70201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:56:50.524317
+0,70501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:57:10.883327
+0,70801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:57:27.398574
+0,71101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:58:06.003588
+0,71401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:58:26.732535
+0,71701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:58:45.698173
+0,72001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:59:03.257960
+0,72301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 03:59:36.979304
+0,72601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:00:12.732551
+0,72901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:00:29.432470
+0,73201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:00:57.440622
+0,73501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:01:29.886508
+0,73801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:01:40.623120
+0,74101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:01:50.416836
+0,74401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:01:59.726673
+0,74701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:02:23.999768
+0,75001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:02:33.687626
+0,75301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:03:02.850846
+0,75601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:03:29.653125
+0,75901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:03:36.828387
+0,76201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:04:02.687661
+0,76501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:04:29.258910
+0,76801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:05:04.349576
+0,77101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:05:13.807458
+0,77401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:05:23.808360
+0,77701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:05:48.891150
+0,78001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:06:20.751709
+0,78301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:06:48.251453
+0,78601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:07:11.799570
+0,78901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:07:41.014489
+0,79201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:08:15.031510
+0,79501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:08:51.595813
+0,79801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:09:02.220399
+0,80101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:09:30.808124
+0,80401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:09:57.845502
+0,80701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:10:08.816103
+0,81001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:10:34.317823
+0,81301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:11:00.427760
+0,81601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:11:10.033175
+0,81901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:11:38.092748
+0,82201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:12:07.684843
+0,82501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:12:28.710427
+0,82801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:12:37.555866
+0,83101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:12:46.180623
+0,83401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:13:09.327975
+0,83701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:13:23.628997
+0,84001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:13:37.453127
+0,84301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:13:50.606441
+0,84601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:14:10.561346
+0,84901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:14:20.389147
+0,85201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:14:48.012236
+0,85501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:15:00.691221
+0,85801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:15:13.106268
+0,86101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:15:40.982525
+1,1.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:16:08.910955
+1,301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:16:36.795796
+1,601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:17:03.439264
+1,901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:17:33.027280
+1,1201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:18:01.581597
+1,1501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:18:16.382182
+1,1801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:18:46.762030
+1,2101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:19:10.266406
+1,2401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:19:42.039285
+1,2701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:19:56.181782
+1,3001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:20:24.363994
+1,3301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:20:56.186670
+1,3601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:21:27.509748
+1,3901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:21:47.299163
+1,4201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:22:05.098806
+1,4501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:22:38.416874
+1,4801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:22:54.758733
+1,5101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:23:30.046854
+1,5401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:23:44.182578
+1,5701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:23:58.541695
+1,6001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:24:29.486552
+1,6301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:24:40.937626
+1,6601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:24:52.438700
+1,6901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:25:15.121617
+1,7201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:25:23.320419
+1,7501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:25:41.187311
+1,7801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:25:54.553330
+1,8101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:26:14.127546
+1,8401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:26:34.604303
+1,8701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:26:57.618148
+1,9001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:27:06.259702
+1,9301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:27:18.330307
+1,9601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:27:31.793165
+1,9901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:27:53.061016
+1,10201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:28:15.574529
+1,10501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:28:26.590039
+1,10801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:28:52.649766
+1,11101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:29:03.820790
+1,11401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:29:27.072053
+1,11701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:29:38.037583
+1,12001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:30:05.251284
+1,12301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:30:29.929364
+1,12601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:30:52.869818
+1,12901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:31:16.609363
+1,13201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:31:41.814042
+1,13501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:32:05.011124
+1,13801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:32:27.899809
+1,14101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:32:45.925223
+1,14401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:33:11.033312
+1,14701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:33:43.458097
+1,15001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:33:57.157372
+1,15301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:34:21.978581
+1,15601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:34:41.127663
+1,15901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:35:15.472225
+1,16201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:35:32.701781
+1,16501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:35:58.629045
+1,16801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:36:14.832711
+1,17101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:36:42.438207
+1,17401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:37:01.520488
+1,17701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:37:24.116116
+1,18001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:37:47.094991
+1,18301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:37:55.993554
+1,18601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:38:12.510955
+1,18901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:38:32.098951
+1,19201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:38:51.686277
+1,19501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:39:07.478444
+1,19801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:39:29.105465
+1,20101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:39:39.398644
+1,20401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:39:53.357201
+1,20701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:40:16.895249
+1,21001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:40:46.619313
+1,21301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:41:14.954538
+1,21601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:41:42.324340
+1,21901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:42:09.121201
+1,22201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:42:22.880148
+1,22501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:42:35.784031
+1,22801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:42:50.491410
+1,23101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:43:01.157083
+1,23401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:43:25.777032
+1,23701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:43:44.887239
+1,24001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:43:53.902230
+1,24301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:44:04.977460
+1,24601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:44:36.370693
+1,24901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:44:46.223888
+1,25201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:44:56.776399
+1,25501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:45:17.159639
+1,25801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:45:27.205090
+1,26101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:45:37.579337
+1,26401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:45:59.533620
+1,26701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:46:12.311047
+1,27001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:46:38.975064
+1,27301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:47:04.098409
+1,27601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:47:13.701977
+1,27901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:47:24.837334
+1,28201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:47:49.839972
+1,28501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:48:12.720926
+1,28801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:48:41.138348
+1,29101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:48:53.011213
+1,29401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:49:04.038739
+1,29701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:49:14.592834
+1,30001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:49:25.625448
+1,30301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:49:37.977419
+1,30601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:49:47.389022
+1,30901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:49:58.844403
+1,31201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:50:23.333795
+1,31501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:50:43.270184
+1,31801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:50:57.954641
+1,32101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:51:25.347149
+1,32401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:51:50.067965
+1,32701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:52:16.702111
+1,33001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:52:24.306095
+1,33301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:52:35.340131
+1,33601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:52:59.502869
+1,33901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:53:20.712004
+1,34201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:53:33.765676
+1,34501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:54:02.283501
+1,34801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:54:11.822276
+1,35101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:54:26.059669
+1,35401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:54:40.681006
+1,35701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:54:52.559041
+1,36001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:55:17.002635
+1,36301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:55:40.678132
+1,36601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:56:04.796470
+1,36901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:56:31.107296
+1,37201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:56:57.898277
+1,37501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:57:08.794413
+1,37801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:57:41.589919
+1,38101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:58:09.056007
+1,38401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:58:23.273976
+1,38701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:58:48.544935
+1,39001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:58:59.441699
+1,39301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:59:11.082633
+1,39601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:59:25.670355
+1,39901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 04:59:37.271832
+1,40201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:00:04.360869
+1,40501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:00:29.553942
+1,40801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:00:42.843846
+1,41101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:00:54.751039
+1,41401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:01:17.995508
+1,41701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:01:35.341197
+1,42001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:01:45.515342
+1,42301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:02:08.798857
+1,42601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:02:29.439349
+1,42901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:02:58.906571
+1,43201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:03:24.976768
+1,43501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:03:49.052584
+1,43801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:04:12.909233
+1,44101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:04:35.936100
+1,44401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:05:03.317356
+1,44701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:05:27.137934
+1,45001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:05:54.175528
+1,45301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:06:27.568245
+1,45601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:06:52.864760
+1,45901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:07:22.972575
+1,46201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:07:46.423983
+1,46501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:08:19.087044
+1,46801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:08:52.879652
+1,47101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:09:20.436435
+1,47401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:09:51.702821
+1,47701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:10:29.547729
+1,48001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:10:58.637912
+1,48301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:11:25.679786
+1,48601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:11:54.137090
+1,48901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:12:26.692437
+1,49201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:13:06.072548
+1,49501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:13:45.579279
+1,49801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:14:18.455236
+1,50101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:14:34.819276
+1,50401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:15:15.928636
+1,50701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:15:35.681780
+1,51001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:16:17.812681
+1,51301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:16:37.118171
+1,51601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:17:21.056476
+1,51901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:17:41.304096
+1,52201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:18:18.361018
+1,52501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:18:34.821356
+1,52801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:19:08.675635
+1,53101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:19:25.568926
+1,53401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:19:41.450133
+1,53701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:19:56.496914
+1,54001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:20:32.545428
+1,54301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:21:09.939979
+1,54601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:21:46.004946
+1,54901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:22:21.361715
+1,55201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:22:41.063134
+1,55501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:22:58.237212
+1,55801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:23:14.626871
+1,56101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:23:53.054349
+1,56401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:24:12.080789
+1,56701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:24:30.400422
+1,57001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:24:50.397752
+1,57301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:25:23.958507
+1,57601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:25:55.790881
+1,57901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:26:14.241742
+1,58201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:26:33.155226
+1,58501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:27:02.318586
+1,58801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:27:31.883205
+1,59101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:27:38.909714
+1,59401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:28:08.445524
+1,59701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:28:39.124877
+1,60001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:28:49.956555
+1,60301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:29:03.940999
+1,60601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:29:36.386506
+1,60901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:29:49.090613
+1,61201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:30:02.345435
+1,61501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:30:13.896180
+1,61801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:30:45.196770
+1,62101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:30:56.329970
+1,62401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:31:22.819015
+1,62701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:32:01.993441
+1,63001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:32:29.097412
+1,63301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:32:59.056333
+1,63601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:33:27.003687
+1,63901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:33:56.392455
+1,64201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:34:23.424387
+1,64501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:34:34.076720
+1,64801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:34:43.598531
+1,65101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:35:09.036764
+1,65401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:35:17.886464
+1,65701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:35:44.143868
+1,66001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:36:10.114568
+1,66301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:36:22.604083
+1,66601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:36:52.266559
+1,66901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:37:20.359932
+1,67201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:37:46.471799
+1,67501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:38:04.401496
+1,67801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:38:40.676291
+1,68101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:39:13.116701
+1,68401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:39:46.512015
+1,68701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:40:21.341641
+1,69001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:40:53.242707
+1,69301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:41:29.218238
+1,69601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:41:44.572104
+1,69901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:42:11.304594
+1,70201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:42:37.255209
+1,70501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:43:09.805837
+1,70801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:43:23.891303
+1,71101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:43:47.626940
+1,71401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:43:57.145141
+1,71701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:44:08.655445
+1,72001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:44:31.292275
+1,72301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:45:04.347246
+1,72601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:45:31.690145
+1,72901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:46:01.888628
+1,73201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:46:11.682485
+1,73501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:46:37.444098
+1,73801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:47:02.279552
+1,74101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:47:41.681161
+1,74401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:48:02.676621
+1,74701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:48:34.408070
+1,75001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:49:03.156384
+1,75301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:49:33.383471
+1,75601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:50:06.204875
+1,75901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:50:48.146511
+1,76201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:51:22.627184
+1,76501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:51:52.085256
+1,76801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:52:31.369225
+1,77101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:53:05.188209
+1,77401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:53:36.580686
+1,77701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:54:13.936059
+1,78001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:54:52.044940
+1,78301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:55:27.060238
+1,78601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:56:09.102045
+1,78901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:56:50.298694
+1,79201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:57:29.227772
+1,79501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:57:52.480694
+1,79801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:58:31.817443
+1,80101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:59:06.492115
+1,80401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 05:59:40.453231
+1,80701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 06:00:13.358406
+1,81001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 06:00:49.749095
+1,81301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 06:01:09.147751
+1,81601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 06:01:23.702005
+1,81901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 06:01:42.406217
+1,82201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 06:02:18.967974
+1,82501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 06:02:59.523086
+1,82801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 06:03:31.113248
+1,83101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 06:04:01.764364
+1,83401.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 06:04:37.401391
+1,83701.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 06:05:29.428126
+1,84001.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 06:05:46.416297
+1,84301.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 06:06:03.126734
+1,84601.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 06:06:39.832703
+1,84901.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 06:07:13.420377
+1,85201.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 06:07:51.403714
+1,85501.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 06:08:26.883273
+1,85801.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 06:09:04.413708
+1,86101.0,"weather: The weather is sunny
+temperature: The temperature is 23C
+Is it workday: True
+other_information: 
+",2025-10-11 06:09:36.061254
